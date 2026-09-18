@@ -1,0 +1,74 @@
+[
+    {
+        "document": "claim.pdf",
+        "folder": "claim",
+        "tags": [
+            "Claim Form",
+            "Claims Operations",
+            "Incident Reporting",
+            "Public Liability"
+        ]
+    },
+    {
+        "document": "claim1.pdf",
+        "folder": "claim",
+        "tags": [
+            "Claim Form",
+            "Claims Operations",
+            "Incident Reporting",
+            "Property Damage",
+            "Public Liability"
+        ]
+    },
+    {
+        "document": "claim2.pdf",
+        "folder": "claim",
+        "tags": [
+            "Claim Form",
+            "Claims Operations",
+            "Incident Reporting",
+            "Public Liability"
+        ]
+    },
+    {
+        "document": "policy1.pdf",
+        "folder": "policy",
+        "tags": [
+            "Allianz",
+            "Commercial"
+        ]
+    },
+    {
+        "document": "policy2.pdf",
+        "folder": "policy",
+        "tags": [
+            "Allianz",
+            "Commercial",
+            "Corporate Governance",
+            "Directors and Officers",
+            "Management Liability"
+        ]
+    },
+    {
+        "document": "policy3.pdf",
+        "folder": "policy",
+        "tags": [
+            "Allianz",
+            "Commercial",
+            "Corporate Governance",
+            "Directors and Officers",
+            "Management Liability"
+        ]
+    },
+    {
+        "document": "policy4.pdf",
+        "folder": "policy",
+        "tags": [
+            "Allianz",
+            "Commercial",
+            "Corporate Governance",
+            "Directors and Officers",
+            "Management Liability"
+        ]
+    }
+]

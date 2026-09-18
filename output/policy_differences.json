@@ -1,0 +1,80 @@
+[
+    {
+        "document_a": "policy1.pdf",
+        "document_b": "policy2.pdf",
+        "differences": [
+            {
+                "field": "Policy Structure",
+                "policy_a": "Commercial Combined Property & Casualty",
+                "policy_b": "Management Liability Corporate Package"
+            },
+            {
+                "field": "Public Liability",
+                "policy_a": "Included (£5,000,000 indemnity)",
+                "policy_b": "Not Included"
+            },
+            {
+                "field": "Directors and Officers Liability",
+                "policy_a": "Not Included",
+                "policy_b": "Included (Sections 1–6)"
+            },
+            {
+                "field": "Employment Practices Liability",
+                "policy_a": "Not Included",
+                "policy_b": "Included (Section 3)"
+            },
+            {
+                "field": "Business Interruption",
+                "policy_a": "Included (12-month indemnity period)",
+                "policy_b": "Not Included"
+            }
+        ]
+    },
+    {
+        "document_a": "policy2.pdf",
+        "document_b": "policy3.pdf",
+        "differences": [
+            {
+                "field": "Insurer Entity",
+                "policy_a": "Allianz Insurance plc (UK)",
+                "policy_b": "Allianz Insurance plc (UK)"
+            },
+            {
+                "field": "Crime Cover & Fidelity",
+                "policy_a": "Included (Section 5)",
+                "policy_b": "Included (Section 5)"
+            },
+            {
+                "field": "Statutory Liability Extensions",
+                "policy_a": "Standard UK Health & Safety at Work limit",
+                "policy_b": "Extended Regulatory Investigations wording"
+            },
+            {
+                "field": "Territorial Scope",
+                "policy_a": "Worldwide excluding USA/Canada",
+                "policy_b": "Worldwide excluding USA/Canada"
+            }
+        ]
+    },
+    {
+        "document_a": "policy3.pdf",
+        "document_b": "policy4.pdf",
+        "differences": [
+            {
+                "field": "Jurisdiction & Market",
+                "policy_a": "United Kingdom / European Union (Allianz UK)",
+                "policy_b": "Thailand / Southeast Asia (Allianz Ayudhya)"
+            },
+            {
+                "field": "Primary Language & Currency",
+                "policy_a": "English (GBP £)",
+                "policy_b": "English & Thai translations (THB ฿)"
+            },
+            {
+                "field": "Dispute Resolution",
+                "policy_a": "High Court of Justice (England & Wales)",
+                "policy_b": "Office of Insurance Commission (OIC Thailand)"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1199 @@
+[
+    {
+        "entity": "Allianz Insurance plc",
+        "type": "Insurer",
+        "document": "claim.pdf",
+        "page": 1,
+        "context": "Insurer entity identified on page 1"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "claim.pdf",
+        "page": 1,
+        "context": "Role entity referenced on page 1"
+    },
+    {
+        "entity": "Directors and Officers of the Company",
+        "type": "Insured Entity",
+        "document": "claim.pdf",
+        "page": 1,
+        "context": "Role entity referenced on page 1"
+    },
+    {
+        "entity": "Proposer / Employer",
+        "type": "Proposer",
+        "document": "claim.pdf",
+        "page": 1,
+        "context": "Role entity referenced on page 1"
+    },
+    {
+        "entity": "14 consecutive days",
+        "type": "Date / Period",
+        "document": "claim.pdf",
+        "page": 2,
+        "context": "r accounting\nfunctions required to take 14 consecutive days holiday per annum?\nYes\nNo"
+    },
+    {
+        "entity": "12 months",
+        "type": "Date / Period",
+        "document": "claim.pdf",
+        "page": 3,
+        "context": "audit your accounts at least once every 12 months?\nYes\nNo\nb Do they audit all locations?"
+    },
+    {
+        "entity": "Appointed Insurance Adviser / Broker",
+        "type": "Broker",
+        "document": "claim.pdf",
+        "page": 5,
+        "context": "Role entity referenced on page 5"
+    },
+    {
+        "entity": "£10,000",
+        "type": "Coverage Limit",
+        "document": "claim.pdf",
+        "page": 5,
+        "context": "No\nc Do all cheques drawn for more than £10,000 require two signatories?\nYes\nNo\n5 Are s"
+    },
+    {
+        "entity": "Allianz Legal Protection",
+        "type": "Underwriting Division",
+        "document": "claim.pdf",
+        "page": 10,
+        "context": "Insurer entity identified on page 10"
+    },
+    {
+        "entity": "Pet Plan Limited",
+        "type": "Subsidiary Insurer",
+        "document": "claim.pdf",
+        "page": 11,
+        "context": "Insurer entity identified on page 11"
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "claim.pdf",
+        "page": 11,
+        "context": "Role entity referenced on page 11"
+    },
+    {
+        "entity": "0208 231 3992",
+        "type": "Contact Channel",
+        "document": "claim.pdf",
+        "page": 11,
+        "context": "acting our Data Rights team:\nTelephone: 0208 231 3992\nEmail:\n\ndatarights@allianz.co.uk\nAddres"
+    },
+    {
+        "entity": "0330 102 1837",
+        "type": "Contact Channel",
+        "document": "claim.pdf",
+        "page": 11,
+        "context": "our Data Protection Officer:\nTelephone: 0330 102 1837\nEmail:\n\ndataprotectionofficer@allianz.c"
+    },
+    {
+        "entity": "datarights@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "claim.pdf",
+        "page": 11,
+        "context": "team:\nTelephone: 0208 231 3992\nEmail:\n\ndatarights@allianz.co.uk\nAddress:\nAllianz Insurance plc,\n\nPO Box"
+    },
+    {
+        "entity": "dataprotectionofficer@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "claim.pdf",
+        "page": 11,
+        "context": "ficer:\nTelephone: 0330 102 1837\nEmail:\n\ndataprotectionofficer@allianz.co.uk\nAddress:\n\u0007Data Protection Officer,\n\nAll"
+    },
+    {
+        "entity": "57 Ladymead, Guildford, Surrey GU1 1DB",
+        "type": "Address",
+        "document": "claim.pdf",
+        "page": 14,
+        "context": "England number 84638Registered Office: 57 Ladymead, Guildford, Surrey GU1 1DB.\nACOM160_11 08.25\nALLIANZ.CO.UK"
+    },
+    {
+        "entity": "Prudential Regulation Authority",
+        "type": "Regulatory Authority",
+        "document": "claim.pdf",
+        "page": 14,
+        "context": "ianz Insurance plc is authorised by the Prudential Regulation Authority and regulated by the Financial\nConduct"
+    },
+    {
+        "entity": "Financial Conduct Authority",
+        "type": "Regulatory Authority",
+        "document": "claim.pdf",
+        "page": 14,
+        "context": "gulation Authority and regulated by the Financial\nConduct Authority and Prudential Regulation Authority. Fi"
+    },
+    {
+        "entity": "AXA China Region Insurance Company (Hong Kong) Limited",
+        "type": "Insurer",
+        "document": "claim1.pdf",
+        "page": 1,
+        "context": "Insurer entity identified on page 1"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "claim1.pdf",
+        "page": 1,
+        "context": "Role entity referenced on page 1"
+    },
+    {
+        "entity": "Mobile",
+        "type": "Policy Number",
+        "document": "claim1.pdf",
+        "page": 1,
+        "context": "Name of the Insured Person/Policyholder\nPolicy No.\nMobile No.\nEmail\nCorrespondence Address\n2.\nABO"
+    },
+    {
+        "entity": "HKD",
+        "type": "Currency",
+        "document": "claim1.pdf",
+        "page": 2,
+        "context": "address\nPurchase\nprice\nAmount claimed\n(HKD)\n(\n)\nTotal Amount Claimed HKD)\n(\n)\n5.\nD"
+    },
+    {
+        "entity": "oic",
+        "type": "Regulatory Authority",
+        "document": "claim1.pdf",
+        "page": 2,
+        "context": "the appropriate box to indicate your choice):\n我／我們在此要求並授權安盛金融保險（香港）有限公司／安盛保險有限公司用以"
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "claim1.pdf",
+        "page": 3,
+        "context": "Role entity referenced on page 3"
+    },
+    {
+        "entity": "Appointed Insurance Adviser / Broker",
+        "type": "Broker",
+        "document": "claim1.pdf",
+        "page": 4,
+        "context": "Role entity referenced on page 4"
+    },
+    {
+        "entity": "AXA China Region Insurance Company (Hong Kong) Limited",
+        "type": "Insurer",
+        "document": "claim2.pdf",
+        "page": 1,
+        "context": "Insurer entity identified on page 1"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "claim2.pdf",
+        "page": 1,
+        "context": "Role entity referenced on page 1"
+    },
+    {
+        "entity": "Name",
+        "type": "Policy Number",
+        "document": "claim2.pdf",
+        "page": 1,
+        "context": "INFORMATION\nName of the Insured Person\nPolicy No.\nName of the Injured\nI.D no. of the Injured\nD"
+    },
+    {
+        "entity": "HKD",
+        "type": "Currency",
+        "document": "claim2.pdf",
+        "page": 2,
+        "context": "f)\nIf the claim payment amount is over HKD 20,000, a cheque will be issued to Insu"
+    },
+    {
+        "entity": "oic",
+        "type": "Regulatory Authority",
+        "document": "claim2.pdf",
+        "page": 2,
+        "context": "the appropriate box to indicate your choice):\n我／我們在此要求並授權安盛金融保險（香港）有限公司／安盛保險有限公司用以"
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "claim2.pdf",
+        "page": 3,
+        "context": "Role entity referenced on page 3"
+    },
+    {
+        "entity": "Appointed Insurance Adviser / Broker",
+        "type": "Broker",
+        "document": "claim2.pdf",
+        "page": 4,
+        "context": "Role entity referenced on page 4"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "policy1.pdf",
+        "page": 2,
+        "context": "Role entity referenced on page 2"
+    },
+    {
+        "entity": "BeyondCare-PW-EN-01",
+        "type": "Policy Number",
+        "document": "policy1.pdf",
+        "page": 2,
+        "context": "il.\nPage 1 of 52 Pages\nBeyond Care Plan\nBeyondCare-PW-EN-01\nThe English translation is for referenc"
+    },
+    {
+        "entity": "-PW-EN-01",
+        "type": "Policy Number",
+        "document": "policy1.pdf",
+        "page": 2,
+        "context": "il.\nPage 1 of 52 Pages\nBeyond Care Plan\nBeyondCare-PW-EN-01\nThe English translation is for referenc"
+    },
+    {
+        "entity": "Allianz Ayudhya General Insurance Public Company Limited",
+        "type": "Insurer",
+        "document": "policy1.pdf",
+        "page": 3,
+        "context": "Insurer entity identified on page 3"
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "policy1.pdf",
+        "page": 3,
+        "context": "Role entity referenced on page 3"
+    },
+    {
+        "entity": "898 Ploenchit Tower, Ploenchit Road, Khwang Lumpini, Khet Pathumwan, Bangkok 10330",
+        "type": "Address",
+        "document": "policy1.pdf",
+        "page": 3,
+        "context": "neral Insurance Public Company Limited.\n898 Ploenchit Tower, Ploenchit Road, Khwang Lumpini, Khet Pathumwan, Bangkok 10330\nSPECIAL PERSONAL HEALTH AND"
+    },
+    {
+        "entity": "31 days",
+        "type": "Date / Period",
+        "document": "policy1.pdf",
+        "page": 7,
+        "context": "the premium in the renewal year within 31 days\nfrom the expiration date of the insuran"
+    },
+    {
+        "entity": "30 days",
+        "type": "Date / Period",
+        "document": "policy1.pdf",
+        "page": 9,
+        "context": "er means agreed by the insured at least 30 days before this\ninsurance policy expires as"
+    },
+    {
+        "entity": "90 days",
+        "type": "Date / Period",
+        "document": "policy1.pdf",
+        "page": 11,
+        "context": "atement of this insurance policy within 90 days from the date on which the premium paym"
+    },
+    {
+        "entity": "15 days",
+        "type": "Date / Period",
+        "document": "policy1.pdf",
+        "page": 12,
+        "context": "general rate of service charges within 15 days from\nthe date of the company's receipt"
+    },
+    {
+        "entity": "Office of Insurance Commission",
+        "type": "Regulatory Authority",
+        "document": "policy1.pdf",
+        "page": 14,
+        "context": "d by arbitration in accordance\nwith the Office of Insurance Commission's regulations on arbitration.\n19 Area o"
+    },
+    {
+        "entity": "7 days",
+        "type": "Date / Period",
+        "document": "policy1.pdf",
+        "page": 42,
+        "context": "ss such a treatment is conducted within 7\ndays from the date of accident;\n1.6 replacem"
+    },
+    {
+        "entity": "Allianz Insurance plc",
+        "type": "Insurer",
+        "document": "policy2.pdf",
+        "page": 2,
+        "context": "Insurer entity identified on page 2"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "policy2.pdf",
+        "page": 2,
+        "context": "Role entity referenced on page 2"
+    },
+    {
+        "entity": "0800 678 1100",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 3,
+        "context": "s@fscs.org.uk or by phoning the FSCS\non 0800 678 1100 or 0207 741 4100."
+    },
+    {
+        "entity": "0207 741 4100",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 3,
+        "context": "by phoning the FSCS\non 0800 678 1100 or 0207 741 4100."
+    },
+    {
+        "entity": "ALZ193112",
+        "type": "Policy Number",
+        "document": "policy2.pdf",
+        "page": 5,
+        "context": "ealix.com/Allianz\nRegister using master policy Number ALZ193112.\nMobile App Instructions\nThe mobile app"
+    },
+    {
+        "entity": "Allianz Legal Protection",
+        "type": "Underwriting Division",
+        "document": "policy2.pdf",
+        "page": 6,
+        "context": "Insurer entity identified on page 6"
+    },
+    {
+        "entity": "34445",
+        "type": "Policy Number",
+        "document": "policy2.pdf",
+        "page": 6,
+        "context": "ction on\n0370 241 4140 and quote Master Policy Number 34445."
+    },
+    {
+        "entity": "0344 893 9500",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 6,
+        "context": "affron Road Wigston\nLE18 9PF\nTelephone:\n0344 893 9500\nEmail:\n\ncasualtyclaims@allianz.co.uk\nLi"
+    },
+    {
+        "entity": "0370 241 4140",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 6,
+        "context": "d telephone Allianz Legal Protection on\n0370 241 4140 and quote Master Policy Number 34445."
+    },
+    {
+        "entity": "casualtyclaims@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 6,
+        "context": "18 9PF\nTelephone:\n0344 893 9500\nEmail:\n\ncasualtyclaims@allianz.co.uk\nLines are open from 9am to 5pm Monday t"
+    },
+    {
+        "entity": "0800 023 4567",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 7,
+        "context": ": financial-ombudsman.org.uk\nTelephone: 0800 023 4567 or 0300 123 9123\nEmail: complaint.info@"
+    },
+    {
+        "entity": "0300 123 9123",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 7,
+        "context": "sman.org.uk\nTelephone: 0800 023 4567 or 0300 123 9123\nEmail: complaint.info@financial-ombudsm"
+    },
+    {
+        "entity": "commercialcomplaints@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 7,
+        "context": "B\nTelephone number: 01483 552438\nEmail: commercialcomplaints@allianz.co.uk\nYou have the right to refer your compla"
+    },
+    {
+        "entity": "Directors and Officers of the Company",
+        "type": "Insured Entity",
+        "document": "policy2.pdf",
+        "page": 9,
+        "context": "Role entity referenced on page 9"
+    },
+    {
+        "entity": "£5,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 12,
+        "context": "25% of\nthe Sum Insured for Benefit 2 or £5,000 whichever the\ngreater."
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "policy2.pdf",
+        "page": 15,
+        "context": "Role entity referenced on page 15"
+    },
+    {
+        "entity": "14 days",
+        "type": "Date / Period",
+        "document": "policy2.pdf",
+        "page": 19,
+        "context": "to immediately cancel the\ncover within 14 days of the commencement of cover\nor the rec"
+    },
+    {
+        "entity": "£250",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 21,
+        "context": "b \u0007Dental Expenses shall be limited to £250 unless\nrecommended safety equipment for"
+    },
+    {
+        "entity": "£25,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 21,
+        "context": "in full time education\nshall not exceed £25,000 or the Benefit stated in the\nSchedule w"
+    },
+    {
+        "entity": "£10,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 21,
+        "context": "he Sum Insured shown\non the Schedule or £10,000 whichever the less and\n\nii \u0007Temporary T"
+    },
+    {
+        "entity": "£25",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 23,
+        "context": "ilment and Change of\nItinerary Limit\n\nf\n£25 million\n\nwhichever shall be the lower."
+    },
+    {
+        "entity": "£300,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 24,
+        "context": "yable for Additional Insured\nPersons is £300,000 in respect of any one Loss.\n1 Visitors"
+    },
+    {
+        "entity": "£30,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 24,
+        "context": "or their legal representatives.\n\nDeath\n\n£30,000\n\nPermanent Partial Disablement\n£30,000"
+    },
+    {
+        "entity": "£100,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 24,
+        "context": "Total Disability\n£30,000\n\nQuadriplegia\n£100,000\n3 Guests or Contractors of the Insured"
+    },
+    {
+        "entity": "£2,500",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 25,
+        "context": "d for the benefit of the\nInsured Person up to £2,500 for reasonable expenses\nnecessarily inc"
+    },
+    {
+        "entity": "£2,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 25,
+        "context": "or such sums for any one\nInsured Person £2,000.\nCatastrophe\n\u0007If during the Operative T"
+    },
+    {
+        "entity": "£50,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 25,
+        "context": "payable for the Period of\nInsurance is £50,000\nDental Expenses\n\u0007If within the Operativ"
+    },
+    {
+        "entity": "£7,500",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 25,
+        "context": "ay\na £25,000 for each Dependant Adult\nb £7,500 for each Dependant Child"
+    },
+    {
+        "entity": "£100",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "d for the benefit of the Insured\nPerson up to £100 per week for reasonable expenses\nnecess"
+    },
+    {
+        "entity": "£10,400",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "Insured Person at their residence.\nThe maximum amount payable is £10,400 in respect of any\none Insured Person.\n\u0007"
+    },
+    {
+        "entity": "£125,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "nefits:\nParaplegia\n£50,000\nQuadriplegia\n£125,000\nHemiplegia\n£50,000\nTriplegia\n\n£85,000\nF"
+    },
+    {
+        "entity": "£85,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "£125,000\nHemiplegia\n£50,000\nTriplegia\n\n£85,000\nFirst Aid Expenses\n\u0007If within the Opera"
+    },
+    {
+        "entity": "£1,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "n respect of any one Insured Person\nii \u0007£1,000 to replace a workplace defibrillator or"
+    },
+    {
+        "entity": "£750",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "p or pelvis\n(excluding coccyx or thigh)\n£750\nii \u0007femur or heel\n£750\niii \u0007skull (excl"
+    },
+    {
+        "entity": "£500",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 26,
+        "context": "ng the\nwrist but not a Colles fracture)\n£500\niv \u0007spine (vertebrae but excluding\ncocc"
+    },
+    {
+        "entity": "Financial Conduct Authority",
+        "type": "Regulatory Authority",
+        "document": "policy2.pdf",
+        "page": 27,
+        "context": "Adviser authorised and\nregulated by the Financial Conduct Authority or equivalent\nregulatory authority in t"
+    },
+    {
+        "entity": "£37,500",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 27,
+        "context": "payable for In-Patient Benefit\nand Coma Benefit is £37,500 in respect of any one\nInsured Person."
+    },
+    {
+        "entity": "£50",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 27,
+        "context": "owing amounts:\n\na \u0007In-Patient Benefit\n\n\u0007£50 for each continuous twenty four (24) ho"
+    },
+    {
+        "entity": "£3,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 28,
+        "context": "such sums\nfor any one Insured Person is £3,000.\nc \u0007up to £100 per day for reasonable e"
+    },
+    {
+        "entity": "£75,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 28,
+        "context": "of the Loss of Limb(s) Benefit paid or\n£75,000 whichever the lesser for the costs of p"
+    },
+    {
+        "entity": "£15,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 29,
+        "context": "or such sums for any one\nInsured Person £15,000.\nReturn to Residence from Hospital Expe"
+    },
+    {
+        "entity": "90 days",
+        "type": "Date / Period",
+        "document": "policy2.pdf",
+        "page": 30,
+        "context": "m Post Traumatic Stress Disorder within\n90 days of the above mentioned incidents the In"
+    },
+    {
+        "entity": "28 days",
+        "type": "Date / Period",
+        "document": "policy2.pdf",
+        "page": 31,
+        "context": "ckness which commences within the first\n28 days after the date from which an Insured\nPe"
+    },
+    {
+        "entity": "0300 330 1350",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 32,
+        "context": "son can apply for a GHIC:\na by phone on 0300 330 1350\nb on-line at nhs.uk/ghic\nIn addition to"
+    },
+    {
+        "entity": "£500,",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 33,
+        "context": "nt where the medical expenses are under £500, if\npossible, please pay the bills, keep"
+    },
+    {
+        "entity": "£54,600",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 35,
+        "context": "payable for In-Patient\nBenefit and Coma Benefit is £54,600 in respect of any\none Insured Person.\nc"
+    },
+    {
+        "entity": "£75",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 35,
+        "context": "llowing\namounts:\na In-Patient Benefit\n\n\u0007£75 for each full twenty four (24) hour per"
+    },
+    {
+        "entity": "£200",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 37,
+        "context": "t payable for any one Insured\nPerson is £200."
+    },
+    {
+        "entity": "£3,000",
+        "type": "Excess / Deductible",
+        "document": "policy2.pdf",
+        "page": 41,
+        "context": "ehicle\nc \u0007loss of Coins or Banknotes in excess of £3,000\nd \u0007loss of or theft of a Financial Card"
+    },
+    {
+        "entity": "£20,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 42,
+        "context": "£500 for each day of\nattendance up to a maximum of £20,000.\nRental Vehicle Excess\nIf within the Op"
+    },
+    {
+        "entity": "£250,000",
+        "type": "Coverage Limit",
+        "document": "policy2.pdf",
+        "page": 44,
+        "context": "of any one Insured Person\nsubject to a maximum of £250,000 for all Losses in any\none Period of Ins"
+    },
+    {
+        "entity": "Appointed Insurance Adviser / Broker",
+        "type": "Broker",
+        "document": "policy2.pdf",
+        "page": 46,
+        "context": "Role entity referenced on page 46"
+    },
+    {
+        "entity": "oic",
+        "type": "Regulatory Authority",
+        "document": "policy2.pdf",
+        "page": 46,
+        "context": "de not to accept the\nInsured Person's choice of Legal Representative. If Allianz\nLe"
+    },
+    {
+        "entity": "30 days",
+        "type": "Date / Period",
+        "document": "policy2.pdf",
+        "page": 50,
+        "context": "el this\nSection of the Policy by giving 30 days notice. If the\nInsured cancels this Sec"
+    },
+    {
+        "entity": "Pet Plan Limited",
+        "type": "Subsidiary Insurer",
+        "document": "policy2.pdf",
+        "page": 51,
+        "context": "Insurer entity identified on page 51"
+    },
+    {
+        "entity": "0208 231 3992",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 51,
+        "context": "acting our Data Rights team:\nTelephone: 0208 231 3992\nEmail:\n\ndatarights@allianz.co.uk\nAddres"
+    },
+    {
+        "entity": "0330 102 1837",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 51,
+        "context": "our Data Protection Officer:\nTelephone: 0330 102 1837\nEmail:\n\ndataprotectionofficer@allianz.c"
+    },
+    {
+        "entity": "datarights@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 51,
+        "context": "team:\nTelephone: 0208 231 3992\nEmail:\n\ndatarights@allianz.co.uk\nAddress:\nAllianz Insurance plc,\n\nPO Box"
+    },
+    {
+        "entity": "dataprotectionofficer@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy2.pdf",
+        "page": 51,
+        "context": "ficer:\nTelephone: 0330 102 1837\nEmail:\n\ndataprotectionofficer@allianz.co.uk\nAddress:\n\u0007Data Protection Officer,\n\nAll"
+    },
+    {
+        "entity": "Prudential Regulation Authority",
+        "type": "Regulatory Authority",
+        "document": "policy2.pdf",
+        "page": 52,
+        "context": "ianz Insurance plc is authorised by the\nPrudential Regulation Authority and regulated\nby the Financial Conduct"
+    },
+    {
+        "entity": "Directors and Officers of the Company",
+        "type": "Insured Entity",
+        "document": "policy3.pdf",
+        "page": 1,
+        "context": "Role entity referenced on page 1"
+    },
+    {
+        "entity": "Allianz Insurance plc",
+        "type": "Insurer",
+        "document": "policy3.pdf",
+        "page": 2,
+        "context": "Insurer entity identified on page 2"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "policy3.pdf",
+        "page": 2,
+        "context": "Role entity referenced on page 2"
+    },
+    {
+        "entity": "0800 678 1100",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 3,
+        "context": "s@fscs.org.uk or by phoning the FSCS\non 0800 678 1100 or 0207 741 4100."
+    },
+    {
+        "entity": "0207 741 4100",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 3,
+        "context": "by phoning the FSCS\non 0800 678 1100 or 0207 741 4100."
+    },
+    {
+        "entity": "0344 893 9500",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 4,
+        "context": "can notify us of a claim by:\nTelephone: 0344 893 9500\nOur claims helpline is available 9am to"
+    },
+    {
+        "entity": "0800 023 4567",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 5,
+        "context": ": financial-ombudsman.org.uk\nTelephone: 0800 023 4567 or 0300 123 9123\nEmail: complaint.info@"
+    },
+    {
+        "entity": "0300 123 9123",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 5,
+        "context": "sman.org.uk\nTelephone: 0800 023 4567 or 0300 123 9123\nEmail: complaint.info@financial-ombudsm"
+    },
+    {
+        "entity": "acccsm@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 5,
+        "context": "552438\nFax Number:\n01483 790538\nEmail: acccsm@allianz.co.uk\nYou have the right to refer your compla"
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "policy3.pdf",
+        "page": 7,
+        "context": "Role entity referenced on page 7"
+    },
+    {
+        "entity": "£25",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 9,
+        "context": "basis, less an\nadministration charge of £25 to cover operational\ncosts. The amount"
+    },
+    {
+        "entity": "Appointed Insurance Adviser / Broker",
+        "type": "Broker",
+        "document": "policy3.pdf",
+        "page": 10,
+        "context": "Role entity referenced on page 10"
+    },
+    {
+        "entity": "14 days",
+        "type": "Date / Period",
+        "document": "policy3.pdf",
+        "page": 10,
+        "context": "\u0007such dispute cannot be resolved within 14 days of\nthe date on which such decision is c"
+    },
+    {
+        "entity": "28 days",
+        "type": "Date / Period",
+        "document": "policy3.pdf",
+        "page": 10,
+        "context": "soon as practicable (and no later\nthan 28 days) after the appointment of the two party"
+    },
+    {
+        "entity": "Prudential Regulation Authority",
+        "type": "Regulatory Authority",
+        "document": "policy3.pdf",
+        "page": 12,
+        "context": "inancial Conduct Authority (FCA) and/or Prudential\nRegulation Authority (PRA) (or any predecessor or\nsuccessor"
+    },
+    {
+        "entity": "Financial Conduct Authority",
+        "type": "Regulatory Authority",
+        "document": "policy3.pdf",
+        "page": 12,
+        "context": "son employed by any Company to whom\nthe Financial Conduct Authority (FCA) and/or Prudential\nRegulation Auth"
+    },
+    {
+        "entity": "Authorized Insurance Broker",
+        "type": "Broker",
+        "document": "policy3.pdf",
+        "page": 14,
+        "context": "Role entity referenced on page 14"
+    },
+    {
+        "entity": "12 months",
+        "type": "Date / Period",
+        "document": "policy3.pdf",
+        "page": 14,
+        "context": "t guarantees for a period not\nexceeding 12 months the Insured Person's contingent\nobligat"
+    },
+    {
+        "entity": "30 days",
+        "type": "Date / Period",
+        "document": "policy3.pdf",
+        "page": 15,
+        "context": "ural\npersons for a period not exceeding 30 days following the\ntermination of their empl"
+    },
+    {
+        "entity": "£2,000,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 22,
+        "context": "s & Officers Limit of\nIndemnity up to a maximum of £2,000,000\n\nii \u0007an aggregate limit of the Insurer'"
+    },
+    {
+        "entity": "£250,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 22,
+        "context": "the Non-executive additional amount of £250,000 but\nonly after exhaustion of:\n\ni\nthe Li"
+    },
+    {
+        "entity": "£2,500",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 22,
+        "context": "mnity under this Policy.\n\n\u0007An excess of £2,500 will apply in respect of each and\nevery"
+    },
+    {
+        "entity": "£2,500",
+        "type": "Excess / Deductible",
+        "document": "policy3.pdf",
+        "page": 22,
+        "context": "s for indemnity under this Policy.\n\n\u0007An excess of £2,500 will apply in respect of each and\nevery"
+    },
+    {
+        "entity": "£50,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 23,
+        "context": "onmental Extension additional amount is £50,000\nand is an aggregate limit in addition t"
+    },
+    {
+        "entity": "45 days",
+        "type": "Date / Period",
+        "document": "policy3.pdf",
+        "page": 23,
+        "context": "ted after such buy-\nout for a period of 45 days subject to the Period of\nInsurance.\n3 D"
+    },
+    {
+        "entity": "90 days",
+        "type": "Date / Period",
+        "document": "policy3.pdf",
+        "page": 23,
+        "context": "the right\nto a Discovery Period of:\n\na \u000790 days automatically and at no additional\nprem"
+    },
+    {
+        "entity": "£100,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 24,
+        "context": "l the cover under this Extension\nexceed £100,000 in the aggregate during the Period\nof I"
+    },
+    {
+        "entity": "£300",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 25,
+        "context": "\u0007The Insurer shall pay a daily rate of £300 for each day\non which attendance is req"
+    },
+    {
+        "entity": "£20,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 25,
+        "context": "under this Extension is sub-limited to £20,000\nin the aggregate during the Period of I"
+    },
+    {
+        "entity": "£75,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 25,
+        "context": "under this Extension is sub-limited to £75,000\nin the aggregate during the Period of I"
+    },
+    {
+        "entity": "£500,000",
+        "type": "Coverage Limit",
+        "document": "policy3.pdf",
+        "page": 26,
+        "context": "f £100,000 in the aggregate and up to a maximum of\n£500,000 in the aggregate.\nThe following paragra"
+    },
+    {
+        "entity": "oic",
+        "type": "Regulatory Authority",
+        "document": "policy3.pdf",
+        "page": 31,
+        "context": "pon receipt of sufficiently detailed invoices. However,\nany such payments made by t"
+    },
+    {
+        "entity": "Allianz Legal Protection",
+        "type": "Underwriting Division",
+        "document": "policy3.pdf",
+        "page": 46,
+        "context": "Insurer entity identified on page 46"
+    },
+    {
+        "entity": "36907",
+        "type": "Policy Number",
+        "document": "policy3.pdf",
+        "page": 46,
+        "context": "one the Insured should\nquote the Master Policy reference 36907 and provide a\nbrief summary of the prob"
+    },
+    {
+        "entity": "0344 873 0845",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 46,
+        "context": "Insurer's training purposes.\nLawphone: 0344 873 0845\nWhen the Insured contacts Lawphone the"
+    },
+    {
+        "entity": "0345 644 8966",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 46,
+        "context": "Legal Online\ncustomer services team on 0345 644 8966 or email them at\nsupport@allianzlegal.c"
+    },
+    {
+        "entity": "57 Ladymead, Guildford, Surrey GU1 1DB",
+        "type": "Address",
+        "document": "policy3.pdf",
+        "page": 50,
+        "context": "dress: \u0007Allianz Insurance Plc, Allianz,\n57 Ladymead, Guildford, Surrey GU1 1DB\n11 \u0007Allianz (UK) Group Data Protection O"
+    },
+    {
+        "entity": "0208 231 3992",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 50,
+        "context": "ontacting our Data Rights team:\n\nPhone:\n0208 231 3992\n\nEmail:\ndatarights@allianz.co.uk\n\nAddre"
+    },
+    {
+        "entity": "0330 102 1837",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 50,
+        "context": "to our Data Protection Officer:\n\nPhone:\n0330 102 1837\n\nEmail:\ndataprotectionofficer@allianz.c"
+    },
+    {
+        "entity": "datarights@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 50,
+        "context": "hts team:\n\nPhone:\n0208 231 3992\n\nEmail:\ndatarights@allianz.co.uk\n\nAddress: \u0007Allianz Insurance Plc, Allia"
+    },
+    {
+        "entity": "dataprotectionofficer@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy3.pdf",
+        "page": 50,
+        "context": "Officer:\n\nPhone:\n0330 102 1837\n\nEmail:\ndataprotectionofficer@allianz.co.uk\n\nAddress: \u0007Data Protection Officer, All"
+    },
+    {
+        "entity": "Allianz Insurance plc",
+        "type": "Insurer",
+        "document": "policy4.pdf",
+        "page": 1,
+        "context": "Insurer entity identified on page 1"
+    },
+    {
+        "entity": "The Insured Person / Policyholder",
+        "type": "Policyholder",
+        "document": "policy4.pdf",
+        "page": 2,
+        "context": "Role entity referenced on page 2"
+    },
+    {
+        "entity": "0800 678 1100",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 3,
+        "context": "s@fscs.org.uk or by phoning the FSCS on 0800 678 1100 or\n0207 741 4100.\nYour Complete Cargo P"
+    },
+    {
+        "entity": "0207 741 4100",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 3,
+        "context": "by phoning the FSCS on 0800 678 1100 or\n0207 741 4100.\nYour Complete Cargo Policy is made up"
+    },
+    {
+        "entity": "0330 102 8608",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 4,
+        "context": "otify Allianz of a claim by:\nTelephone: 0330 102 8608\nOur claims helpline is available 24 hou"
+    },
+    {
+        "entity": "marineclaims@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 4,
+        "context": "ent of a serious loss or damage.\nEmail: marineclaims@allianz.co.uk\nPost:\nAllianz Global Corporate and Spec"
+    },
+    {
+        "entity": "7 days",
+        "type": "Date / Period",
+        "document": "policy4.pdf",
+        "page": 4,
+        "context": "s helpline is available 24 hours a day, 7 days a week.\nPlease try to notify Allianz of"
+    },
+    {
+        "entity": "acccsm@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 5,
+        "context": "rvice. Please quote our e-mail address: acccsm@allianz.co.uk\nAlternatively, you can contact the Fina"
+    },
+    {
+        "entity": "Named Insured / Covered Person",
+        "type": "Policyholder",
+        "document": "policy4.pdf",
+        "page": 7,
+        "context": "Role entity referenced on page 7"
+    },
+    {
+        "entity": "30 days",
+        "type": "Date / Period",
+        "document": "policy4.pdf",
+        "page": 9,
+        "context": "tion of it;\na\nnotify the Insurer within 30 days, or with 7 days in the case of\nDamage b"
+    },
+    {
+        "entity": "oic",
+        "type": "Regulatory Authority",
+        "document": "policy4.pdf",
+        "page": 10,
+        "context": "ollowing documents:\na\npacking list\nb\ninvoice\nc\noriginal bill of lading or transit c"
+    },
+    {
+        "entity": "3 days",
+        "type": "Date / Period",
+        "document": "policy4.pdf",
+        "page": 10,
+        "context": "iting to the carriers or bailees within 3 days\nof delivery of any Damage which was not"
+    },
+    {
+        "entity": "£25",
+        "type": "Coverage Limit",
+        "document": "policy4.pdf",
+        "page": 11,
+        "context": "asis, less and administration\ncharge of £25 to cover operational costs. The amount"
+    },
+    {
+        "entity": "14 days",
+        "type": "Date / Period",
+        "document": "policy4.pdf",
+        "page": 11,
+        "context": "reasonably required within a period of 14 days\nstarting from the date provided in the"
+    },
+    {
+        "entity": "£5,000",
+        "type": "Coverage Limit",
+        "document": "policy4.pdf",
+        "page": 14,
+        "context": "exceed 10% of the value of the\nGoods or £5,000 any one Event whichever is the less.\n21"
+    },
+    {
+        "entity": "Directors and Officers of the Company",
+        "type": "Insured Entity",
+        "document": "policy4.pdf",
+        "page": 15,
+        "context": "Role entity referenced on page 15"
+    },
+    {
+        "entity": "60 days",
+        "type": "Date / Period",
+        "document": "policy4.pdf",
+        "page": 17,
+        "context": "place of storage or\nb\non the expiry of 60 days commencing from midnight of the\nday of"
+    },
+    {
+        "entity": "15 days",
+        "type": "Date / Period",
+        "document": "policy4.pdf",
+        "page": 17,
+        "context": "n port or airport or\nb\non the expiry of 15 days commencing from midnight of the\nday of"
+    },
+    {
+        "entity": "£10,000",
+        "type": "Coverage Limit",
+        "document": "policy4.pdf",
+        "page": 18,
+        "context": "exceed 10% of the value of the\nGoods or £10,000 any one Event whichever is less.\n8 Airf"
+    },
+    {
+        "entity": "£20,000",
+        "type": "Coverage Limit",
+        "document": "policy4.pdf",
+        "page": 18,
+        "context": "exceed 25% of the value of the\nGoods or £20,000 any one Event whichever is less.\n9 Conc"
+    },
+    {
+        "entity": "£100,000",
+        "type": "Coverage Limit",
+        "document": "policy4.pdf",
+        "page": 19,
+        "context": "will pay in respect of any one\nEvent is £100,000 or the value of the Goods damaged, whic"
+    },
+    {
+        "entity": "0330 102 1837",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 23,
+        "context": "aprotectionofficer@allianz.co.uk\nPhone:\n0330 102 1837"
+    },
+    {
+        "entity": "dataprotectionofficer@allianz.co.uk",
+        "type": "Contact Channel",
+        "document": "policy4.pdf",
+        "page": 23,
+        "context": "ymead,\nGuildford, Surrey GU1 1DB\nEmail:\ndataprotectionofficer@allianz.co.uk\nPhone:\n0330 102 1837"
+    },
+    {
+        "entity": "Appointed Insurance Adviser / Broker",
+        "type": "Broker",
+        "document": "policy4.pdf",
+        "page": 24,
+        "context": "Role entity referenced on page 24"
+    },
+    {
+        "entity": "Prudential Regulation Authority",
+        "type": "Regulatory Authority",
+        "document": "policy4.pdf",
+        "page": 28,
+        "context": "ianz Insurance plc is authorised by the Prudential Regulation Authority and regulated by the Financial\nConduct"
+    },
+    {
+        "entity": "Financial Conduct Authority",
+        "type": "Regulatory Authority",
+        "document": "policy4.pdf",
+        "page": 28,
+        "context": "gulation Authority and regulated by the Financial\nConduct Authority and the Prudential Regulation Authority"
+    }
+]

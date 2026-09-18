@@ -1,0 +1,79 @@
+[
+    {
+        "risk": "Cyber Attack",
+        "category": "Technology & Cyber",
+        "description": "Ransomware extortion, system downtime, unauthorized data breaches, and notification liabilities.",
+        "related_coverages": [
+            "Cyber Insurance",
+            "Crime Cover"
+        ]
+    },
+    {
+        "risk": "Fire",
+        "category": "Property Peril",
+        "description": "Direct physical loss or destruction caused by fire, explosion, or lightning.",
+        "related_coverages": [
+            "Property Damage",
+            "Commercial Property",
+            "Business Interruption"
+        ]
+    },
+    {
+        "risk": "Theft",
+        "category": "Crime & Property",
+        "description": "Burglary, violent entry theft, employee dishonesty, and fraudulent transfer of funds.",
+        "related_coverages": [
+            "Property Damage",
+            "Crime Cover",
+            "Money Cover"
+        ]
+    },
+    {
+        "risk": "Flood",
+        "category": "Natural Hazard",
+        "description": "Inundation of dry land from overflowing waterways, dams, or excessive rainwater.",
+        "related_coverages": [
+            "Property Damage",
+            "Business Interruption"
+        ]
+    },
+    {
+        "risk": "Equipment Breakdown",
+        "category": "Operational Machinery",
+        "description": "Sudden mechanical breakdown, electrical arcing, or explosion of pressure vessels.",
+        "related_coverages": [
+            "Machinery Breakdown",
+            "Property Damage",
+            "Business Interruption"
+        ]
+    },
+    {
+        "risk": "Storm Damage",
+        "category": "Natural Hazard",
+        "description": "Structural damage and water ingress caused by violent storms, windstorms, and hail.",
+        "related_coverages": [
+            "Property Damage",
+            "Commercial Property"
+        ]
+    },
+    {
+        "risk": "Third-Party Bodily Injury",
+        "category": "Casualty Liability",
+        "description": "Accidental injury or death to visitors, customers, or third parties on commercial premises.",
+        "related_coverages": [
+            "Public Liability",
+            "Products Liability",
+            "General Liability"
+        ]
+    },
+    {
+        "risk": "Management Misconduct & Regulatory Actions",
+        "category": "Governance & Legal",
+        "description": "Official investigations, statutory fines, and breach of duty allegations against company executives.",
+        "related_coverages": [
+            "Management Liability",
+            "Directors and Officers",
+            "Statutory Liability"
+        ]
+    }
+]

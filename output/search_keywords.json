@@ -1,0 +1,151 @@
+[
+    {
+        "document": "claim.pdf",
+        "folder": "claim",
+        "total_keywords": 6,
+        "keywords": [
+            "Claim Form",
+            "Theft",
+            "Excess",
+            "Premium",
+            "Third Party",
+            "Allianz"
+        ]
+    },
+    {
+        "document": "claim1.pdf",
+        "folder": "claim",
+        "total_keywords": 10,
+        "keywords": [
+            "Commercial",
+            "Corporate",
+            "Claim Form",
+            "Incident Report",
+            "Third Party",
+            "Investigation",
+            "Policyholder",
+            "Insured Person",
+            "Jurisdiction",
+            "Regulatory Authority"
+        ]
+    },
+    {
+        "document": "claim2.pdf",
+        "folder": "claim",
+        "total_keywords": 9,
+        "keywords": [
+            "Commercial",
+            "Corporate",
+            "Claim Form",
+            "Third Party",
+            "Investigation",
+            "Policyholder",
+            "Insured Person",
+            "Jurisdiction",
+            "Regulatory Authority"
+        ]
+    },
+    {
+        "document": "policy1.pdf",
+        "folder": "policy",
+        "total_keywords": 14,
+        "keywords": [
+            "Excess",
+            "Deductible",
+            "Exclusions",
+            "Reinstatement",
+            "Arbitration",
+            "Cancellation",
+            "Premium",
+            "Commercial",
+            "Worldwide",
+            "Claim Form",
+            "Investigation",
+            "Bodily Injury",
+            "Allianz",
+            "General Conditions"
+        ]
+    },
+    {
+        "document": "policy2.pdf",
+        "folder": "policy",
+        "total_keywords": 21,
+        "keywords": [
+            "Cyber",
+            "Theft",
+            "Limit of Indemnity",
+            "Excess",
+            "Deductible",
+            "Territorial Limits",
+            "Exclusions",
+            "Indemnity",
+            "Reinstatement",
+            "Arbitration",
+            "Cancellation",
+            "Premium",
+            "United Kingdom",
+            "Claim Form",
+            "Third Party",
+            "Accidental Damage",
+            "Bodily Injury",
+            "Allianz",
+            "Policyholder",
+            "Insured Person",
+            "Commercial Policy"
+        ]
+    },
+    {
+        "document": "policy3.pdf",
+        "folder": "policy",
+        "total_keywords": 20,
+        "keywords": [
+            "Property Damage",
+            "Management Liability",
+            "Directors and Officers",
+            "Cyber",
+            "Fire",
+            "Theft",
+            "Flood",
+            "Employers Liability",
+            "Limit of Indemnity",
+            "Excess",
+            "Exclusions",
+            "Subrogation",
+            "Indemnity",
+            "Claim Notification",
+            "Arbitration",
+            "Cancellation",
+            "Premium",
+            "Commercial",
+            "Corporate",
+            "United Kingdom"
+        ]
+    },
+    {
+        "document": "policy4.pdf",
+        "folder": "policy",
+        "total_keywords": 20,
+        "keywords": [
+            "Cyber",
+            "Fire",
+            "Theft",
+            "Employers Liability",
+            "Excess",
+            "Exclusions",
+            "Subrogation",
+            "Indemnity",
+            "Cancellation",
+            "Premium",
+            "Commercial",
+            "Manufacturing",
+            "Corporate",
+            "United Kingdom",
+            "Claim Form",
+            "Loss Adjuster",
+            "Third Party",
+            "Allianz",
+            "Policyholder",
+            "Jurisdiction"
+        ]
+    }
+]

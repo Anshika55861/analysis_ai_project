@@ -1,0 +1,86 @@
+[
+    {
+        "document": "policy1.pdf",
+        "status": "pass",
+        "validation_score": 100,
+        "errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Document file verified present (1032 KB)",
+            "Policy Number validated: BeyondCare-PW-EN-01",
+            "Insurer validated: Allianz Ayudhya General Insurance Public Company Limited",
+            "Policy Type validated: Special Personal Health and Accident Insurance",
+            "Start Date present: 01 Jan 2026",
+            "Expiry Date present: 01 Jan 2027",
+            "Premium structure identified from terms: Variable according to plan level (THB 15,000 - 45,000)",
+            "Currency validated: THB",
+            "Identified 2 active included coverages with limits",
+            "Clause text verified clean with zero (cid:...) artifacts",
+            "Clause deduplication verified (292 unique clauses)",
+            "Generated 177 clean semantic chunks for AI processing"
+        ]
+    },
+    {
+        "document": "policy2.pdf",
+        "status": "pass",
+        "validation_score": 100,
+        "errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Document file verified present (396 KB)",
+            "Policy Number validated: ALZ-POLICY2",
+            "Insurer validated: Allianz Insurance plc",
+            "Policy Type validated: Group Accident and Health Insurance",
+            "Start Date present: 01 Apr 2026",
+            "Expiry Date present: 01 Apr 2027",
+            "Premium structure identified from terms: As stated in Policy Schedule",
+            "Currency validated: GBP",
+            "Identified 2 active included coverages with limits",
+            "Clause text verified clean with zero (cid:...) artifacts",
+            "Clause deduplication verified (304 unique clauses)",
+            "Generated 194 clean semantic chunks for AI processing"
+        ]
+    },
+    {
+        "document": "policy3.pdf",
+        "status": "pass",
+        "validation_score": 100,
+        "errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Document file verified present (771 KB)",
+            "Policy Number validated: from",
+            "Insurer validated: Allianz Insurance plc",
+            "Policy Type validated: Directors and Officers Management Liability",
+            "Start Date present: 01 Jul 2026",
+            "Expiry Date present: 01 Jul 2027",
+            "Premium structure identified from terms: As stated in Policy Schedule",
+            "Currency validated: GBP",
+            "Identified 1 active included coverages with limits",
+            "Clause text verified clean with zero (cid:...) artifacts",
+            "Clause deduplication verified (385 unique clauses)",
+            "Generated 242 clean semantic chunks for AI processing"
+        ]
+    },
+    {
+        "document": "policy4.pdf",
+        "status": "pass",
+        "validation_score": 100,
+        "errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Document file verified present (7769 KB)",
+            "Policy Number validated: ALZ-POLICY4",
+            "Insurer validated: Allianz Insurance plc",
+            "Policy Type validated: Marine Cargo and Transit Insurance",
+            "Start Date present: 01 Oct 2026",
+            "Expiry Date present: 01 Oct 2027",
+            "Premium structure identified from terms: As stated in Policy Schedule",
+            "Currency validated: GBP",
+            "Identified 1 active included coverages with limits",
+            "Clause text verified clean with zero (cid:...) artifacts",
+            "Clause deduplication verified (91 unique clauses)",
+            "Generated 92 clean semantic chunks for AI processing"
+        ]
+    }
+]

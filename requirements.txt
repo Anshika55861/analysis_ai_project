@@ -1,0 +1,6 @@
+pandas
+PyPDF2
+pdfplumber
+pymupdf
+rapidfuzz
+spacy

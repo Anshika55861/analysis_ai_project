@@ -1,0 +1,706 @@
+[
+    {
+        "question": "What terms are defined under Declaration in claim.pdf?",
+        "answer": "When we refer to \"we\", \"us\" and our in this notice it means Allianz Insurance plc, Allianz Engineering Inspection Services Limited, Pet Plan Limited and Vet Envoy Limited who are all part of the Allianz UK Group which includes insurance companies, insurance brokers and other companies owned by the Allianz UK Group.",
+        "source_document": "claim.pdf",
+        "section": "Declaration",
+        "page": 10,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Privacy Notice Summary in claim.pdf?",
+        "answer": "If 'Yes', describe by what means c Who approves transfers and is dual authorisation required?",
+        "source_document": "claim.pdf",
+        "section": "Privacy Notice Summary",
+        "page": 11,
+        "category": "definitions"
+    },
+    {
+        "question": "What is the name and form reference of this insurance plan?",
+        "answer": "Beyond Care Plan (Special Personal Health and Accident Insurance Policy, Form Ref: BeyondCare-PW-EN-01).",
+        "source_document": "policy1.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "Which insurer issues the Beyond Care Plan?",
+        "answer": "Allianz Ayudhya General Insurance Public Company Limited.",
+        "source_document": "policy1.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "What terms are defined under Section 1 Definitions in policy1.pdf?",
+        "answer": "Unless specified otherwise in this insurance policy, terms and expressions used wherever herein have the same meanings as ascribed to them below: Insurance fraud means fraudulently claiming for benefits under an insurance policy or presenting false evidence in making claims, including intentionally causing an injury or sickness in order to claim for compensations.",
+        "source_document": "policy1.pdf",
+        "section": "Section 1 Definitions",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Insurance policy' defined in policy1.pdf?",
+        "answer": "Insurance policy means the insurance policy schedule, schedule of benefits, general terms and",
+        "source_document": "policy1.pdf",
+        "section": "Section 1 Definitions",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Company' defined in policy1.pdf?",
+        "answer": "Company means the entity issuing the insurance policy.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Insured' defined in policy1.pdf?",
+        "answer": "Insured means the person named as insured in the schedule of this insurance policy or the insurance application form and/or the insurance policy endorsement(s) (if any).",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under conditions, general exclusions, insuring agreements, insurance policy in policy1.pdf?",
+        "answer": "Dependent(s) means the insured's dependent(s) named in the insurance policy schedule attachment, namely: 1) the insured's spouse; 2) the legal child(ren) of the insured or of the insured's spouse, or juvenile who is under the insured's legal custody whose age is from 2 weeks up to 20 years old and who has not yet married.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Accident' defined in policy1.pdf?",
+        "answer": "Accident means any incident that suddenly occurs due to an external factor and gives rise to a result that is not intended or anticipated by a covered person.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Injury' defined in policy1.pdf?",
+        "answer": "Injury means any bodily injury which is directly caused by an accident and occurs independently from other causes.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Sickness' defined in policy1.pdf?",
+        "answer": "Sickness means any symptom, abnormality, or disorder of the body resulting from a disease.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Physician' defined in policy1.pdf?",
+        "answer": "Physician means a person who graduated with a Doctor of Medicine degree and has a license to practice medicine in accordance with the local law of the locality where his/her services are provided.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Dentist' defined in policy1.pdf?",
+        "answer": "Dentist means a person who graduated with a Doctor of Dental Surgery degree and has a license to practice dentistry in accordance with the local law of the locality where his/her services are provided.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Medical facility' defined in policy1.pdf?",
+        "answer": "Medical facility means any place arranged for practicing therapeutic arts or medical and public health professions in accordance with the applicable local law of the locality where the services are provided.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Hospital' defined in policy1.pdf?",
+        "answer": "Hospital means any medical facility which provides medical services, where overnight-stay patients can be accommodated or treatments of diseases or injuries can be provided throughout 24 hours a day, and which is registered to operate as \"hospital\" in accordance with the local law of the locality where the services are provided.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "How is the term 'Clinic' defined in policy1.pdf?",
+        "answer": "Clinic means any medical facility which provides medical services, where overnight-stay patients cannot be accommodated, and which is registered to operate as \"clinic\" in accordance with the local law of the locality where the services are provided.",
+        "source_document": "policy1.pdf",
+        "section": "conditions, general exclusions, insuring agreements, insurance policy",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under renewal year in policy1.pdf?",
+        "answer": "means the premium in the renewal year in the event of renewal of policy year or in the event of reinstatement as approved by the Registrar.",
+        "source_document": "policy1.pdf",
+        "section": "renewal year",
+        "page": 5,
+        "category": "definitions"
+    },
+    {
+        "question": "What coverage benefit is provided under premium than the specified rate, the benefits to be received/the sum insured to be covered under this in policy1.pdf?",
+        "answer": "If the covered person of such correct age or sex may not be covered under this insurance policy, the company will pay no benefit and will return the paid premium under this insurance policy.",
+        "source_document": "policy1.pdf",
+        "section": "premium than the specified rate, the benefits to be received/the sum insured to be covered under this",
+        "page": 7,
+        "category": "coverage"
+    },
+    {
+        "question": "What limits or deductibles apply to premium than the specified rate, the benefits to be received/the sum insured to be covered under this in policy1.pdf?",
+        "answer": "Page 7 of 52 Pages If the company receives the insurance premium in excess of the specified rate, the company will return the overpaid amount of premium to the insured.",
+        "source_document": "policy1.pdf",
+        "section": "premium than the specified rate, the benefits to be received/the sum insured to be covered under this",
+        "page": 7,
+        "category": "limits"
+    },
+    {
+        "question": "What is the claim notification requirement under premium are continuously made. However, in the event that the company agrees to renew the insurance in policy1.pdf?",
+        "answer": "In the event of no renewal for any reason specified above, the company must send a prior written notice to the covered person(s) by registered post or other means agreed by the insured at least 30 days before this insurance policy expires as specified in the insurance policy schedule and/or the endorsement(s)",
+        "source_document": "policy1.pdf",
+        "section": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+        "page": 8,
+        "category": "claims"
+    },
+    {
+        "question": "What limits or deductibles apply to premium are continuously made. However, in the event that the company agrees to renew the insurance in policy1.pdf?",
+        "answer": "If a covered person sustains any injury or sickness before the benefit increase, the maximum amount of benefit to be received for the medical treatments of the injury or sickness occurring before the benefit increase will not exceed the original maximum amount of benefit prior to the benefit increase.",
+        "source_document": "policy1.pdf",
+        "section": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+        "page": 8,
+        "category": "limits"
+    },
+    {
+        "question": "How is the term 'Nurse' defined in policy1.pdf?",
+        "answer": "Nurse means a person who is licensed to practice nursing in accordance with the local law of the locality where his/her services are provided.",
+        "source_document": "policy1.pdf",
+        "section": "Section 4 Coverage/Insuring Agreements",
+        "page": 16,
+        "category": "definitions"
+    },
+    {
+        "question": "What coverage benefit is provided under Coverage in policy1.pdf?",
+        "answer": "The company will pay the benefit for medical practitioner fees for consultant specialist physician(s) in the following cases:",
+        "source_document": "policy1.pdf",
+        "section": "Coverage",
+        "page": 33,
+        "category": "coverage"
+    },
+    {
+        "question": "What limits or deductibles apply to Benefits (Or.Bor.2) in policy1.pdf?",
+        "answer": "% of sum Insured as specified in the schedule of additional benefits as attached in the insurance policy.",
+        "source_document": "policy1.pdf",
+        "section": "Benefits (Or.Bor.2)",
+        "page": 46,
+        "category": "limits"
+    },
+    {
+        "question": "What coverage benefit is provided under premium for the past policy year. In such event, the company will return the premium within 180 in policy1.pdf?",
+        "answer": "In the event that the company has already made a No-Claims refund but is later notified of claim(s) incurred during the past policy year, and the company agrees to pay such claim(s), the amount already rebated to the covered person will be deducted from the amount payable by the company for such claim(s).",
+        "source_document": "policy1.pdf",
+        "section": "premium for the past policy year. In such event, the company will return the premium within 180",
+        "page": 47,
+        "category": "coverage"
+    },
+    {
+        "question": "What is the title of this policy document?",
+        "answer": "Complete Accident and Health policy wording.",
+        "source_document": "policy2.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "Who is the underwriting insurer for the Complete Accident and Health policy?",
+        "answer": "Allianz Insurance plc.",
+        "source_document": "policy2.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "What terms are defined under Policy Definitions in policy2.pdf?",
+        "answer": "The following definitions apply to this Policy, unless amended by Section Definitions, and are denoted by bold text throughout this Policy.",
+        "source_document": "policy2.pdf",
+        "section": "Policy Definitions",
+        "page": 9,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Operative Time Definitions in policy2.pdf?",
+        "answer": "Show the time and circumstances that cover applies to the Insured Person as selected by the Insured and shown in the Schedule 24 Hours At anytime. Occupational including Commuting a \u0007While an Insured Person is carrying out their occupational duties for the Insured whilst on an Insured Production in the United Kingdom or travelling between:",
+        "source_document": "policy2.pdf",
+        "section": "Operative Time Definitions",
+        "page": 17,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Policy Conditions in policy2.pdf?",
+        "answer": "For the purposes of this condition references to: a \u0007avoiding a Policy means treating the Policy as if it had not existed from the inception date (where the failure to make a fair presentation of the risk occurs before or at the inception of the Policy), the",
+        "source_document": "policy2.pdf",
+        "section": "Policy Conditions",
+        "page": 18,
+        "category": "definitions"
+    },
+    {
+        "question": "What is excluded under benefits under this Policy or any Section of this Policy in policy2.pdf?",
+        "answer": "c \u0007The Insurer will not pay more than the Maximum Benefit for Benefits 1 to 6 or any other Sum Insured as shown in the Schedule for any one Insured Person.",
+        "source_document": "policy2.pdf",
+        "section": "benefits under this Policy or any Section of this Policy",
+        "page": 20,
+        "category": "exclusions"
+    },
+    {
+        "question": "What is excluded under Benefits and the Insurer will not be liable to pay any in policy2.pdf?",
+        "answer": "h \u0007The Insurer will not pay more than one of the Benefits 1 to 4 shown in the Table of Sums Insured in respect of any one Insured Person for injuries arising from the same Loss.",
+        "source_document": "policy2.pdf",
+        "section": "Benefits and the Insurer will not be liable to pay any",
+        "page": 21,
+        "category": "exclusions"
+    },
+    {
+        "question": "What limits or deductibles apply to Policy Conditions in policy2.pdf?",
+        "answer": "m \u0007Temporary Partial Disablement Sum Insured shall not exceed 50% of Temporary Total Disablement Sum Insured.",
+        "source_document": "policy2.pdf",
+        "section": "Policy Conditions",
+        "page": 21,
+        "category": "limits"
+    },
+    {
+        "question": "What limits or deductibles apply to Policy Exclusions in policy2.pdf?",
+        "answer": "\u0007Any claim in excess of: a \u0007Aircraft Accumulation Limit b \u0007Non-scheduled Air Accumulation Limit c \u0007Event Accumulation Limit d",
+        "source_document": "policy2.pdf",
+        "section": "Policy Exclusions",
+        "page": 23,
+        "category": "limits"
+    },
+    {
+        "question": "What limits or deductibles apply to Personal Accident Section in policy2.pdf?",
+        "answer": "Additional Insured Persons The following Additional Insured Persons are included provided they are not insured elsewhere under this Policy The maximum amount payable for Additional Insured Persons is £300,000 in respect of any one Loss.",
+        "source_document": "policy2.pdf",
+        "section": "Personal Accident Section",
+        "page": 24,
+        "category": "limits"
+    },
+    {
+        "question": "What coverage benefit is provided under (This section only applies if stated in the Policy Schedule) in policy2.pdf?",
+        "answer": "The maximum amount payable in respect of this additional Benefit is £25,000 in respect of any one Insured Person.",
+        "source_document": "policy2.pdf",
+        "section": "(This section only applies if stated in the Policy Schedule)",
+        "page": 25,
+        "category": "coverage"
+    },
+    {
+        "question": "What limits or deductibles apply to (This section only applies if stated in the Policy Schedule) in policy2.pdf?",
+        "answer": "The maximum amount payable for such sums for any one Insured Person £2,000.",
+        "source_document": "policy2.pdf",
+        "section": "(This section only applies if stated in the Policy Schedule)",
+        "page": 25,
+        "category": "limits"
+    },
+    {
+        "question": "What limits or deductibles apply to Benefits the Insurer shall indemnify the Insured for the in policy2.pdf?",
+        "answer": "The maximum amount payable for such sums for any one Insured Person £3,000 29",
+        "source_document": "policy2.pdf",
+        "section": "Benefits the Insurer shall indemnify the Insured for the",
+        "page": 30,
+        "category": "limits"
+    },
+    {
+        "question": "What coverage benefit is provided under Benefits the Insurer shall indemnify the Insured for the in policy2.pdf?",
+        "answer": "COMPLETE ACCIDENT AND HEALTH POLICY WORDING Cover The Insurer will pay the Insured the Sum Insured shown in the Schedule if the Insured Person contracts a Sickness during the Period of Insurance.",
+        "source_document": "policy2.pdf",
+        "section": "Benefits the Insurer shall indemnify the Insured for the",
+        "page": 30,
+        "category": "coverage"
+    },
+    {
+        "question": "What limits or deductibles apply to Extensions in policy2.pdf?",
+        "answer": "The maximum amount payable for such sums for any one Insured Person £5,000.",
+        "source_document": "policy2.pdf",
+        "section": "Extensions",
+        "page": 34,
+        "category": "limits"
+    },
+    {
+        "question": "What coverage benefit is provided under Extensions in policy2.pdf?",
+        "answer": "If within the Operative Time an Insured Person sustains Accidental Bodily Injury resulting in Dental Injury the Insurer shall indemnify the Insured for the benefit of the Insured Person up to £2,500 for reasonable expenses necessarily incurred on the advice of a Qualified Medical Practitioner.",
+        "source_document": "policy2.pdf",
+        "section": "Extensions",
+        "page": 34,
+        "category": "coverage"
+    },
+    {
+        "question": "What limits or deductibles apply to Medical and Emergency Travel Expenses in policy2.pdf?",
+        "answer": "The maximum amount payable for such costs for any one Insured Person is £10,000.",
+        "source_document": "policy2.pdf",
+        "section": "Medical and Emergency Travel Expenses",
+        "page": 34,
+        "category": "limits"
+    },
+    {
+        "question": "What coverage benefit is provided under Medical and Emergency Travel Expenses in policy2.pdf?",
+        "answer": "\u0007The maximum total amount payable for In-Patient Benefit and Coma Benefit is £54,600 in respect of any one Insured Person.",
+        "source_document": "policy2.pdf",
+        "section": "Medical and Emergency Travel Expenses",
+        "page": 34,
+        "category": "coverage"
+    },
+    {
+        "question": "What is excluded under Section Exclusions in policy2.pdf?",
+        "answer": "The Policy Exclusions apply to this Section and in addition: The Insurer will not pay for any claim a \u0007where an Insured Person is travelling:",
+        "source_document": "policy2.pdf",
+        "section": "Section Exclusions",
+        "page": 36,
+        "category": "exclusions"
+    },
+    {
+        "question": "What coverage benefit is provided under Personal Property in policy2.pdf?",
+        "answer": "If within the Operative Time an Insured Person sustains theft or loss of or damage to Personal Property during an Insured Trip the Insurer shall indemnify the Insured for the benefit of the Insured Person the Replacement Value up to the Sum Insured per Insured Person shown in the Schedule.",
+        "source_document": "policy2.pdf",
+        "section": "Personal Property",
+        "page": 39,
+        "category": "coverage"
+    },
+    {
+        "question": "What is the claim notification requirement under Personal Liability in policy2.pdf?",
+        "answer": "The Insured or Insured Person must notify the Insurer immediately in writing if any notice of prosecution, inquest or inquiry is received by the Insured or Insured Person.",
+        "source_document": "policy2.pdf",
+        "section": "Personal Liability",
+        "page": 42,
+        "category": "claims"
+    },
+    {
+        "question": "What coverage benefit is provided under Hijack and Kidnap in policy2.pdf?",
+        "answer": "If within the Operative Time an Insured Person is the victim of Hijack, Kidnap or is Taken Hostage the Insurer will pay a \u0007the Insured (in the case of a Business Trip) or Insured Person (if otherwise) £500 for each complete twenty four (24) hour period that the Insured Person is held.",
+        "source_document": "policy2.pdf",
+        "section": "Hijack and Kidnap",
+        "page": 44,
+        "category": "coverage"
+    },
+    {
+        "question": "What coverage benefit is provided under Legal Expenses in policy2.pdf?",
+        "answer": "Limit of Indemnity The most Allianz Legal Protection will pay for all Legal Costs for all claims arising from one Insured Event is £50,000.",
+        "source_document": "policy2.pdf",
+        "section": "Legal Expenses",
+        "page": 46,
+        "category": "coverage"
+    },
+    {
+        "question": "What is excluded under Exclusions in policy2.pdf?",
+        "answer": "That only apply to Item 8 - Legal Expenses Allianz Legal Protection will not pay for the following: 1 \u0007Any amount of money that the Insured Person agrees to or has to pay to any Legal Representative out of any compensation or damages that the Insured Person receives.",
+        "source_document": "policy2.pdf",
+        "section": "Exclusions",
+        "page": 47,
+        "category": "exclusions"
+    },
+    {
+        "question": "What terms are defined under Legal Expenses in policy2.pdf?",
+        "answer": "The Insured Person can only choose the Legal Representative if Allianz Legal Protection agree that legal proceedings need to be issued or if a conflict of interest arises which means that the Legal Representative cannot act for the Insured Person.",
+        "source_document": "policy2.pdf",
+        "section": "Legal Expenses",
+        "page": 49,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Privacy Notice Summary in policy2.pdf?",
+        "answer": "When we refer to \"we\", \"us\" and our in this notice it means Allianz Insurance plc, Allianz Engineering Inspection Services Limited, Pet Plan Limited and Vet Envoy Limited who are all part of the Allianz UK Group which includes insurance companies, insurance brokers and other companies owned by the Allianz UK Group.",
+        "source_document": "policy2.pdf",
+        "section": "Privacy Notice Summary",
+        "page": 51,
+        "category": "definitions"
+    },
+    {
+        "question": "What type of insurance cover is provided by this document?",
+        "answer": "Complete Directors and Officers policy wording (Management Liability).",
+        "source_document": "policy3.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "Which insurer underwrites the Complete Directors and Officers policy?",
+        "answer": "Allianz Insurance plc.",
+        "source_document": "policy3.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "What terms are defined under Definitions and the Policy Conditions, all of which in policy3.pdf?",
+        "answer": "apply to all Sections of the Policy • \u0007the Sections of cover provided, including the Section",
+        "source_document": "policy3.pdf",
+        "section": "Definitions and the Policy Conditions, all of which",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Definitions, Extensions, Conditions and Exclusions in policy3.pdf?",
+        "answer": "\u0007the Schedule, which confirms the Sections of cover that are insured and which includes any additional clauses applied to the Policy Any Section stated to be 'Not Insured' in the Schedule shall be inoperative.",
+        "source_document": "policy3.pdf",
+        "section": "Definitions, Extensions, Conditions and Exclusions",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "What is the claim notification requirement under Definitions, Extensions, Conditions and Exclusions in policy3.pdf?",
+        "answer": "You should comply with the requirements for claim notification which are contained in the Claim Notification Conditions of each Section of the Policy, and which detail your obligations and our rights in the event of a claim.",
+        "source_document": "policy3.pdf",
+        "section": "Definitions, Extensions, Conditions and Exclusions",
+        "page": 3,
+        "category": "claims"
+    },
+    {
+        "question": "What coverage benefit is provided under Complaints Procedure in policy3.pdf?",
+        "answer": "COMPLETE DIRECTORS AND OFFICERS POLICY WORDING 4 In consideration of payment of the premium the Insurer will indemnify or otherwise compensate the Insured against loss, destruction, damage, injury, liability or dispute (as described in and subject to the terms, conditions, limits and",
+        "source_document": "policy3.pdf",
+        "section": "Complaints Procedure",
+        "page": 5,
+        "category": "coverage"
+    },
+    {
+        "question": "What terms are defined under Policy Definitions in policy3.pdf?",
+        "answer": "The following definitions, which are denoted by a capital first letter, apply throughout this Policy unless amended by Section Definitions.",
+        "source_document": "policy3.pdf",
+        "section": "Policy Definitions",
+        "page": 7,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Definitions in policy3.pdf?",
+        "answer": "Change of Control a \u0007The Policyholder's merger with or consolidation into any other company b a management buy out c \u0007the sale of all or the majority of the Policyholder's assets to any person or company acting alone or in concert",
+        "source_document": "policy3.pdf",
+        "section": "Definitions",
+        "page": 12,
+        "category": "definitions"
+    },
+    {
+        "question": "What limits or deductibles apply to Coverage under this Section is provided anywhere in the in policy3.pdf?",
+        "answer": "i the Limit of Indemnity ii \u0007all other collectible directors and officers or management liability covers whether written excess of the Limit of Indemnity or otherwise and iii \u0007all other indemnification for such Loss available from any other source.",
+        "source_document": "policy3.pdf",
+        "section": "Coverage under this Section is provided anywhere in the",
+        "page": 22,
+        "category": "limits"
+    },
+    {
+        "question": "What coverage benefit is provided under Coverage under this Section is provided anywhere in the in policy3.pdf?",
+        "answer": "E Company Entity Liability Cover The Insurer will pay to or on behalf of the Company:",
+        "source_document": "policy3.pdf",
+        "section": "Coverage under this Section is provided anywhere in the",
+        "page": 22,
+        "category": "coverage"
+    },
+    {
+        "question": "What limits or deductibles apply to Claims for indemnity under this Policy. in policy3.pdf?",
+        "answer": "\u0007An excess of £2,500 will apply in respect of each and every Claim under Cover E, provided always that this excess will not apply to any Claim which is successfully defended.",
+        "source_document": "policy3.pdf",
+        "section": "Claims for indemnity under this Policy.",
+        "page": 22,
+        "category": "limits"
+    },
+    {
+        "question": "What is excluded under Limit of Indemnity in policy3.pdf?",
+        "answer": "The Insurer shall have no liability in excess of the Limit of Indemnity regardless of the number of Related Claims for indemnity under this Section and/or the number of Insured Persons who may claim and/or the number of covers under which such Related Claims may be made.",
+        "source_document": "policy3.pdf",
+        "section": "Limit of Indemnity",
+        "page": 23,
+        "category": "exclusions"
+    },
+    {
+        "question": "What limits or deductibles apply to Limit of Indemnity in policy3.pdf?",
+        "answer": "The Limit of Indemnity shall apply in excess of any applicable Excess(es).",
+        "source_document": "policy3.pdf",
+        "section": "Limit of Indemnity",
+        "page": 23,
+        "category": "limits"
+    },
+    {
+        "question": "What is the claim notification requirement under Section 1 - Directors and Officers Liability in policy3.pdf?",
+        "answer": "\u0007It is a condition of the Insured Persons' right to recover such amounts hereunder that written notice must be given to the Insurer within three working days after the appointment of the selected Crisis Communication Consultant.",
+        "source_document": "policy3.pdf",
+        "section": "Section 1 - Directors and Officers Liability",
+        "page": 23,
+        "category": "claims"
+    },
+    {
+        "question": "What coverage benefit is provided under Cover - Optional Extensions in policy3.pdf?",
+        "answer": "The Insurer will pay to or on behalf of the Company all Loss in respect of an Employment Practice Wrongful Act resulting from a Claim against the Company up to the Limit of Indemnity.",
+        "source_document": "policy3.pdf",
+        "section": "Cover - Optional Extensions",
+        "page": 26,
+        "category": "coverage"
+    },
+    {
+        "question": "What is excluded under Company Entity Employment Practice in policy3.pdf?",
+        "answer": "The Insurer shall have no liability in excess of the Limit of Indemnity regardless of the number of claims for indemnity under this Section and/or the number of Insured Persons who may claim and/or the number of Covers under which such claims may be made.",
+        "source_document": "policy3.pdf",
+        "section": "Company Entity Employment Practice",
+        "page": 26,
+        "category": "exclusions"
+    },
+    {
+        "question": "What is excluded under Exclusions in policy3.pdf?",
+        "answer": "The Insurer shall not be liable for any Loss or any Investigation Costs: 1 Behaviour arising out of, based upon or attributable to: a \u0007the committing of a dishonest or a fraudulent act or b \u0007the Insured Person gaining any personal profit, remuneration or advantage to which they were not legally entitled.",
+        "source_document": "policy3.pdf",
+        "section": "Exclusions",
+        "page": 28,
+        "category": "exclusions"
+    },
+    {
+        "question": "What is excluded under Exclusions - Applicable to Cover E in policy3.pdf?",
+        "answer": "The Insurer shall not be liable for any Loss or any Investigation Costs: 8 Competition & Restraint of Trade \u0007arising out of, based upon, or attributable to violation of any law, rule or regulation relating to competition, activities in restraint of trade, or deceptive acts and practices in trade and commerce.",
+        "source_document": "policy3.pdf",
+        "section": "Exclusions - Applicable to Cover E",
+        "page": 29,
+        "category": "exclusions"
+    },
+    {
+        "question": "What limits or deductibles apply to Benefits earned in the usual course of employment in policy3.pdf?",
+        "answer": "Legal liability Liability under law for a direct pure financial loss sustained by any Client in excess of the Excess resulting directly from a Criminal Act committed by an Employee of the Insured not in collusion with the Client nor any employee of the Client.",
+        "source_document": "policy3.pdf",
+        "section": "Benefits earned in the usual course of employment",
+        "page": 36,
+        "category": "limits"
+    },
+    {
+        "question": "What terms are defined under Section 2 - Commercial Crime in policy3.pdf?",
+        "answer": "Where Data or Computer Programmes were purchased from a Third Party, Reconstitution Costs means the cost of repurchasing the Data or Computer Programmes from a Third Party, if less than the cost of transcription or copying.",
+        "source_document": "policy3.pdf",
+        "section": "Section 2 - Commercial Crime",
+        "page": 37,
+        "category": "definitions"
+    },
+    {
+        "question": "What is the claim notification requirement under Claims Conditions in policy3.pdf?",
+        "answer": "Claim Notification \u0007It is a condition of coverage hereunder that upon Discovery, the Insured shall: a \u0007give written notice to the Insurer during the Period of Insurance or the Discovery Period, no later than 30 days after Discovery.",
+        "source_document": "policy3.pdf",
+        "section": "Claims Conditions",
+        "page": 43,
+        "category": "claims"
+    },
+    {
+        "question": "What is excluded under Conditions in policy3.pdf?",
+        "answer": "Fraudulent notifications \u0007If the Insured shall give notice of any Loss knowing the same to be false or fraudulent, as regards amount or otherwise, such Loss shall be excluded from the Section and the Insurer reserves the right to avoid this Section in its entirety and in such case, all Loss shall be forfeited.",
+        "source_document": "policy3.pdf",
+        "section": "Conditions",
+        "page": 45,
+        "category": "exclusions"
+    },
+    {
+        "question": "What terms are defined under Additional Benefits in policy3.pdf?",
+        "answer": "\u0007When we refer to \"we\", \"us\" and \"our\" in this notice it means Allianz Insurance plc, Allianz Engineering Inspection Services Limited, Petplan Ltd and VetEnvoy.",
+        "source_document": "policy3.pdf",
+        "section": "Additional Benefits",
+        "page": 46,
+        "category": "definitions"
+    },
+    {
+        "question": "What is the product name of this policy wording?",
+        "answer": "Complete Cargo Policy Wording.",
+        "source_document": "policy4.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "Which insurance company provides this cargo coverage?",
+        "answer": "Allianz Insurance plc.",
+        "source_document": "policy4.pdf",
+        "section": "Title & Document Header",
+        "category": "Metadata"
+    },
+    {
+        "question": "What terms are defined under Definitions, Extensions, Conditions and Exclusions in policy4.pdf?",
+        "answer": "Any Section stated to be 'Not Insured' in the Schedule shall be inoperative.",
+        "source_document": "policy4.pdf",
+        "section": "Definitions, Extensions, Conditions and Exclusions",
+        "page": 3,
+        "category": "definitions"
+    },
+    {
+        "question": "What terms are defined under Policy Definitions in policy4.pdf?",
+        "answer": "The following definitions apply to this Policy (unless amended by Section Definitions) and are denoted by a capital first letter throughout this Policy.",
+        "source_document": "policy4.pdf",
+        "section": "Policy Definitions",
+        "page": 7,
+        "category": "definitions"
+    },
+    {
+        "question": "What is the claim notification requirement under Policy Conditions in policy4.pdf?",
+        "answer": "Change of Risk The Insured must notify the Insurer as soon as possible if during the Period of Insurance there is any alteration: a in or to the Business; b in the insured Goods; c to or at the Premises;",
+        "source_document": "policy4.pdf",
+        "section": "Policy Conditions",
+        "page": 12,
+        "category": "claims"
+    },
+    {
+        "question": "What is excluded under Policy Conditions in policy4.pdf?",
+        "answer": "The Insurer shall not be liable for any expense incurred to avert or mitigate pollution or contamination or threat of pollution or contamination or for the costs of removal of any cargo from any vessel or craft.",
+        "source_document": "policy4.pdf",
+        "section": "Policy Conditions",
+        "page": 14,
+        "category": "exclusions"
+    },
+    {
+        "question": "What terms are defined under Policy Exclusions in policy4.pdf?",
+        "answer": "d if the Vehicle is left Unattended overnight (for the purpose of this Exclusion overnight shall mean from 9pm or whenever the Vehicle was last occupied whichever the earlier, to 6am or until the Vehicle is first used whichever is the later)",
+        "source_document": "policy4.pdf",
+        "section": "Policy Exclusions",
+        "page": 15,
+        "category": "definitions"
+    },
+    {
+        "question": "What is excluded under Cover in policy4.pdf?",
+        "answer": "The Insurer will pay the Insured for Damage to Goods within the Geographical Limits during any Insured Transit not otherwise excluded.",
+        "source_document": "policy4.pdf",
+        "section": "Cover",
+        "page": 17,
+        "category": "exclusions"
+    },
+    {
+        "question": "What coverage benefit is provided under Basis of Settlement in policy4.pdf?",
+        "answer": "The Insurer will pay the Insured the value of Goods for which a Limit of Liability is specified in the Schedule at the time of Damage.",
+        "source_document": "policy4.pdf",
+        "section": "Basis of Settlement",
+        "page": 17,
+        "category": "coverage"
+    },
+    {
+        "question": "What coverage benefit is provided under Section 1 - Cargo in policy4.pdf?",
+        "answer": "Additional Discharge Expenses In the event of Damage to Goods recoverable under this Policy the Insurer will pay reasonable costs incurred by the Insured in discharging, handling, storing, reloading or transporting damaged or undamaged Goods.",
+        "source_document": "policy4.pdf",
+        "section": "Section 1 - Cargo",
+        "page": 17,
+        "category": "coverage"
+    },
+    {
+        "question": "What is excluded under Section Exclusions in policy4.pdf?",
+        "answer": "The Policy Exclusions apply to this Section and in addition the Insurer will not pay for 1 Theft or Attempted Theft",
+        "source_document": "policy4.pdf",
+        "section": "Section Exclusions",
+        "page": 19,
+        "category": "exclusions"
+    },
+    {
+        "question": "What terms are defined under Definitions in policy4.pdf?",
+        "answer": "Premises The buildings at the address or addresses shown in the Schedule owned or operated by the Insured or where the Insured's Goods are stored under contract with a third party who accepts liability for any Damage to the Goods.",
+        "source_document": "policy4.pdf",
+        "section": "Definitions",
+        "page": 19,
+        "category": "definitions"
+    },
+    {
+        "question": "What coverage benefit is provided under Cover in policy4.pdf?",
+        "answer": "The Insurer will pay the Insured for Damage to Goods whilst in Storage at the Premises during the Period of Insurance but outside the ordinary course of transit",
+        "source_document": "policy4.pdf",
+        "section": "Cover",
+        "page": 19,
+        "category": "coverage"
+    },
+    {
+        "question": "What terms are defined under Fair Processing Notice - in policy4.pdf?",
+        "answer": "Who we are When we refer to \"we\", \"us\" and \"our\" in this notice it means Allianz Insurance plc or Allianz Engineering Inspection Services Limited.",
+        "source_document": "policy4.pdf",
+        "section": "Fair Processing Notice -",
+        "page": 22,
+        "category": "definitions"
+    }
+]

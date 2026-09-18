@@ -1,0 +1,862 @@
+{
+    "Premium": {
+        "description": "The amount paid by the policyholder to maintain insurance coverage.",
+        "keywords": [
+            "premium",
+            "payment",
+            "insurance fee"
+        ],
+        "aliases": []
+    },
+    "Policy": {
+        "description": "treating the Policy as if the Insurer may reasonably require at no cost to it had not existed from the inception date (where the Insurer the failure to make a fair presentation of the risk c the Insured or Insured Person must at the Insurer's occurs before or at the inception of the Policy), the request provide a medical examination report in renewal date (where the failure occurs at renewal of respect of any Accidental Bodily Injury where the the Policy), or the variation date (where the failure Insured requires the Insurer to consider a claim occurs when the Policy is varied); under this Policy for which the Insurer will pay the cost of the medical examination fee 16 COMPLETE ACCIDENT AND HEALTH POLICY WORDING continued d the Insured must ensure that as soon as possible I f the “cooling off period” has expired, the Insured after the occurrence of any Accidental Bodily Injury may cancel the Policy during the Period of Insurance the Insured Person obtains and follows the advice by giving 14 days notice in writing to their insurance of a Qualified Medical Practitioner adviser or the Allianz office which issued the Policy",
+        "keywords": [
+            "policy"
+        ],
+        "aliases": []
+    },
+    "Claim": {
+        "description": "A request made by the insured to receive compensation.",
+        "keywords": [
+            "claim",
+            "compensation",
+            "settlement"
+        ],
+        "aliases": []
+    },
+    "Coverage": {
+        "description": "The protection provided by an insurance policy.",
+        "keywords": [
+            "coverage",
+            "protection",
+            "benefits"
+        ],
+        "aliases": []
+    },
+    "Deductible": {
+        "description": "the first portion of the loss/damage which is borne by the covered person pursuant to the terms of the insurance contract",
+        "keywords": [
+            "deductible"
+        ],
+        "aliases": []
+    },
+    "Insured": {
+        "description": "the person named as insured in the schedule of this insurance policy or the insurance application form and/or the insurance policy endorsement(s) (if any)",
+        "keywords": [
+            "insured",
+            "insurer",
+            "company",
+            "provider"
+        ],
+        "aliases": []
+    },
+    "Beneficiary": {
+        "description": "The person who receives the insurance benefits.",
+        "keywords": [
+            "beneficiary",
+            "nominee",
+            "recipient"
+        ],
+        "aliases": []
+    },
+    "Liability": {
+        "description": "disability to the extent of being permanently unable to perform any duties in one's own occupation/career as usual, but able to perform other works/ jobs for wages",
+        "keywords": [
+            "liability",
+            "legal",
+            "responsibility",
+            "disability"
+        ],
+        "aliases": [
+            "Disability"
+        ]
+    },
+    "Risk": {
+        "description": "The possibility of loss or damage covered by insurance.",
+        "keywords": [
+            "risk",
+            "uncertainty",
+            "loss"
+        ],
+        "aliases": []
+    },
+    "Accident": {
+        "description": "any incident that suddenly occurs due to an external factor and gives rise to a result that is not intended or anticipated by a covered person",
+        "keywords": [
+            "accident"
+        ],
+        "aliases": []
+    },
+    "Endorsement": {
+        "description": "An amendment or addition to an insurance policy.",
+        "keywords": [
+            "endorsement",
+            "amendment",
+            "policy change"
+        ],
+        "aliases": []
+    },
+    "Exclusion": {
+        "description": "A condition or event that is not covered by the policy.",
+        "keywords": [
+            "exclusion",
+            "not covered",
+            "limitation"
+        ],
+        "aliases": []
+    },
+    "Sum Insured": {
+        "description": "The maximum amount payable under the insurance policy.",
+        "keywords": [
+            "sum insured",
+            "coverage limit",
+            "maximum amount"
+        ],
+        "aliases": []
+    },
+    "Renewal": {
+        "description": "Extension of an insurance policy after its expiry.",
+        "keywords": [
+            "renewal",
+            "extend",
+            "continue"
+        ],
+        "aliases": []
+    },
+    "Underwriting": {
+        "description": "The process of evaluating the risk of insuring a person or property.",
+        "keywords": [
+            "underwriting",
+            "risk assessment",
+            "evaluation"
+        ],
+        "aliases": []
+    },
+    "Underwriter": {
+        "description": "A professional who assesses insurance applications and determines coverage.",
+        "keywords": [
+            "underwriter",
+            "risk",
+            "approval"
+        ],
+        "aliases": []
+    },
+    "Co-payment": {
+        "description": "the joint labilities between the company and the covered person for the medical treatment expenses payable based on the benefit amount after deduction of the deductible (if any)",
+        "keywords": [
+            "co-payment",
+            "copay",
+            "shared payment",
+            "copayment"
+        ],
+        "aliases": [
+            "Copayment"
+        ]
+    },
+    "Waiting Period": {
+        "description": "The period during which certain benefits cannot be claimed after the policy begins.",
+        "keywords": [
+            "waiting period",
+            "delay",
+            "eligibility"
+        ],
+        "aliases": []
+    },
+    "Grace Period": {
+        "description": "Additional time allowed after the premium due date to make payment without losing coverage.",
+        "keywords": [
+            "grace period",
+            "late payment",
+            "premium due"
+        ],
+        "aliases": []
+    },
+    "Cashless Claim": {
+        "description": "A claim settled directly between the insurer and the network hospital or service provider.",
+        "keywords": [
+            "cashless",
+            "hospital",
+            "direct settlement"
+        ],
+        "aliases": []
+    },
+    "Reimbursement Claim": {
+        "description": "A claim where the insured pays first and later requests reimbursement from the insurer.",
+        "keywords": [
+            "reimbursement",
+            "claim",
+            "refund"
+        ],
+        "aliases": []
+    },
+    "No Claim Bonus": {
+        "description": "A reward offered to policyholders who do not make any claims during the policy period.",
+        "keywords": [
+            "NCB",
+            "bonus",
+            "claim free"
+        ],
+        "aliases": []
+    },
+    "Third Party": {
+        "description": "A person or entity other than the insurer and the insured who may be affected by an incident.",
+        "keywords": [
+            "third party",
+            "liability",
+            "other person"
+        ],
+        "aliases": []
+    },
+    "Business Interruption": {
+        "description": "Insurance that covers income loss due to disruption of business operations.",
+        "keywords": [
+            "business interruption",
+            "income loss",
+            "operations"
+        ],
+        "aliases": []
+    },
+    "Cyber Insurance": {
+        "description": "Insurance that protects against cyber attacks, hacking, and data breaches.",
+        "keywords": [
+            "cyber",
+            "hacking",
+            "data breach"
+        ],
+        "aliases": []
+    },
+    "Professional Indemnity": {
+        "description": "Insurance that protects professionals against claims arising from negligence or errors.",
+        "keywords": [
+            "professional indemnity",
+            "negligence",
+            "professional liability"
+        ],
+        "aliases": []
+    },
+    "Public Liability": {
+        "description": "Insurance that covers legal liability for injury or property damage to third parties.",
+        "keywords": [
+            "public liability",
+            "legal liability",
+            "third party"
+        ],
+        "aliases": []
+    },
+    "Fire Cover": {
+        "description": "Insurance coverage for damage caused by fire.",
+        "keywords": [
+            "fire",
+            "fire cover",
+            "property damage"
+        ],
+        "aliases": []
+    },
+    "Flood Cover": {
+        "description": "Insurance coverage for losses caused by floods.",
+        "keywords": [
+            "flood",
+            "water damage",
+            "natural disaster"
+        ],
+        "aliases": []
+    },
+    "Theft Cover": {
+        "description": "Insurance coverage for loss or damage caused by theft or burglary.",
+        "keywords": [
+            "theft",
+            "burglary",
+            "stolen property"
+        ],
+        "aliases": []
+    },
+    "Medical Expenses": {
+        "description": "Costs incurred for medical treatment that may be covered under a health insurance policy.",
+        "keywords": [
+            "medical",
+            "hospital",
+            "treatment"
+        ],
+        "aliases": []
+    },
+    "Hospitalization": {
+        "description": "Admission to a hospital for medical treatment covered under the policy.",
+        "keywords": [
+            "hospitalization",
+            "admission",
+            "hospital"
+        ],
+        "aliases": []
+    },
+    "Pre-existing Disease": {
+        "description": "A medical condition that existed before the insurance policy was purchased.",
+        "keywords": [
+            "pre-existing",
+            "disease",
+            "medical history"
+        ],
+        "aliases": []
+    },
+    "Critical Illness": {
+        "description": "A serious illness specified in the policy that qualifies for a lump-sum benefit.",
+        "keywords": [
+            "critical illness",
+            "disease",
+            "health"
+        ],
+        "aliases": []
+    },
+    "Maturity Benefit": {
+        "description": "The amount paid to the policyholder when the policy reaches its maturity date.",
+        "keywords": [
+            "maturity",
+            "benefit",
+            "policy end"
+        ],
+        "aliases": []
+    },
+    "Death Benefit": {
+        "description": "The amount paid to the beneficiary upon the death of the insured.",
+        "keywords": [
+            "death benefit",
+            "nominee",
+            "life insurance"
+        ],
+        "aliases": []
+    },
+    "Surrender Value": {
+        "description": "The amount payable if a policyholder terminates the policy before maturity.",
+        "keywords": [
+            "surrender",
+            "policy cancellation",
+            "cash value"
+        ],
+        "aliases": []
+    },
+    "Policyholder": {
+        "description": "The individual or organization that owns the insurance policy.",
+        "keywords": [
+            "policyholder",
+            "owner",
+            "insured"
+        ],
+        "aliases": []
+    },
+    "Nominee": {
+        "description": "The person nominated to receive insurance benefits after the insured's death.",
+        "keywords": [
+            "nominee",
+            "beneficiary",
+            "recipient"
+        ],
+        "aliases": []
+    },
+    "Rider": {
+        "description": "An optional add-on that provides additional benefits to an insurance policy.",
+        "keywords": [
+            "rider",
+            "add-on",
+            "extra coverage"
+        ],
+        "aliases": []
+    },
+    "Loss Assessment": {
+        "description": "The process of evaluating the extent of damage or financial loss after an incident.",
+        "keywords": [
+            "loss assessment",
+            "damage",
+            "inspection"
+        ],
+        "aliases": []
+    },
+    "Surveyor": {
+        "description": "A professional appointed to inspect and assess insurance claims.",
+        "keywords": [
+            "surveyor",
+            "inspector",
+            "claims assessment"
+        ],
+        "aliases": []
+    },
+    "Settlement": {
+        "description": "The process of paying or resolving an approved insurance claim.",
+        "keywords": [
+            "settlement",
+            "claim payment",
+            "compensation"
+        ],
+        "aliases": []
+    },
+    "Fraud": {
+        "description": "A dishonest act intended to obtain insurance benefits unlawfully.",
+        "keywords": [
+            "fraud",
+            "false claim",
+            "illegal"
+        ],
+        "aliases": []
+    },
+    "Natural Disaster": {
+        "description": "A catastrophic event such as an earthquake, flood, or cyclone that may be covered by insurance.",
+        "keywords": [
+            "natural disaster",
+            "earthquake",
+            "flood",
+            "cyclone"
+        ],
+        "aliases": []
+    },
+    "Property Damage": {
+        "description": "Physical damage to insured property caused by a covered event.",
+        "keywords": [
+            "property damage",
+            "loss",
+            "building"
+        ],
+        "aliases": []
+    },
+    "Personal Accident": {
+        "description": "Insurance coverage providing benefits for accidental injury, disability, or death.",
+        "keywords": [
+            "personal accident",
+            "injury",
+            "accident"
+        ],
+        "aliases": []
+    },
+    "Commercial Insurance": {
+        "description": "Insurance designed to protect businesses against financial losses.",
+        "keywords": [
+            "commercial",
+            "business",
+            "enterprise"
+        ],
+        "aliases": []
+    },
+    "Travel Insurance": {
+        "description": "Insurance that provides financial protection against travel-related risks such as medical emergencies, trip cancellations, or lost baggage.",
+        "keywords": [
+            "travel",
+            "trip",
+            "medical emergency",
+            "baggage"
+        ],
+        "aliases": []
+    },
+    "Insurance fraud": {
+        "description": "fraudulently claiming for benefits under an insurance policy or presenting false evidence in making claims, including intentionally causing an injury or sickness in order to claim for compensations",
+        "keywords": [
+            "insurance fraud",
+            "insurance",
+            "fraud"
+        ],
+        "aliases": []
+    },
+    "Insurance policy": {
+        "description": "the insurance policy schedule, schedule of benefits, general terms and conditions, general exclusions, insuring agreements, insurance policy attachments, insurance application form, special specifications, representations, insurance policy endorsements, and summary page of this insurance policy, which form an integral part of the insurance contract",
+        "keywords": [
+            "insurance policy",
+            "insurance",
+            "policy"
+        ],
+        "aliases": []
+    },
+    "Company": {
+        "description": "the entity issuing the insurance policy",
+        "keywords": [
+            "company"
+        ],
+        "aliases": []
+    },
+    "Dependent(s)": {
+        "description": "the insured’s dependent(s) named in the insurance policy schedule attachment, namely: 1) the insured’s spouse; 2) the legal child(ren) of the insured or of the insured’s spouse, or juvenile who is under the insured’s legal custody whose age is from 2 weeks up to 20 years old and who has not yet married",
+        "keywords": [
+            "dependent(s)",
+            "dependent",
+            "s"
+        ],
+        "aliases": []
+    },
+    "Covered person(s)": {
+        "description": "the insured and/or the dependent(s) of the insured who are named in this insurance policy schedule only",
+        "keywords": [
+            "covered person(s)",
+            "covered",
+            "person",
+            "s"
+        ],
+        "aliases": []
+    },
+    "Beneficiary(ies)": {
+        "description": "the person(s) named in this insurance policy to be the person(s) who is to receive the compensations",
+        "keywords": [
+            "beneficiary(ies)",
+            "beneficiary",
+            "ies"
+        ],
+        "aliases": []
+    },
+    "Injury": {
+        "description": "any bodily injury which is directly caused by an accident and occurs independently from other causes",
+        "keywords": [
+            "injury"
+        ],
+        "aliases": []
+    },
+    "Sickness": {
+        "description": "any symptom, abnormality, or disorder of the body resulting from a disease",
+        "keywords": [
+            "sickness"
+        ],
+        "aliases": []
+    },
+    "Physician": {
+        "description": "a person who graduated with a Doctor of Medicine degree and has a license to practice medicine in accordance with the local law of the locality where his/her services are provided",
+        "keywords": [
+            "physician"
+        ],
+        "aliases": []
+    },
+    "Dentist": {
+        "description": "a person who graduated with a Doctor of Dental Surgery degree and has a license to practice dentistry in accordance with the local law of the locality where his/her services are provided",
+        "keywords": [
+            "dentist"
+        ],
+        "aliases": []
+    },
+    "Dentistry/dental": {
+        "description": "any actions/acts performed to a human being in relation to diagnosis, treatment, or prevention, of dental diseases, dental organ diseases, diseases of organs in oral cavity, diseases of jaws and facial bones in connection with jaws, including any surgical actions and any actions/acts in the treatment, restoration, and rehabilitation of organs in oral cavity, jaws, facial bones in connection with jaws, and dental acts/dentistry in oral cavity",
+        "keywords": [
+            "dentistry/dental",
+            "dentistry",
+            "dental"
+        ],
+        "aliases": []
+    },
+    "Medical facility": {
+        "description": "any place arranged for practicing therapeutic arts or medical and public health professions in accordance with the applicable local law of the locality where the services are provided",
+        "keywords": [
+            "medical facility",
+            "medical",
+            "facility"
+        ],
+        "aliases": []
+    },
+    "Hospital": {
+        "description": "any medical facility which provides medical services, where overnight-stay patients can be accommodated or treatments of diseases or injuries can be provided throughout 24 hours a day, and which is registered to operate as “hospital” in accordance with the local law of the locality where the services are provided",
+        "keywords": [
+            "hospital"
+        ],
+        "aliases": []
+    },
+    "Clinic": {
+        "description": "any medical facility which provides medical services, where overnight-stay patients cannot be accommodated, and which is registered to operate as “clinic” in accordance with the local law of the locality where the services are provided",
+        "keywords": [
+            "clinic"
+        ],
+        "aliases": []
+    },
+    "Inpatient": {
+        "description": "a person who, due to a medical necessity, needs to be hospitalized in a hospital or medical facility for medical treatments of an injury or sickness for not less than 6 consecutive hours, who must be registered as an inpatient, including the case where a patient is admitted as an inpatient and subsequently dies before the 6-hour period has lapsed",
+        "keywords": [
+            "inpatient"
+        ],
+        "aliases": []
+    },
+    "Terrorism": {
+        "description": "any act of force or violence and/or intimidation by any person or group of persons, regardless of whether he/she/they act(s) alone or such action is taken on behalf of or in connection with any organization or government, with an aim for political, religious, indoctrination, or similar purposes, including to cause the government and/or the public or any part of the public to be in the state of panic or terror",
+        "keywords": [
+            "terrorism"
+        ],
+        "aliases": []
+    },
+    "Policy year": {
+        "description": "a period of one year from the date on which the insurance policy comes into force or from the policy year anniversary date in the following years",
+        "keywords": [
+            "policy year",
+            "policy",
+            "year"
+        ],
+        "aliases": []
+    },
+    "Premium in the": {
+        "description": "the premium in the renewal year in the event of renewal of policy year or renewal year in the event of reinstatement as approved by the Registrar",
+        "keywords": [
+            "premium in the",
+            "premium",
+            "in",
+            "the"
+        ],
+        "aliases": []
+    },
+    "This": {
+        "description": "facts, statements and information set out in this proposal that you must tell us about all facts and circumstances form, your risk presentation or in any other information which may be material to the risks covered by your Policy provided are complete and accurate",
+        "keywords": [
+            "this"
+        ],
+        "aliases": []
+    },
+    "Specialist": {
+        "description": "a physician who obtains a certificate or diploma to be a specialist in a physician particular field from the Medical Council or an equivalent institute under the local law of the locality where his/her services are provided, and who is not a physician in charge of the patient but provides consultation, care, or treatments along with the physician in charge of the patient",
+        "keywords": [
+            "specialist"
+        ],
+        "aliases": []
+    },
+    "Nurse": {
+        "description": "a person who is licensed to practice nursing in accordance with the local law of the locality where his/her services are provided",
+        "keywords": [
+            "nurse"
+        ],
+        "aliases": []
+    },
+    "Outpatient": {
+        "description": "a patient who receives a medical treatment for an injury or sickness at the outpatient department or in the emergency room of a hospital or medical facility with no medical necessity to be hospitalized as Inpatient",
+        "keywords": [
+            "outpatient"
+        ],
+        "aliases": []
+    },
+    "Medical": {
+        "description": "provision of medical and public health services for examination, diagnosis, treatment(s) treatment, mitigation, nursing, and rehabilitation, that are necessary for health and livelihood",
+        "keywords": [
+            "medical"
+        ],
+        "aliases": []
+    },
+    "Per confinement": {
+        "description": "each hospitalization as Inpatient for medical treatment(s), or each major surgery treatment without the hospitalization as inpatient (day surgery), in a hospital or medical facility",
+        "keywords": [
+            "per confinement",
+            "per",
+            "confinement"
+        ],
+        "aliases": []
+    },
+    "Maximum benefit": {
+        "description": "the maximum amount of benefit per policy year which can be categorized per policy year into 2 cases: (1) For inpatient cases, medical expenses will commence to be calculated from the first day of any hospitalization for treatments as inpatient in that policy year, regardless of whether such hospitalization ends in the same policy year or not",
+        "keywords": [
+            "maximum benefit",
+            "maximum",
+            "benefit"
+        ],
+        "aliases": []
+    },
+    "Medical standards": {
+        "description": "the rules or guidelines for medical treatments of injuries or sicknesses according to academic principles that are in line with the local standards of the locality where the services are provided as follows: (1) relevant professional standards and regulations; (2) medical facility standards; (3) medication and medical device/equipment standards; (4) non-discrimination patient care principles",
+        "keywords": [
+            "medical standards",
+            "medical",
+            "standards"
+        ],
+        "aliases": []
+    },
+    "Medical necessity": {
+        "description": "the necessity of medical services or other services of a hospital or medical facility for diagnosis and treatment of an injury or sickness, subject to the following conditions: (1) It must be consistent with the diagnosis and the treatment according to the condition of the covered person’s injury or sickness; (2) It must be in consistent with the medical standards; (3) It must not be for the sole convenience of a covered person or his/ her family, or of the medical treatment service provider",
+        "keywords": [
+            "medical necessity",
+            "medical",
+            "necessity"
+        ],
+        "aliases": []
+    },
+    "General rate (of": {
+        "description": "a rate of medical service fee or medical expense of the hospital or medical service charge) facility where a covered person receives medical treatments that is not higher than the rate of other patients who receive medical treatments in that hospital or medical facility at the same time",
+        "keywords": [
+            "general rate (of",
+            "general",
+            "rate",
+            "of"
+        ],
+        "aliases": []
+    },
+    "Alternative": {
+        "description": "medical treatments of injuries or sicknesses by a local licensed health medicine practitioner of traditional Thai medicine, traditional Chinese medicine, or chiropractic, or other practices which are not conventional medicine",
+        "keywords": [
+            "alternative"
+        ],
+        "aliases": []
+    },
+    "Major surgery": {
+        "description": "any surgical procedure in which a resection through a wall or cavity of body is performed with the use of general anesthesia or regional anesthesia being required",
+        "keywords": [
+            "major surgery",
+            "major",
+            "surgery"
+        ],
+        "aliases": []
+    },
+    "Minor surgery": {
+        "description": "any surgical procedure in which only skin, subcutaneous layer, or epithelial layer is resected with the use of topical/local anesthesia",
+        "keywords": [
+            "minor surgery",
+            "minor",
+            "surgery"
+        ],
+        "aliases": []
+    },
+    "Day surgery": {
+        "description": "a major surgery, surgical replacement procedure or use of special therapeutic tool that can replace major surgery, which does not require a patient to be hospitalized for treatments in a hospital or medical facility as an inpatient",
+        "keywords": [
+            "day surgery",
+            "day",
+            "surgery"
+        ],
+        "aliases": []
+    },
+    "Any loss(es) or": {
+        "description": "any bodily injury(ies) of a covered person due to an accident resulting in damage(s) the covered person's death, dismemberment, loss of sight, disability, or injury(ies)",
+        "keywords": [
+            "any loss(es) or",
+            "any",
+            "loss",
+            "es",
+            "or"
+        ],
+        "aliases": []
+    },
+    "Dismemberment": {
+        "description": "being cut off/amputated from the wrist or the ankle including the total loss of use of that organ/limb which, according to a clear medical indication, will never be functional again",
+        "keywords": [
+            "dismemberment"
+        ],
+        "aliases": []
+    },
+    "Loss of sight": {
+        "description": "complete blindness which is permanently incurable",
+        "keywords": [
+            "loss of sight",
+            "loss",
+            "of",
+            "sight"
+        ],
+        "aliases": []
+    },
+    "Total permanent": {
+        "description": "disability to the extent of being permanently and completely unable to disability perform any duties in one’s own occupation/career as usual and in other occupations/careers, or being unable to perform 3 or more daily routines on one’s own self",
+        "keywords": [
+            "total permanent",
+            "total",
+            "permanent"
+        ],
+        "aliases": []
+    },
+    "Permanent Partial": {
+        "description": "disability to the extent of being permanently unable to perform any duties Disability in one’s own occupation/career as usual, but able to perform other works/ jobs for wages",
+        "keywords": [
+            "permanent partial",
+            "permanent",
+            "partial"
+        ],
+        "aliases": []
+    },
+    "Employees, Fraud": {
+        "description": "depository institution, investment firm, investment any dishonest, fraudulent or malicious acts punishable advisory, investment manager, investment fund, mutual under the criminal laws of the country where this fund, stockbroker, mortgage broker, credit institution, act was committed, whether committed alone or in asset manager, private equity or venture capital company, collusion with others, with the intention to cause a Loss insurance company, reinsurance company or real estate to the Insured and/or to obtain an improper financial investment trust",
+        "keywords": [
+            "employees, fraud",
+            "employees",
+            "fraud"
+        ],
+        "aliases": []
+    },
+    "Pollutants (for the purpose of Cover E only)": {
+        "description": "the cost of repurchasing the Data or Computer Any substance, solid, liquid, gaseous, biological, Programmes from a Third Party, if less than the cost of radiological or thermal irritant, toxic or hazardous transcription or copying",
+        "keywords": [
+            "pollutants (for the purpose of cover e only)",
+            "pollutants",
+            "for",
+            "the",
+            "purpose",
+            "of",
+            "cover",
+            "e",
+            "only"
+        ],
+        "aliases": []
+    },
+    "Self Report ascertainable through proper": {
+        "description": "by another person who The actual report to any governmental, regulatory or can obtain economic advantage from its judicial agency by any Insured Person or Company disclosure or use",
+        "keywords": [
+            "self report ascertainable through proper",
+            "self",
+            "report",
+            "ascertainable",
+            "through",
+            "proper"
+        ],
+        "aliases": []
+    },
+    "Funds Extension, theft also": {
+        "description": "the felonious taking War or removing of Funds, as a direct result of targeted War, any invasion, act of foreign enemy, hostile operations intrusion into or the unauthorised access of the Insured’s (whether war has been declared or not), civil war, rebellion, Computer System, with the intent to deprive the rightful revolution, insurrection, riot or civil commotion assuming owner of it",
+        "keywords": [
+            "funds extension, theft also",
+            "funds",
+            "extension",
+            "theft",
+            "also"
+        ],
+        "aliases": []
+    },
+    "If 'Yes', describe by what": {
+        "description": "c Who approves transfers and is dual authorisation required? Yes No If 'Yes', for over what amount? d Are the details of such transactions entered by someone who is not permitted to authorise transfers? Yes No e How many persons are required to release an electronic funds transfer instruction? f Do the terminals used feature a lock-out mechanism that denies access after a certain number of failed access attempts and logs the incident on an audit or supervisory report? Yes No g Are all transactions audited? Yes No If 'Yes', by whom and how often? Allianz Insurance plc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority",
+        "keywords": [
+            "if 'yes', describe by what",
+            "if",
+            "yes",
+            "describe",
+            "by",
+            "what"
+        ],
+        "aliases": []
+    },
+    "In this regard, 'perform daily routines'": {
+        "description": "the abilities to perform 6 types of main daily tasks of normal people, which is the medical criteria for evaluating the patients who are unable to perform such tasks",
+        "keywords": [
+            "in this regard, 'perform daily routines'",
+            "in",
+            "this",
+            "regard",
+            "perform",
+            "daily",
+            "routines"
+        ],
+        "aliases": []
+    },
+    "Kidnap Consultant": {
+        "description": "any person or entity appointed by the Company with the consent of the Insurer to advise and respond to a Kidnap Event",
+        "keywords": [
+            "kidnap consultant",
+            "kidnap",
+            "consultant"
+        ],
+        "aliases": []
+    },
+    "Kidnap Response Costs": {
+        "description": "the reasonable fees, costs and expenses of the Kidnap Consultant incurred by the Company in response to any Kidnap Event anywhere in the world (excluding Colombia, Iraq, Nigeria, and the Philippines)",
+        "keywords": [
+            "kidnap response costs",
+            "kidnap",
+            "response",
+            "costs"
+        ],
+        "aliases": []
+    },
+    "Third Party, Reconstitution Costs": {
+        "description": "the cost of repurchasing the Data or Computer Programmes from a Third Party, if less than the cost of transcription or copying",
+        "keywords": [
+            "third party, reconstitution costs",
+            "third",
+            "party",
+            "reconstitution",
+            "costs"
+        ],
+        "aliases": []
+    },
+    "Any": {
+        "description": "of transportation whether by land, sea or air Damage Physical loss of or damage to Goods Domestic Transits Any transit commencing and terminating within Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands Employee 1 any person under a contract of service or apprenticeship with the Insured 2 any of the following persons whilst working for the Insured in connection with the Business a any labour master or labour only subcontractor or person supplied by him b any self-employed person providing labour only c any trainee or person undergoing work experience d any voluntary helper e any person who is borrowed by or hired to the Insured Event Any one occurrence or series of occurrences arising from one originating cause Excess First part of each and every claim, for which the Insured is responsible, specified in the Schedule Exports Any Insured Transit commencing within and terminating outside Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands Geographical Limits Shipment of Goods to or from anywhere in the world to or from or within Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands as specified in the Schedule Goods The subject matter insured as described in the Schedule • which are owned by the Insured and/or • for which the Insured: a is responsible for and/or b have an insurable interest under the terms of sale and/or c have received instructions to insure prior to any Damage occurring Hi-Tech Equipment Laptops, tablets, MP3 players, games, satnav's, mobile phones, smartphones, e-readers, cameras and similar consumer electronic devices, microchips, microprocessors, memory chips, central processing units or other components of a similar nature when not contained within fully assembled units Imports Any Insured Transit commencing outside of and terminating within Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands Insured The insured named and shown in the Schedule Insured Transits Any transit commencing during the Period of Insurance excluding shipments where the Insurer would be prohibited from providing such cover under any sanctions or similar legislation, regulation or restrictions Insurer Allianz Insurance plc ISM Code The International Management Code for the Safe Operation of Ships and Pollution Prevention Complete Cargo Policy Wording 6 Vehicle Any motor vehicle, motor vehicle and attached trailer or detached trailer owned or operated by the Insured and/or any Employee War Risks Any: • war, civil war, revolution, rebellion, insurrection or civil strife arising therefrom • hostile act by or against a belligerent power • capture, seizure, arrest, restraint or detainment arising from the above • derelict mines, torpedoes, bombs or other derelict weapons of war ISPS Code The International Ship and Port Facility Security Code Limit of Liability The maximum amount the Insurer will pay to the Insured for any claim or series of claims arising from one Event Period of Insurance The period from the Effective Date to the Renewal Date or End Date as shown in the Schedule Policy The contract of insurance made up of the documents as described in the Introduction Postal Sendings Goods despatched by package or parcel by non-courier postal services Process Any process of production, manufacture, fabrication, assembly or dis- assembly Schedule Part of this Policy that details information forming part of this contract and that shows the operative Sections of this Policy Section/Sections Parts of this Policy that detail the insurance cover provided for each individual section of this Policy Storage Goods stored outside their ordinary course of transit Terrorism An act, including but not limited to the use of force or violence and/or the threat thereof, of any person or group(s) of persons whether acting alone or on behalf of or in connection with any organisation(s) or government(s), committed for political, religious, ideological or similar purposes including the intention to influence any government and/or put the public or any section of the public in fear Unattended Where neither the Insured nor any Employee have the Goods (or Conveyance on which the Goods are loaded) under constant observation and at the same time have a reasonable prospect of preventing unauthorised interference with the Goods and/or Conveyance 7 Complete Cargo Policy Wording ii treat the Policy as if it had included such additional terms (other than those requiring payment of premium) as the Insurer would have imposed had the Insured made a fair presentation",
+        "keywords": [
+            "any"
+        ],
+        "aliases": []
+    }
+}

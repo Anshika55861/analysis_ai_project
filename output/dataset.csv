@@ -1,0 +1,8 @@
+File Name,Category,Pages,Policy Name,Insurance Company Name,Product Name,Policy Type,Effective Date,Document Version,Policy Name Confidence,Insurance Company Name Confidence
+claim.pdf,claim,14,Fidelity Guarantee,ALLIANZ.CO.UK,Fidelity Guarantee,,,,0.8,0.5
+claim1.pdf,claim,4,China Region Insurance,AXA China Region Insurance Company (Hong Kong) Limited,China Region Insurance,Property Insurance,,CF-ALL-2511,0.65,0.85
+claim2.pdf,claim,6,China Region Insurance,AXA China Region Insurance Company (Hong Kong) Limited,China Region Insurance,,,CF-PA-2511,0.65,0.85
+policy1.pdf,policy,54,Beyond Care Plan,the Thai version of the Insurance Policy shall prevail.,Beyond Care Plan,,,BeyondCare-PW-EN-01,0.65,0.5
+policy2.pdf,policy,52,Complete Accident and Health policy wording,Allianz Insurance plc,Complete Accident and Health policy wording,Accident and Health,,,0.8,0.85
+policy3.pdf,policy,52,Complete Directors and Officers policy wording,ALLIANZ.CO.UK,Complete Directors and Officers policy wording,Directors and Officers,,,0.8,0.5
+policy4.pdf,policy,28,Complete Cargo,Allianz Insurance plc,Complete Cargo,Cargo,,,0.8,0.85

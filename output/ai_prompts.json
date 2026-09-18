@@ -1,0 +1,34 @@
+[
+    {
+        "task": "Policy Summary",
+        "prompt": "Summarise the following insurance policy into key coverages, exclusions and important dates."
+    },
+    {
+        "task": "Policy Comparison",
+        "prompt": "Compare policy A and policy B across coverage limits, deductibles, key exclusions, and territorial limits in tabular format."
+    },
+    {
+        "task": "Coverage Extraction",
+        "prompt": "Extract all active coverage sections, sub-limits, deductibles, and indemnity limits from the provided policy schedule."
+    },
+    {
+        "task": "Clause Analysis",
+        "prompt": "Analyze the given clause text and classify whether it constitutes a Coverage grant, Exclusion, Condition, Definition, Extension, or Limitation."
+    },
+    {
+        "task": "Risk Analysis",
+        "prompt": "Identify all operational, casualty, property, and cyber risks mentioned in the policy wording and assess related coverage adequacy."
+    },
+    {
+        "task": "Gap Analysis",
+        "prompt": "Evaluate the customer's business profile and identify missing essential insurance covers compared against commercial standard benchmarks."
+    },
+    {
+        "task": "Broker Recommendation",
+        "prompt": "Generate clear, professional advisory points for an insurance broker highlighting critical coverage gaps, deductible optimizations, and recommended policy endorsements."
+    },
+    {
+        "task": "Claim Form Extraction",
+        "prompt": "Extract the incident date, loss description, estimated damages, claimant name, and policy number from the filled claim form."
+    }
+]

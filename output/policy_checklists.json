@@ -1,0 +1,46 @@
+{
+    "Commercial Policy": [
+        "Policy Number",
+        "Policy Period",
+        "Insured Business Name and Trading Address",
+        "Public Liability Limit",
+        "Property Damage Replacement Value",
+        "Business Interruption Indemnity Period",
+        "Major Exclusions (War, Terrorism, Nuclear)",
+        "Excess / Deductible Amounts",
+        "Premium and Government Levies",
+        "Claim Notification Timeframe"
+    ],
+    "Management Liability Policy": [
+        "Policy Number",
+        "Policy Period",
+        "Insured Company & Subsidiaries",
+        "Directors and Officers Liability Limit",
+        "Corporate Liability Cover",
+        "Employment Practices Liability Limit",
+        "Statutory Liability & Fines Provision",
+        "Crime & Employee Dishonesty Cover",
+        "Advancement of Defence Costs",
+        "Retroactive Date & Territorial Limits"
+    ],
+    "Property and Casualty Policy": [
+        "Policy Number",
+        "Policyholder Identity",
+        "Sum Insured / Material Damage Limits",
+        "Public & Products Liability Coverage",
+        "Specific Perils (Fire, Storm, Flood, Earthquake)",
+        "Burglary and Theft Coverage",
+        "Subrogation and Waiver Rights",
+        "Cancellation and Notice Terms"
+    ],
+    "Claim Review Checklist": [
+        "Claimant Identity and Policy Number",
+        "Date and Time of Loss Incident",
+        "Location and Nature of Incident",
+        "Estimated Damage / Loss Claimed",
+        "Third-Party Involvement Details",
+        "Police / Emergency Services Report Reference",
+        "Supporting Invoices / Proof of Ownership",
+        "Declaration and Signature Verification"
+    ]
+}

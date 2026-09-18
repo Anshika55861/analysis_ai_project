@@ -1,0 +1,683 @@
+[
+    {
+        "document": "claim.pdf",
+        "document_type": "Claim Form",
+        "metadata": {},
+        "tags": [
+            "Claim Form",
+            "Claims Operations",
+            "Incident Reporting",
+            "Public Liability"
+        ],
+        "keywords": [
+            "Claim Form",
+            "Theft",
+            "Excess",
+            "Premium",
+            "Third Party",
+            "Allianz"
+        ],
+        "summary": {
+            "policy_type": "Fidelity Guarantee Insurance Proposal",
+            "insurer": "Allianz Insurance plc",
+            "target_insured": "Commercial Employers & Business Organisations",
+            "policy_period": "Annual Period (commencing from underwriter acceptance)",
+            "premium": "Determined by staff category, wage roll, turnover, and internal audit controls",
+            "limits_and_excess": "£250,000 any one loss / aggregate guarantee limit; Voluntary excess selectable",
+            "main_coverages": [
+                "Direct financial loss caused by employee theft or fraud",
+                "Dishonesty of managers, salesmen, drivers, and accounts staff",
+                "Electronic Funds Transfer (EFT) fraud and manipulation",
+                "Auditor & investigation expenses incurred to establish loss"
+            ],
+            "major_exclusions": [
+                "Unexplained inventory shortages or stock discrepancy",
+                "Losses occurring prior to retroactive date or undiscovered within limit",
+                "Employees with known prior dishonest records without underwriter consent",
+                "Consequential commercial loss, loss of profit, or indirect damages"
+            ]
+        },
+        "coverages": [],
+        "coverage_gaps": [],
+        "recommendations": [],
+        "associated_risks": [
+            "Third-Party Bodily Injury"
+        ],
+        "total_sections": 5,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    },
+    {
+        "document": "claim1.pdf",
+        "document_type": "Claim Form",
+        "metadata": {},
+        "tags": [
+            "Claim Form",
+            "Claims Operations",
+            "Incident Reporting",
+            "Property Damage",
+            "Public Liability"
+        ],
+        "keywords": [
+            "Commercial",
+            "Corporate",
+            "Claim Form",
+            "Incident Report",
+            "Third Party",
+            "Investigation",
+            "Policyholder",
+            "Insured Person",
+            "Jurisdiction",
+            "Regulatory Authority"
+        ],
+        "summary": {},
+        "coverages": [],
+        "coverage_gaps": [],
+        "recommendations": [],
+        "associated_risks": [
+            "Fire",
+            "Theft",
+            "Flood",
+            "Equipment Breakdown",
+            "Storm Damage",
+            "Third-Party Bodily Injury"
+        ],
+        "total_sections": 15,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    },
+    {
+        "document": "claim2.pdf",
+        "document_type": "Claim Form",
+        "metadata": {},
+        "tags": [
+            "Claim Form",
+            "Claims Operations",
+            "Incident Reporting",
+            "Public Liability"
+        ],
+        "keywords": [
+            "Commercial",
+            "Corporate",
+            "Claim Form",
+            "Third Party",
+            "Investigation",
+            "Policyholder",
+            "Insured Person",
+            "Jurisdiction",
+            "Regulatory Authority"
+        ],
+        "summary": {},
+        "coverages": [],
+        "coverage_gaps": [],
+        "recommendations": [],
+        "associated_risks": [
+            "Third-Party Bodily Injury"
+        ],
+        "total_sections": 20,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    },
+    {
+        "document": "policy1.pdf",
+        "document_type": "Policy Wording",
+        "metadata": {
+            "document": "policy1.pdf",
+            "policy_number": "BeyondCare-PW-EN-01",
+            "policy_holder": "Individual Insured & Designated Family Members",
+            "insurer": "Allianz Ayudhya General Insurance Public Company Limited",
+            "broker": "Appointed Insurance Broker / Adviser",
+            "policy_type": "Special Personal Health and Accident Insurance",
+            "start_date": "01 Jan 2026",
+            "expiry_date": "01 Jan 2027",
+            "premium": "Variable according to plan level (THB 15,000 - 45,000)",
+            "currency": "THB"
+        },
+        "tags": [
+            "Allianz",
+            "Commercial"
+        ],
+        "keywords": [
+            "Excess",
+            "Deductible",
+            "Exclusions",
+            "Reinstatement",
+            "Arbitration",
+            "Cancellation",
+            "Premium",
+            "Commercial",
+            "Worldwide",
+            "Claim Form",
+            "Investigation",
+            "Bodily Injury",
+            "Allianz",
+            "General Conditions"
+        ],
+        "summary": {
+            "policy_type": "Special Personal Health and Accident Insurance (Beyond Care Plan)",
+            "insurer": "Allianz Ayudhya General Insurance Public Company Limited",
+            "target_insured": "Individual Insured & Designated Family Members",
+            "policy_period": "12 Months (Annual Policy Term with Renewable Options)",
+            "premium": "Variable according to age, plan level, and chosen voluntary deductible tier (THB 15,000 - 45,000)",
+            "limits_and_excess": "THB 5,000,000 annual maximum benefit; Voluntary deductible options (THB 0 / 20,000 / 50,000)",
+            "main_coverages": [
+                "Inpatient Hospitalization & Room Expense",
+                "Surgical and Medical Treatment Procedures",
+                "Personal Accident & Accidental Death Benefit",
+                "Emergency Medical Evacuation & Repatriation",
+                "Day Surgery & Emergency Outpatient Accident Care"
+            ],
+            "major_exclusions": [
+                "Pre-existing medical conditions not declared",
+                "War, Invasion, and Terrorism Acts",
+                "Intoxication with alcohol level exceeding 150 mg% or drug abuse",
+                "Self-inflicted injuries, suicide attempts, and hazardous sports",
+                "Cosmetic procedures, fertility treatments, and general health checkups"
+            ]
+        },
+        "coverages": [
+            {
+                "name": "Personal Accident",
+                "included": true,
+                "limit": "THB 1,000,000"
+            },
+            {
+                "name": "Medical Expenses & Inpatient Care",
+                "included": true,
+                "limit": "THB 5,000,000 per year"
+            },
+            {
+                "name": "Directors and Officers Liability",
+                "included": false
+            },
+            {
+                "name": "Cargo & Goods in Transit",
+                "included": false
+            },
+            {
+                "name": "Public Liability",
+                "included": false
+            },
+            {
+                "name": "Property Damage",
+                "included": false
+            },
+            {
+                "name": "Fire",
+                "included": false
+            },
+            {
+                "name": "Flood",
+                "included": false
+            },
+            {
+                "name": "Theft",
+                "included": false
+            },
+            {
+                "name": "Cyber Insurance",
+                "included": false
+            },
+            {
+                "name": "Business Interruption",
+                "included": false
+            },
+            {
+                "name": "Professional Indemnity",
+                "included": false
+            }
+        ],
+        "coverage_gaps": [
+            "Cyber Insurance",
+            "Directors and Officers Liability",
+            "Employment Practices Liability",
+            "Crime Cover",
+            "Flood Cover"
+        ],
+        "recommendations": [
+            "Consider adding standalone Cyber Insurance to protect against ransomware and third-party data breach liabilities.",
+            "Review Business Interruption indemnity period to ensure coverage extends to at least 24 months for complete supply chain restoration.",
+            "Consider increasing Public Liability limits from £5,000,000 to £10,000,000 based on retail footfall growth.",
+            "Evaluate Flood Cover extension if premises are located in high-risk catchment zones."
+        ],
+        "associated_risks": [
+            "Fire",
+            "Theft"
+        ],
+        "total_sections": 18,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    },
+    {
+        "document": "policy2.pdf",
+        "document_type": "Policy Wording",
+        "metadata": {
+            "document": "policy2.pdf",
+            "policy_number": "ALZ-POLICY2",
+            "policy_holder": "Individual Insured & Designated Family Members",
+            "insurer": "Allianz Insurance plc",
+            "broker": "Appointed Insurance Broker / Adviser",
+            "policy_type": "Group Accident and Health Insurance",
+            "start_date": "01 Apr 2026",
+            "expiry_date": "01 Apr 2027",
+            "premium": "As stated in Policy Schedule",
+            "currency": "GBP"
+        },
+        "tags": [
+            "Allianz",
+            "Commercial",
+            "Corporate Governance",
+            "Directors and Officers",
+            "Management Liability"
+        ],
+        "keywords": [
+            "Cyber",
+            "Theft",
+            "Limit of Indemnity",
+            "Excess",
+            "Deductible",
+            "Territorial Limits",
+            "Exclusions",
+            "Indemnity",
+            "Reinstatement",
+            "Arbitration",
+            "Cancellation",
+            "Premium",
+            "United Kingdom",
+            "Claim Form",
+            "Third Party",
+            "Accidental Damage",
+            "Bodily Injury",
+            "Allianz",
+            "Policyholder",
+            "Insured Person",
+            "Commercial Policy"
+        ],
+        "summary": {
+            "policy_type": "Complete Accident and Health Policy",
+            "insurer": "Allianz Insurance plc",
+            "target_insured": "Corporate Employers, Employees, and Business Travellers",
+            "policy_period": "12 Months (Annual Corporate Policy Period)",
+            "premium": "£8,450 estimated annual premium (Adjustable on declared wage roll and staff headcount)",
+            "limits_and_excess": "£2,000,000 Overseas Emergency Medical; £25,000 Personal Accident Capital; £50-£250 excess per travel claim",
+            "main_coverages": [
+                "Personal Accident (Death, Loss of Limbs, Permanent Total Disablement)",
+                "Overseas Emergency Medical, Hospitalization & Repatriation",
+                "Business Travel Disruption (Cancellation, Delay, Missed Departure)",
+                "Baggage, Personal Effects & Business Equipment Loss",
+                "Kidnap, Ransom, and Crisis Containment Protection"
+            ],
+            "major_exclusions": [
+                "War and Nuclear Contamination Risks",
+                "Active service in Armed Forces",
+                "Pre-existing medical conditions unless declared and accepted",
+                "Suicide, intentional self-injury, and illegal activities",
+                "Travel undertaken against medical advice or for medical treatment"
+            ]
+        },
+        "coverages": [
+            {
+                "name": "Personal Accident",
+                "included": true,
+                "limit": "£25,000"
+            },
+            {
+                "name": "Medical Expenses & Inpatient Care",
+                "included": true,
+                "limit": "£2,000,000 per Insured Person"
+            },
+            {
+                "name": "Directors and Officers Liability",
+                "included": false
+            },
+            {
+                "name": "Cargo & Goods in Transit",
+                "included": false
+            },
+            {
+                "name": "Public Liability",
+                "included": false
+            },
+            {
+                "name": "Property Damage",
+                "included": false
+            },
+            {
+                "name": "Fire",
+                "included": false
+            },
+            {
+                "name": "Flood",
+                "included": false
+            },
+            {
+                "name": "Theft",
+                "included": false
+            },
+            {
+                "name": "Cyber Insurance",
+                "included": false
+            },
+            {
+                "name": "Business Interruption",
+                "included": false
+            },
+            {
+                "name": "Professional Indemnity",
+                "included": false
+            }
+        ],
+        "coverage_gaps": [
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
+            "Cyber Insurance",
+            "Flood Cover",
+            "Theft"
+        ],
+        "recommendations": [
+            "Consider adding Commercial Property and Public Liability policies as this policy strictly covers executive liability.",
+            "Verify Corporate Legal Liability sub-limits against recent regulatory investigation costs.",
+            "Review Employment Practices Liability (EPL) deductible options for wrongful termination claims.",
+            "Ensure Cyber Extortion and Social Engineering endorsements are integrated into the Crime section."
+        ],
+        "associated_risks": [
+            "Fire",
+            "Theft",
+            "Management Misconduct & Regulatory Actions"
+        ],
+        "total_sections": 71,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    },
+    {
+        "document": "policy3.pdf",
+        "document_type": "Policy Wording",
+        "metadata": {
+            "document": "policy3.pdf",
+            "policy_number": "from",
+            "policy_holder": "Directors, Officers, and Company named in Schedule",
+            "insurer": "Allianz Insurance plc",
+            "broker": "Appointed Insurance Broker / Adviser",
+            "policy_type": "Directors and Officers Management Liability",
+            "start_date": "01 Jul 2026",
+            "expiry_date": "01 Jul 2027",
+            "premium": "As stated in Policy Schedule",
+            "currency": "GBP"
+        },
+        "tags": [
+            "Allianz",
+            "Commercial",
+            "Corporate Governance",
+            "Directors and Officers",
+            "Management Liability"
+        ],
+        "keywords": [
+            "Property Damage",
+            "Management Liability",
+            "Directors and Officers",
+            "Cyber",
+            "Fire",
+            "Theft",
+            "Flood",
+            "Employers Liability",
+            "Limit of Indemnity",
+            "Excess",
+            "Exclusions",
+            "Subrogation",
+            "Indemnity",
+            "Claim Notification",
+            "Arbitration",
+            "Cancellation",
+            "Premium",
+            "Commercial",
+            "Corporate",
+            "United Kingdom"
+        ],
+        "summary": {
+            "policy_type": "Complete Directors and Officers Liability Policy",
+            "insurer": "Allianz Insurance plc",
+            "target_insured": "Past, Present, and Future Directors, Officers, and Corporate Entity",
+            "policy_period": "12 Months (Claims Made Basis with Extended Reporting Period Options)",
+            "premium": "£12,500 standard minimum annual retained premium",
+            "limits_and_excess": "£5,000,000 aggregate policy limit; Nil excess for Individual D&O, £2,500-£10,000 for Corporate Reimbursement",
+            "main_coverages": [
+                "Directors and Officers Liability (Side A Coverage)",
+                "Company Reimbursement Coverage (Side B Coverage)",
+                "Corporate Legal Liability (Side C Coverage)",
+                "Employment Practices Liability (EPL Protection)",
+                "Regulatory & Official Investigation Defence Costs"
+            ],
+            "major_exclusions": [
+                "Deliberate fraud, dishonesty, or willful violation established by final judgment",
+                "Prior pending litigation or claims notified prior to retroactive date",
+                "Bodily Injury and Property Damage liabilities",
+                "Environmental pollution and contamination claims (except defence costs extension)",
+                "Fines, penalties, or punitive damages where uninsurable by law"
+            ]
+        },
+        "coverages": [
+            {
+                "name": "Personal Accident",
+                "included": false
+            },
+            {
+                "name": "Medical Expenses & Inpatient Care",
+                "included": false
+            },
+            {
+                "name": "Directors and Officers Liability",
+                "included": true,
+                "limit": "£5,000,000 aggregate limit"
+            },
+            {
+                "name": "Cargo & Goods in Transit",
+                "included": false
+            },
+            {
+                "name": "Public Liability",
+                "included": false
+            },
+            {
+                "name": "Property Damage",
+                "included": false
+            },
+            {
+                "name": "Fire",
+                "included": false
+            },
+            {
+                "name": "Flood",
+                "included": false
+            },
+            {
+                "name": "Theft",
+                "included": false
+            },
+            {
+                "name": "Cyber Insurance",
+                "included": false
+            },
+            {
+                "name": "Business Interruption",
+                "included": false
+            },
+            {
+                "name": "Professional Indemnity",
+                "included": false
+            }
+        ],
+        "coverage_gaps": [
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
+            "Cyber Insurance",
+            "Flood Cover",
+            "Theft"
+        ],
+        "recommendations": [
+            "Maintain continuity of Retroactive Dates across all renewal schedules to prevent uncovered prior acts.",
+            "Consider increasing Company Reimbursement limit for directors facing multi-jurisdictional litigation.",
+            "Review Statutory Fines coverage sub-limit following latest environmental and workplace safety regulations."
+        ],
+        "associated_risks": [
+            "Fire",
+            "Theft",
+            "Management Misconduct & Regulatory Actions"
+        ],
+        "total_sections": 66,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    },
+    {
+        "document": "policy4.pdf",
+        "document_type": "Policy Wording",
+        "metadata": {
+            "document": "policy4.pdf",
+            "policy_number": "ALZ-POLICY4",
+            "policy_holder": "Cargo Owner / Shipper named in Schedule",
+            "insurer": "Allianz Insurance plc",
+            "broker": "Appointed Insurance Broker / Adviser",
+            "policy_type": "Marine Cargo and Transit Insurance",
+            "start_date": "01 Oct 2026",
+            "expiry_date": "01 Oct 2027",
+            "premium": "As stated in Policy Schedule",
+            "currency": "GBP"
+        },
+        "tags": [
+            "Allianz",
+            "Commercial",
+            "Corporate Governance",
+            "Directors and Officers",
+            "Management Liability"
+        ],
+        "keywords": [
+            "Cyber",
+            "Fire",
+            "Theft",
+            "Employers Liability",
+            "Excess",
+            "Exclusions",
+            "Subrogation",
+            "Indemnity",
+            "Cancellation",
+            "Premium",
+            "Commercial",
+            "Manufacturing",
+            "Corporate",
+            "United Kingdom",
+            "Claim Form",
+            "Loss Adjuster",
+            "Third Party",
+            "Allianz",
+            "Policyholder",
+            "Jurisdiction"
+        ],
+        "summary": {
+            "policy_type": "Complete Cargo and Transit Policy",
+            "insurer": "Allianz Insurance plc",
+            "target_insured": "Cargo Owners, Shippers, Freight Forwarders, and Logistics Operators",
+            "policy_period": "12 Months (Open Cover with Periodic Transit Declarations)",
+            "premium": "£18,200 adjustable based on annual declarations and sendings turnover",
+            "limits_and_excess": "£1,000,000 any one conveyance / vessel; £500-£1,000 standard deductible per transit loss",
+            "main_coverages": [
+                "All Risks of physical loss or damage in transit (Institute Cargo Clauses A)",
+                "Fire, Explosion, Vessel Stranding, Grounding, or Sinking",
+                "Overturning or Derailment of Land Conveyance",
+                "Theft, Hijacking, and Piracy during transit",
+                "General Average and Salvage Contributions"
+            ],
+            "major_exclusions": [
+                "Loss caused by inherent vice or nature of the subject-matter",
+                "Insufficiency or unsuitability of packing or preparation",
+                "Ordinary leakage, ordinary wear and tear, or loss in weight",
+                "Insolvency or financial default of vessel owners or charterers",
+                "Nuclear weapon materials, radioactive contamination, and unseaworthiness"
+            ]
+        },
+        "coverages": [
+            {
+                "name": "Personal Accident",
+                "included": false
+            },
+            {
+                "name": "Medical Expenses & Inpatient Care",
+                "included": false
+            },
+            {
+                "name": "Directors and Officers Liability",
+                "included": false
+            },
+            {
+                "name": "Cargo & Goods in Transit",
+                "included": true,
+                "limit": "£1,000,000 any one conveyance"
+            },
+            {
+                "name": "Public Liability",
+                "included": false
+            },
+            {
+                "name": "Property Damage",
+                "included": false
+            },
+            {
+                "name": "Fire",
+                "included": false
+            },
+            {
+                "name": "Flood",
+                "included": false
+            },
+            {
+                "name": "Theft",
+                "included": false
+            },
+            {
+                "name": "Cyber Insurance",
+                "included": false
+            },
+            {
+                "name": "Business Interruption",
+                "included": false
+            },
+            {
+                "name": "Professional Indemnity",
+                "included": false
+            }
+        ],
+        "coverage_gaps": [
+            "Cyber Insurance",
+            "Environmental Liability",
+            "Professional Indemnity",
+            "Supply Chain Interruption"
+        ],
+        "recommendations": [
+            "Ensure local currency exchange fluctuations (THB / GBP / USD) are accounted for in cross-border asset schedules.",
+            "Review Territorial Limits if overseas subsidiary operations expand outside the ASEAN region.",
+            "Consider adding supply chain contingency cover for manufacturing equipment downtime."
+        ],
+        "associated_risks": [
+            "Fire",
+            "Theft",
+            "Management Misconduct & Regulatory Actions"
+        ],
+        "total_sections": 51,
+        "total_clauses": 0,
+        "total_qa_pairs": 0,
+        "questions": [],
+        "sample_clauses": []
+    }
+]

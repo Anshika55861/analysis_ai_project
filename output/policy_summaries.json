@@ -1,0 +1,125 @@
+[
+  {
+    "document": "policy1.pdf",
+    "summary": {
+      "policy_type": "Special Personal Health and Accident Insurance (Beyond Care Plan)",
+      "insurer": "Allianz Ayudhya General Insurance Public Company Limited",
+      "target_insured": "Individual Insured & Designated Family Members",
+      "policy_period": "12 Months (Annual Policy Term with Renewable Options)",
+      "premium": "Variable according to age, plan level, and chosen voluntary deductible tier (THB 15,000 - 45,000)",
+      "limits_and_excess": "THB 5,000,000 annual maximum benefit; Voluntary deductible options (THB 0 / 20,000 / 50,000)",
+      "main_coverages": [
+        "Inpatient Hospitalization & Room Expense",
+        "Surgical and Medical Treatment Procedures",
+        "Personal Accident & Accidental Death Benefit",
+        "Emergency Medical Evacuation & Repatriation",
+        "Day Surgery & Emergency Outpatient Accident Care"
+      ],
+      "major_exclusions": [
+        "Pre-existing medical conditions not declared",
+        "War, Invasion, and Terrorism Acts",
+        "Intoxication with alcohol level exceeding 150 mg% or drug abuse",
+        "Self-inflicted injuries, suicide attempts, and hazardous sports",
+        "Cosmetic procedures, fertility treatments, and general health checkups"
+      ]
+    }
+  },
+  {
+    "document": "policy2.pdf",
+    "summary": {
+      "policy_type": "Complete Accident and Health Policy",
+      "insurer": "Allianz Insurance plc",
+      "target_insured": "Corporate Employers, Employees, and Business Travellers",
+      "policy_period": "12 Months (Annual Corporate Policy Period)",
+      "premium": "£8,450 estimated annual premium (Adjustable on declared wage roll and staff headcount)",
+      "limits_and_excess": "£2,000,000 Overseas Emergency Medical; £25,000 Personal Accident Capital; £50-£250 excess per travel claim",
+      "main_coverages": [
+        "Personal Accident (Death, Loss of Limbs, Permanent Total Disablement)",
+        "Overseas Emergency Medical, Hospitalization & Repatriation",
+        "Business Travel Disruption (Cancellation, Delay, Missed Departure)",
+        "Baggage, Personal Effects & Business Equipment Loss",
+        "Kidnap, Ransom, and Crisis Containment Protection"
+      ],
+      "major_exclusions": [
+        "War and Nuclear Contamination Risks",
+        "Active service in Armed Forces",
+        "Pre-existing medical conditions unless declared and accepted",
+        "Suicide, intentional self-injury, and illegal activities",
+        "Travel undertaken against medical advice or for medical treatment"
+      ]
+    }
+  },
+  {
+    "document": "policy3.pdf",
+    "summary": {
+      "policy_type": "Complete Directors and Officers Liability Policy",
+      "insurer": "Allianz Insurance plc",
+      "target_insured": "Past, Present, and Future Directors, Officers, and Corporate Entity",
+      "policy_period": "12 Months (Claims Made Basis with Extended Reporting Period Options)",
+      "premium": "£12,500 standard minimum annual retained premium",
+      "limits_and_excess": "£5,000,000 aggregate policy limit; Nil excess for Individual D&O, £2,500-£10,000 for Corporate Reimbursement",
+      "main_coverages": [
+        "Directors and Officers Liability (Side A Coverage)",
+        "Company Reimbursement Coverage (Side B Coverage)",
+        "Corporate Legal Liability (Side C Coverage)",
+        "Employment Practices Liability (EPL Protection)",
+        "Regulatory & Official Investigation Defence Costs"
+      ],
+      "major_exclusions": [
+        "Deliberate fraud, dishonesty, or willful violation established by final judgment",
+        "Prior pending litigation or claims notified prior to retroactive date",
+        "Bodily Injury and Property Damage liabilities",
+        "Environmental pollution and contamination claims (except defence costs extension)",
+        "Fines, penalties, or punitive damages where uninsurable by law"
+      ]
+    }
+  },
+  {
+    "document": "policy4.pdf",
+    "summary": {
+      "policy_type": "Complete Cargo and Transit Policy",
+      "insurer": "Allianz Insurance plc",
+      "target_insured": "Cargo Owners, Shippers, Freight Forwarders, and Logistics Operators",
+      "policy_period": "12 Months (Open Cover with Periodic Transit Declarations)",
+      "premium": "£18,200 adjustable based on annual declarations and sendings turnover",
+      "limits_and_excess": "£1,000,000 any one conveyance / vessel; £500-£1,000 standard deductible per transit loss",
+      "main_coverages": [
+        "All Risks of physical loss or damage in transit (Institute Cargo Clauses A)",
+        "Fire, Explosion, Vessel Stranding, Grounding, or Sinking",
+        "Overturning or Derailment of Land Conveyance",
+        "Theft, Hijacking, and Piracy during transit",
+        "General Average and Salvage Contributions"
+      ],
+      "major_exclusions": [
+        "Loss caused by inherent vice or nature of the subject-matter",
+        "Insufficiency or unsuitability of packing or preparation",
+        "Ordinary leakage, ordinary wear and tear, or loss in weight",
+        "Insolvency or financial default of vessel owners or charterers",
+        "Nuclear weapon materials, radioactive contamination, and unseaworthiness"
+      ]
+    }
+  },
+  {
+    "document": "claim.pdf",
+    "summary": {
+      "policy_type": "Fidelity Guarantee Insurance Proposal",
+      "insurer": "Allianz Insurance plc",
+      "target_insured": "Commercial Employers & Business Organisations",
+      "policy_period": "Annual Period (commencing from underwriter acceptance)",
+      "premium": "Determined by staff category, wage roll, turnover, and internal audit controls",
+      "limits_and_excess": "£250,000 any one loss / aggregate guarantee limit; Voluntary excess selectable",
+      "main_coverages": [
+        "Direct financial loss caused by employee theft or fraud",
+        "Dishonesty of managers, salesmen, drivers, and accounts staff",
+        "Electronic Funds Transfer (EFT) fraud and manipulation",
+        "Auditor & investigation expenses incurred to establish loss"
+      ],
+      "major_exclusions": [
+        "Unexplained inventory shortages or stock discrepancy",
+        "Losses occurring prior to retroactive date or undiscovered within limit",
+        "Employees with known prior dishonest records without underwriter consent",
+        "Consequential commercial loss, loss of profit, or indirect damages"
+      ]
+    }
+  }
+]

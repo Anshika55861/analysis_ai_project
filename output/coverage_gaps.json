@@ -1,0 +1,47 @@
+[
+    {
+        "document": "policy1.pdf",
+        "included_count": 2,
+        "missing_coverages": [
+            "Cyber Insurance",
+            "Directors and Officers Liability",
+            "Employment Practices Liability",
+            "Crime Cover",
+            "Flood Cover"
+        ]
+    },
+    {
+        "document": "policy2.pdf",
+        "included_count": 2,
+        "missing_coverages": [
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
+            "Cyber Insurance",
+            "Flood Cover",
+            "Theft"
+        ]
+    },
+    {
+        "document": "policy3.pdf",
+        "included_count": 1,
+        "missing_coverages": [
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
+            "Cyber Insurance",
+            "Flood Cover",
+            "Theft"
+        ]
+    },
+    {
+        "document": "policy4.pdf",
+        "included_count": 1,
+        "missing_coverages": [
+            "Cyber Insurance",
+            "Environmental Liability",
+            "Professional Indemnity",
+            "Supply Chain Interruption"
+        ]
+    }
+]

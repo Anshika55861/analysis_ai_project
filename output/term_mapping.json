@@ -1,0 +1,147 @@
+{
+  "Public Liability": [
+    "General Liability",
+    "Third Party Liability",
+    "Public and Products Liability",
+    "Commercial General Liability (CGL)"
+  ],
+  "Policyholder": [
+    "The Insured",
+    "Covered Person",
+    "The Proposer",
+    "Named Insured",
+    "Certificate Holder",
+    "First Named Insured"
+  ],
+  "Insurer": [
+    "Underwriter",
+    "Insurance Carrier",
+    "Insurance Company",
+    "The Company",
+    "Assurer",
+    "Risk Bearer"
+  ],
+  "Broker": [
+    "Insurance Intermediary",
+    "Insurance Adviser",
+    "Insurance Agent",
+    "Appointed Representative",
+    "Producer"
+  ],
+  "Premium": [
+    "Insurance Charge",
+    "Policy Consideration",
+    "Subscription Fee",
+    "Deposit Premium",
+    "Retained Premium",
+    "Adjustable Premium"
+  ],
+  "Deductible": [
+    "Excess",
+    "First Loss Retention",
+    "Self-Insured Retention (SIR)",
+    "Policy Excess",
+    "Voluntary Deductible",
+    "Compulsory Deductible"
+  ],
+  "Limit of Liability": [
+    "Sum Insured",
+    "Policy Limit",
+    "Maximum Amount Payable",
+    "Aggregate Limit",
+    "Capital Sum Insured",
+    "Sub-limit",
+    "Indemnity Limit"
+  ],
+  "Exclusions": [
+    "Exceptions",
+    "What Is Not Covered",
+    "Uninsured Risks",
+    "General Exceptions",
+    "Policy Carve-Outs",
+    "Specific Exclusions"
+  ],
+  "Coverage": [
+    "Insuring Agreement",
+    "Operative Clause",
+    "Scope of Cover",
+    "What Is Covered",
+    "Policy Benefits",
+    "Indemnity Scope",
+    "Cover Section"
+  ],
+  "Policy Period": [
+    "Period of Insurance",
+    "Policy Term",
+    "Term of Cover",
+    "Duration of Coverage",
+    "Effective Period",
+    "Inception to Expiry Date"
+  ],
+  "Personal Accident": [
+    "Accidental Death and Dismemberment (AD&D)",
+    "Personal Injury & Disablement",
+    "Capital Benefits",
+    "Bodily Injury by Accident"
+  ],
+  "Medical Expenses": [
+    "Hospitalization and Surgical Care",
+    "Inpatient Medical Benefit",
+    "Emergency Medical Treatment",
+    "Major Medical Expense",
+    "Clinical Treatment Benefit"
+  ],
+  "Directors and Officers Liability": [
+    "D&O Insurance",
+    "Management Liability",
+    "Executive Liability",
+    "Corporate Governance Indemnity",
+    "Officers Errors and Omissions"
+  ],
+  "Cargo Insurance": [
+    "Marine Cargo",
+    "Goods in Transit (GIT)",
+    "Freight Insurance",
+    "Sendings and Shipments Cover",
+    "Transit Risk Protection"
+  ],
+  "Fidelity Guarantee": [
+    "Employee Dishonesty",
+    "Commercial Crime",
+    "Theft by Employee",
+    "Employee Fraud Protection",
+    "Internal Financial Crime Cover"
+  ],
+  "Business Interruption": [
+    "Loss of Profits",
+    "Consequential Loss",
+    "Business Income Coverage",
+    "Extra Expense Insurance",
+    "Interruption and Delay Cover"
+  ],
+  "Professional Indemnity": [
+    "Errors and Omissions (E&O)",
+    "Professional Liability",
+    "Malpractice Insurance",
+    "Civil Liability Cover"
+  ],
+  "Free Look Period": [
+    "Cooling-Off Period",
+    "Trial Period",
+    "Cancellation Window",
+    "Review Period"
+  ],
+  "Claim Notice": [
+    "Notice of Loss",
+    "Claim Notification",
+    "First Notice of Loss (FNOL)",
+    "Report of Accident / Injury",
+    "Claim Incident Advice"
+  ],
+  "Subrogation": [
+    "Recovery of Loss",
+    "Rights of Subrogation",
+    "Third-Party Recourse",
+    "Insurer Recovery Rights"
+  ]
+}

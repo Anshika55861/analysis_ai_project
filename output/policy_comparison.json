@@ -1,0 +1,86 @@
+{
+    "policy_a": "policy2.pdf",
+    "policy_b": "policy3.pdf",
+    "comparison": [
+        {
+            "field": "Policy Product Name",
+            "policy_a": "Complete Accident and Health policy wording",
+            "policy_b": "Complete Directors and Officers policy wording"
+        },
+        {
+            "field": "Insurer Name",
+            "policy_a": "Allianz Insurance plc",
+            "policy_b": "Allianz Insurance plc"
+        },
+        {
+            "field": "Policy Type",
+            "policy_a": "Group Accident and Health Insurance",
+            "policy_b": "Directors and Officers Liability Insurance"
+        },
+        {
+            "field": "Target Insured Entity",
+            "policy_a": "Employees, Executives, and Business Travellers",
+            "policy_b": "Past, Present, and Future Directors, Officers, and Company"
+        },
+        {
+            "field": "Policy Limits",
+            "policy_a": "£2,000,000 Emergency Medical; £25,000 Personal Accident Capital",
+            "policy_b": "£5,000,000 in the aggregate during the period of insurance"
+        },
+        {
+            "field": "Excess / Deductible",
+            "policy_a": "Nil for Individual D&O; £2,500 for Corporate Reimbursement",
+            "policy_b": "Nil for Individual D&O; £2,500 for Corporate Reimbursement"
+        },
+        {
+            "field": "Premium Structure",
+            "policy_a": "£8,450 (Adjustable on declared annual wageroll & staff count)",
+            "policy_b": "£12,500 standard minimum annual retained premium"
+        },
+        {
+            "field": "Medical & Hospitalization Expenses",
+            "policy_a": "Included",
+            "policy_b": "Not Included"
+        },
+        {
+            "field": "Personal Accident Cover",
+            "policy_a": "Included",
+            "policy_b": "Not Included"
+        },
+        {
+            "field": "Directors & Officers Liability",
+            "policy_a": "Not Included",
+            "policy_b": "Included"
+        },
+        {
+            "field": "Cargo / Transit Protection",
+            "policy_a": "Not Included",
+            "policy_b": "Not Included"
+        },
+        {
+            "field": "Public Liability",
+            "policy_a": "Not Included",
+            "policy_b": "Not Included"
+        },
+        {
+            "field": "Cyber Insurance",
+            "policy_a": "Not Included",
+            "policy_b": "Not Included"
+        },
+        {
+            "field": "Major Exclusions",
+            "policy_a": "War / Terrorism, Nuclear / Radioactive risks, Suicide / Self-inflicted injury, Deliberate fraud & dishonesty",
+            "policy_b": "War / Terrorism, Nuclear / Radioactive risks, Deliberate fraud & dishonesty, Pollution / Contamination liabilities"
+        },
+        {
+            "field": "Territorial Limits",
+            "policy_a": "Worldwide (Excluding USA/Canada unless endorsed)",
+            "policy_b": "Worldwide (Excluding USA/Canada unless endorsed)"
+        },
+        {
+            "field": "Claim Notification Requirements",
+            "policy_a": "Immediate written notice during policy period or extended reporting period",
+            "policy_b": "Immediate written notice during policy period or extended reporting period"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "What is the policy form code / version of the Beyond Care Plan?",
+    "answer": "BeyondCare-PW-EN-01",
+    "section": "Title & Document Header",
+    "page": 2,
+    "document": "policy1.pdf"
+  },
+  {
+    "question": "Who is the underwriting insurer for the Beyond Care Plan?",
+    "answer": "Allianz Ayudhya General Insurance Public Company Limited",
+    "section": "Definitions & Company Header",
+    "page": 3,
+    "document": "policy1.pdf"
+  },
+  {
+    "question": "What is the blood alcohol concentration threshold that triggers an exclusion under the Beyond Care Plan?",
+    "answer": "150 milligram percent or above (or inability to control one's mind if level cannot be measured)",
+    "section": "General Exclusions",
+    "page": 15,
+    "document": "policy1.pdf"
+  },
+  {
+    "question": "What is the standard Free Look cancellation period for the Beyond Care Plan?",
+    "answer": "15 days from the date of receiving the policy document",
+    "section": "Free Look Period",
+    "page": 14,
+    "document": "policy1.pdf"
+  },
+  {
+    "question": "Who is the insurer for the Complete Accident and Health policy?",
+    "answer": "Allianz Insurance plc",
+    "section": "Introduction",
+    "page": 2,
+    "document": "policy2.pdf"
+  },
+  {
+    "question": "What is the maximum Personal Accident capital benefit per Insured Person in Complete Accident and Health?",
+    "answer": "£25,000 per Insured Person",
+    "section": "Section 1 - Personal Accident Benefits",
+    "page": 25,
+    "document": "policy2.pdf"
+  },
+  {
+    "question": "What is the Medical Expenses and Overseas Emergency Assistance limit under Complete Accident and Health?",
+    "answer": "£2,000,000 per Insured Person",
+    "section": "Section 2 - Medical Expenses",
+    "page": 26,
+    "document": "policy2.pdf"
+  },
+  {
+    "question": "What is the maximum Kidnap, Ransom, and Crisis Containment aggregate benefit in Complete Accident and Health?",
+    "answer": "£250,000 in the aggregate",
+    "section": "Crisis Containment Extension",
+    "page": 30,
+    "document": "policy2.pdf"
+  },
+  {
+    "question": "What is the aggregate policy limit for Directors and Officers Liability under Complete D&O?",
+    "answer": "£5,000,000 in the aggregate during the period of insurance",
+    "section": "Section 1 - Directors and Officers Liability",
+    "page": 12,
+    "document": "policy3.pdf"
+  },
+  {
+    "question": "What is the standard deductible or excess for individual Directors and Officers under Complete D&O?",
+    "answer": "Nil for individual Directors and Officers liability claims (£2,500 for Corporate Reimbursement)",
+    "section": "Policy Conditions & Schedule",
+    "page": 8,
+    "document": "policy3.pdf"
+  },
+  {
+    "question": "Are deliberate fraudulent or dishonest acts covered under Complete Directors and Officers policy?",
+    "answer": "No, deliberate fraud and dishonest acts established by final judgment are strictly excluded",
+    "section": "Policy Exclusions",
+    "page": 14,
+    "document": "policy3.pdf"
+  },
+  {
+    "question": "What is the maximum standard conveyance limit under Complete Cargo insurance?",
+    "answer": "£1,000,000 any one conveyance or transit",
+    "section": "Insuring Clause & Policy Limits",
+    "page": 6,
+    "document": "policy4.pdf"
+  },
+  {
+    "question": "Are losses resulting from improper or insufficient packing covered under Complete Cargo policy?",
+    "answer": "No, loss, damage or expense caused by insufficiency or unsuitability of packing is excluded",
+    "section": "Policy Exclusions",
+    "page": 15,
+    "document": "policy4.pdf"
+  },
+  {
+    "question": "What is the registered office address of Allianz Insurance plc?",
+    "answer": "57 Ladymead, Guildford, Surrey GU1 1DB",
+    "section": "Regulatory Notice",
+    "page": 14,
+    "document": "claim.pdf"
+  },
+  {
+    "question": "Which regulatory bodies regulate Allianz Insurance plc in the United Kingdom?",
+    "answer": "Prudential Regulation Authority and Financial Conduct Authority (Financial Services Register No. 121849)",
+    "section": "Regulatory Notice",
+    "page": 14,
+    "document": "claim.pdf"
+  },
+  {
+    "question": "Is Cyber Insurance liability included in the standard Complete Cargo policy wording?",
+    "answer": "No, cyber insurance is not included in the standard cargo transit wording",
+    "section": "Scope of Cover",
+    "page": 6,
+    "document": "policy4.pdf"
+  }
+]
