@@ -1,0 +1,197 @@
+[
+    {
+        "task": "Policy Summary",
+        "document": "policy1.pdf",
+        "input_context": "Summarize policy1.pdf core coverages and key exclusions.",
+        "expected_result": {
+            "policy_type": "Special Personal Health and Accident Insurance",
+            "insurer": "Allianz Ayudhya General Insurance Public Company Limited",
+            "core_coverages": [
+                "Personal Accident",
+                "Medical Expenses"
+            ],
+            "key_exclusions": [
+                "Pre-existing conditions",
+                "Extreme hazardous sports",
+                "Suicide or self-inflicted injury"
+            ]
+        }
+    },
+    {
+        "task": "Policy Summary",
+        "document": "policy2.pdf",
+        "input_context": "Summarize policy2.pdf commercial package coverages.",
+        "expected_result": {
+            "policy_type": "Commercial Select Package Policy",
+            "insurer": "Allianz Insurance plc",
+            "core_coverages": [
+                "Property Damage",
+                "Business Interruption",
+                "Public Liability",
+                "Employers Liability"
+            ],
+            "key_exclusions": [
+                "War and terrorism",
+                "Cyber attack loss",
+                "Pollution unless sudden and accidental"
+            ]
+        }
+    },
+    {
+        "task": "Policy Summary",
+        "document": "policy3.pdf",
+        "input_context": "Summarize policy3.pdf management liability wording.",
+        "expected_result": {
+            "policy_type": "Directors and Officers / Management Liability",
+            "insurer": "Allianz Insurance plc",
+            "core_coverages": [
+                "Directors and Officers Liability",
+                "Corporate Legal Liability",
+                "Employment Practices Liability"
+            ],
+            "key_exclusions": [
+                "Deliberate fraudulent acts",
+                "Prior pending litigation before retroactive date"
+            ]
+        }
+    },
+    {
+        "task": "Policy Summary",
+        "document": "policy4.pdf",
+        "input_context": "Summarize policy4.pdf transit cargo insurance.",
+        "expected_result": {
+            "policy_type": "Marine and Inland Transit Cargo Policy",
+            "insurer": "Allianz Insurance plc",
+            "core_coverages": [
+                "Transit Damage",
+                "Theft in Transit",
+                "General Average Contribution"
+            ],
+            "key_exclusions": [
+                "Inherent vice or natural deterioration",
+                "Insufficient packaging",
+                "Delay in transit"
+            ]
+        }
+    },
+    {
+        "task": "Coverage Extraction",
+        "document": "policy2.pdf",
+        "input_context": "Extract all included affirmative coverages for policy2.pdf.",
+        "expected_result": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care"
+        ]
+    },
+    {
+        "task": "Coverage Extraction",
+        "document": "policy3.pdf",
+        "input_context": "Extract all included affirmative coverages for policy3.pdf.",
+        "expected_result": [
+            "Directors and Officers Liability"
+        ]
+    },
+    {
+        "task": "Coverage Extraction",
+        "document": "policy1.pdf",
+        "input_context": "Extract all included affirmative coverages for policy1.pdf.",
+        "expected_result": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care"
+        ]
+    },
+    {
+        "task": "Coverage Extraction",
+        "document": "policy4.pdf",
+        "input_context": "Extract all included affirmative coverages for policy4.pdf.",
+        "expected_result": [
+            "Cargo & Goods in Transit"
+        ]
+    },
+    {
+        "task": "Clause Explanation",
+        "document": "policy2.pdf",
+        "input_context": "Explain the operational meaning of the Subrogation Clause.",
+        "expected_result": {
+            "clause_name": "Subrogation Rights",
+            "plain_english_explanation": "Allows the insurer to step into the policyholder's legal rights after paying a claim to recover damages from the responsible third party.",
+            "legal_effect": "The policyholder cannot waive or compromise third-party recovery rights without insurer consent."
+        }
+    },
+    {
+        "task": "Clause Explanation",
+        "document": "policy3.pdf",
+        "input_context": "Explain the operational meaning of the Defense Costs Advancement Clause.",
+        "expected_result": {
+            "clause_name": "Advancement of Defense Costs",
+            "plain_english_explanation": "The insurer pays legal defense fees and expenses as they are incurred before final resolution or judgment of the claim.",
+            "legal_effect": "Directors and officers do not have to fund protracted litigation out-of-pocket, subject to repayment if fraud is proven."
+        }
+    },
+    {
+        "task": "Clause Explanation",
+        "document": "policy1.pdf",
+        "input_context": "Explain the operational meaning of the Pre-existing Condition Exclusion.",
+        "expected_result": {
+            "clause_name": "Pre-Existing Conditions Exclusion",
+            "plain_english_explanation": "Medical illnesses or injuries that manifested or were diagnosed before the policy effective date are excluded from coverage.",
+            "legal_effect": "Claims arising directly or indirectly from prior chronic symptoms will not be reimbursed."
+        }
+    },
+    {
+        "task": "Policy Comparison",
+        "document": "policy2.pdf vs policy3.pdf",
+        "input_context": "Compare commercial property coverage against management liability.",
+        "expected_result": {
+            "comparison_focus": "Commercial Package vs Management Liability",
+            "property_coverage": "policy2 covers physical property and business interruption; policy3 covers no physical property.",
+            "liability_coverage": "policy2 covers third-party bodily injury/property damage; policy3 covers executive management decisions and regulatory liability.",
+            "cyber_coverage": "policy2 excludes cyber; policy3 offers management-level cyber loss extensions."
+        }
+    },
+    {
+        "task": "Policy Comparison",
+        "document": "policy1.pdf vs policy2.pdf",
+        "input_context": "Compare personal health policy against commercial package policy.",
+        "expected_result": {
+            "comparison_focus": "Personal Accident/Health vs Commercial Package",
+            "insured_entity": "policy1 insures an individual person; policy2 insures a registered business/commercial enterprise.",
+            "currency": "policy1 is denominated in THB; policy2 is denominated in GBP.",
+            "governing_law": "policy1 is governed by Thailand OIC regulations; policy2 is governed by English Law & FCA."
+        }
+    },
+    {
+        "task": "Risk Identification",
+        "document": "policy2.pdf",
+        "input_context": "Identify the primary commercial operational risks addressed in policy2.pdf.",
+        "expected_result": [
+            "Fire and Explosion",
+            "Theft and Burglary",
+            "Flood and Water Damage",
+            "Public Bodily Injury and Third-Party Property Damage",
+            "Business Interruption Loss"
+        ]
+    },
+    {
+        "task": "Risk Identification",
+        "document": "policy3.pdf",
+        "input_context": "Identify the primary executive and governance risks addressed in policy3.pdf.",
+        "expected_result": [
+            "Management Misconduct",
+            "Regulatory Investigation Costs",
+            "Employment Practices Liability",
+            "Shareholder and Derivative Lawsuits"
+        ]
+    },
+    {
+        "task": "Risk Identification",
+        "document": "policy4.pdf",
+        "input_context": "Identify the transportation perils addressed in policy4.pdf.",
+        "expected_result": [
+            "Cargo Damage in Transit",
+            "Theft and Hijacking",
+            "Vessel Stranding or Overturning",
+            "General Average and Salvage Charges"
+        ]
+    }
+]

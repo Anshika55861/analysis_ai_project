@@ -62,6 +62,19 @@ flowchart TD
         T25["Master Unified AI Dataset Aggregator (final_ai_dataset.json)"]
         Phase2 --> T16 & T17 & T18 & T19 & T20 & T21 & T22 & T23 & T24 & T25
     end
+
+    subgraph Phase4 ["5. Phase 4: Data Quality, Testing & AI Pipeline Preparation"]
+        T26["JSON Integrity Validator (json_validation_report.json)"]
+        T27["Duplicate Insurance Info Finder (duplicate_report.json)"]
+        T28["Search Test Benchmark Dataset (search_test_dataset.json)"]
+        T29["AI Response Evaluation Dataset (ai_evaluation.json)"]
+        T30["Business Rules Engine Dataset (rules_dataset.json)"]
+        T31["Unified Insurance Knowledge Base (insurance_knowledge_base.json)"]
+        T32["End-to-End AI Test Scenarios (ai_test_scenarios.json)"]
+        T33["Project Telemetry & Statistics (dataset_statistics.json)"]
+        T34["Executive Final Project Report (project_report.md)"]
+        Phase3 --> T26 & T27 & T28 & T29 & T30 & T31 & T32 & T33 & T34
+    end
 ```
 
 ---
@@ -206,6 +219,48 @@ Phase 3 builds the analytical layer that powers semantic search, automated under
 
 ---
 
+### **Phase 4: Data Quality, Testing & AI Pipeline Preparation**
+
+Phase 4 completes the data pipeline by auditing, deduplicating, benchmarking, and packaging all datasets for direct consumption by Amazon Textract, Amazon Bedrock, OpenSearch, Rules Engine, and Policy Comparison Engine.
+
+#### 1. JSON Dataset Integrity Validator (`scripts/validate_json.py` ➔ `output/json_validation_report.json`)
+- **Methodology**: Audits every JSON file inside `output/` for valid JSON syntax, missing required fields, empty or null values, duplicate entries, correct data types, and presence of corrupted `(cid:...)` font artifacts.
+- **Dataset Delivered**: Comprehensive JSON audit report confirming 100% of datasets pass without errors.
+
+#### 2. Duplicate Insurance Information Finder (`scripts/find_duplicates.py` ➔ `output/duplicate_report.json`)
+- **Methodology**: Identifies shared and duplicate information across documents: identical/near-identical clauses, duplicate policy numbers, shared coverage types, and recurring broker recommendations.
+- **Dataset Delivered**: 38 identified shared and duplicate items across clauses, coverages, and recommendations.
+
+#### 3. Search Test Benchmark Dataset (`scripts/create_search_tests.py` ➔ `output/search_test_dataset.json`)
+- **Methodology**: Generates 36 realistic user search queries spanning coverages, perils, financial limits, temporal periods, entities, claims procedures, and exclusions, mapped to their ground-truth expected matching documents.
+- **Dataset Delivered**: 36 search queries with expected document matches.
+
+#### 4. AI Response Evaluation Dataset (`scripts/create_ai_evaluations.py` ➔ `output/ai_evaluation.json`)
+- **Methodology**: Formulates ground-truth evaluation cases across 5 core AI tasks: *Policy Summary*, *Coverage Extraction*, *Clause Explanation*, *Policy Comparison*, and *Risk Identification*.
+- **Dataset Delivered**: 16 structured AI evaluation benchmark cases.
+
+#### 5. Business Rules Engine Dataset (`scripts/create_rules.py` ➔ `output/rules_dataset.json`)
+- **Methodology**: Engineers 16 reusable business decision rules for automated underwriting and advisory: coverage gaps (Cyber, Business Interruption), limit adequacy ($10M Public Liability threshold), renewals (30-day triggers), and deductible limits.
+- **Dataset Delivered**: 16 structured underwriting decision rules.
+
+#### 6. Unified Insurance Knowledge Base (`scripts/build_knowledge_base.py` ➔ `output/insurance_knowledge_base.json`)
+- **Methodology**: Consolidates 96 insurance terms, 6 representative clause categories, 10 peril taxonomies, 35 coverage synonym mappings, and 16 underwriting rules into a single centralized, reusable knowledge repository.
+- **Dataset Delivered**: Unified master insurance knowledge base.
+
+#### 7. End-to-End AI Test Scenarios (`scripts/create_test_scenarios.py` ➔ `output/ai_test_scenarios.json`)
+- **Methodology**: Defines 5 comprehensive real-world business scenarios: *Renewal Benchmarking & Quote Comparison*, *Automated FNOL Claims Processing*, *Broker Commercial Gap Audit*, *D&O Limit Adequacy Review*, and *Marine Cargo Transit Adjudication*.
+- **Dataset Delivered**: 5 multi-step business test scenarios.
+
+#### 8. Dataset Telemetry & Statistics (`scripts/statistics.py` ➔ `output/dataset_statistics.json`)
+- **Methodology**: Programmatically compiles holistic project-wide metrics across documents (7 docs, 210 pages), policies (4), coverages (12 distinct, 35 synonyms), clauses (472 extracted, 1,127 classified), questions (157), perils (10), and rules (37).
+- **Dataset Delivered**: Comprehensive dataset statistics report.
+
+#### 9. Final Executive Project Report (`scripts/build_report.py` ➔ `output/project_report.md`)
+- **Methodology**: Programmatically compiles a full executive Markdown summary of the entire 34-task project, covering architecture, metrics, phase accomplishments, and cloud integration roadmap.
+- **Dataset Delivered**: Executive Markdown project report.
+
+---
+
 ## 📂 Complete Master Dataset Catalog
 
 | # | Dataset File | Phase | Records / Items | Primary Function |
@@ -235,19 +290,28 @@ Phase 3 builds the analytical layer that powers semantic search, automated under
 | 23 | `risk_dataset.json` | Phase 3 | 10 risks | Peril taxonomy with dynamic document risk detection |
 | 24 | `document_tags.json` | Phase 3 | 7 documents | Content-grounded multi-label document classification tags |
 | 25 | `final_ai_dataset.json` | Phase 3 | 7 master profiles | Unified, aggregated master AI dataset |
+| 26 | `json_validation_report.json` | Phase 4 | 31 datasets | Integrity validation audit across all JSON datasets |
+| 27 | `duplicate_report.json` | Phase 4 | 38 items | Shared & duplicate clauses, coverages, recommendations |
+| 28 | `search_test_dataset.json` | Phase 4 | 36 queries | Realistic search queries with ground-truth document targets |
+| 29 | `ai_evaluation.json` | Phase 4 | 16 test cases | Ground-truth evaluation cases across 5 core AI tasks |
+| 30 | `rules_dataset.json` | Phase 4 | 16 rules | Reusable underwriting & coverage decision rules |
+| 31 | `insurance_knowledge_base.json`| Phase 4 | 1 repository | Unified knowledge base (terms, clauses, perils, rules) |
+| 32 | `ai_test_scenarios.json` | Phase 4 | 5 scenarios | Multi-step end-to-end business test scenarios |
+| 33 | `dataset_statistics.json` | Phase 4 | 22 metrics | Holistic project-wide metrics and dataset telemetry |
+| 34 | `project_report.md` | Phase 4 | 1 report | Executive final project execution report |
 
 ---
 
 ## 🧪 Comprehensive Verification & Test Suite
 
-The pipeline includes an automated test harness [`scripts/verify_tasks.py`](file:///c:/Users/anshi/Downloads/analysis-ai-round2/analysis-ai/scripts/verify_tasks.py) executing all pipeline scripts and validating **all 25 tasks end-to-end**:
+The pipeline includes an automated test harness [`scripts/verify_tasks.py`](file:///c:/Users/anshi/Downloads/analysis-ai-round2/analysis-ai/scripts/verify_tasks.py) executing all pipeline scripts and validating **all 34 tasks end-to-end**:
 
 ```bash
 # Run the complete test suite
 python scripts/verify_tasks.py
 ```
 
-### **Verification Results (90/90 Checks Passed - 100% Pass Rate)**
+### **Verification Results (123/123 Checks Passed - 100% Pass Rate)**
 ```text
 ===========================================================================
 DOCUMENT ANALYSIS AI - COMPREHENSIVE VERIFICATION REPORT
@@ -277,8 +341,17 @@ Task 22 - Create AI Prompt Dataset (8 prompt templates)--> 3/3 checks passed
 Task 23 - Create Insurance Risk Dataset (10 risks)     --> 4/4 checks passed
 Task 24 - Create Document Tags (content grounded)      --> 4/4 checks passed
 Task 25 - Generate Final AI Dataset (7 master profiles)--> 5/5 checks passed
+Task 26 - Validate All JSON Files (31 files audited)   --> 4/4 checks passed
+Task 27 - Find Duplicate Insurance Information (38)    --> 4/4 checks passed
+Task 28 - Create Search Test Dataset (36 queries)      --> 4/4 checks passed
+Task 29 - Create AI Response Evaluation (5 tasks)      --> 4/4 checks passed
+Task 30 - Create Rules Dataset (16 rules)              --> 4/4 checks passed
+Task 31 - Create Insurance Knowledge Base (unified)    --> 4/4 checks passed
+Task 32 - Create AI Test Scenarios (5 scenarios)       --> 3/3 checks passed
+Task 33 - Generate Dataset Statistics (holistic)       --> 3/3 checks passed
+Task 34 - Build Final Project Report (project_report)  --> 3/3 checks passed
 ===========================================================================
-OVERALL: 90/90 checks passed (100% Pass Rate)
+OVERALL: 123/123 checks passed (100% Pass Rate)
 ===========================================================================
 ```
 
@@ -309,7 +382,7 @@ analysis-ai/
 │   ├── section_extractor.py       # Heading detection & span parser
 │   └── clause_extractor.py        # Multi-column line unwrapper & clause parser
 │
-├── scripts/                       # 25 Task Pipeline Scripts
+├── scripts/                       # 34 Task Pipeline Scripts
 │   ├── README.md                  # Script-level execution guide
 │   ├── create_dataset.py          # Task 1: Dataset creation & metadata extraction
 │   ├── extract_sections.py        # Task 2: Document section parsing
@@ -326,7 +399,50 @@ analysis-ai/
 │   ├── generate_keywords.py       # Task 16: Search keywords generator
 │   ├── build_phase3_datasets.py   # Tasks 17-24: Lookup, checklists, gaps, risks, prompts
 │   ├── build_final_dataset.py     # Task 25: Master unified AI dataset builder
-│   └── verify_tasks.py            # Master verification suite (Tasks 1-25)
+│   ├── validate_json.py           # Task 26: Complete JSON file integrity validator
+│   ├── find_duplicates.py         # Task 27: Duplicate insurance information finder
+│   ├── create_search_tests.py     # Task 28: Search test benchmark dataset generator
+│   ├── create_ai_evaluations.py   # Task 29: AI response evaluation test suite generator
+│   ├── create_rules.py            # Task 30: Business underwriting decision rules generator
+│   ├── build_knowledge_base.py    # Task 31: Unified insurance knowledge base builder
+│   ├── create_test_scenarios.py   # Task 32: End-to-end AI test scenarios generator
+│   ├── statistics.py              # Task 33: Holistic project statistics generator
+│   ├── build_report.py            # Task 34: Final executive project report generator
+│   └── verify_tasks.py            # Master verification suite (Tasks 1-34)
 │
-└── output/                        # 25 Generated JSON/CSV Datasets (100% Clean)
+└── output/                        # 34 Generated Datasets & Reports (100% Validated)
+    ├── dataset.csv
+    ├── sections.json
+    ├── insurance_dictionary.json
+    ├── clauses.json
+    ├── qa_dataset.json
+    ├── policy_metadata.json
+    ├── coverage_dataset.json
+    ├── policy_comparison.json
+    ├── classified_clauses.json
+    ├── entities.json
+    ├── document_chunks.json
+    ├── evaluation_dataset.json
+    ├── policy_summaries.json
+    ├── term_mapping.json
+    ├── validation_report.json
+    ├── search_keywords.json
+    ├── coverage_lookup.json
+    ├── policy_checklists.json
+    ├── policy_differences.json
+    ├── coverage_gaps.json
+    ├── recommendations.json
+    ├── ai_prompts.json
+    ├── risk_dataset.json
+    ├── document_tags.json
+    ├── final_ai_dataset.json
+    ├── json_validation_report.json
+    ├── duplicate_report.json
+    ├── search_test_dataset.json
+    ├── ai_evaluation.json
+    ├── rules_dataset.json
+    ├── insurance_knowledge_base.json
+    ├── ai_test_scenarios.json
+    ├── dataset_statistics.json
+    └── project_report.md
 ```

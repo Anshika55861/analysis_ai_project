@@ -20,9 +20,13 @@ import json
 import re
 from pathlib import Path
 
-# Ensure project root is in sys.path
+# Ensure project root is in sys.path and scripts dir is not shadowing stdlib
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
+scripts_dir = str(Path(__file__).resolve().parent)
+while scripts_dir in sys.path:
+    sys.path.remove(scripts_dir)
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from config.settings import OUTPUT_DIR, DATASET_DIR, PROJECT_ROOT
 from utils.json_utils import load_json
@@ -535,6 +539,127 @@ def verify_task25():
         check(task, "Final AI dataset metadata is validated (e.g. policy3 number is not 'from')", p3_valid)
 
 
+def verify_task26():
+    task = "Task 26 - Validate All JSON Files"
+    val_file = OUTPUT_DIR / "json_validation_report.json"
+    check(task, "json_validation_report.json was created", val_file.exists())
+    if val_file.exists():
+        reports = load_json(val_file)
+        check(task, "Validation report contains audit results for all JSON datasets", len(reports) >= 20, f"{len(reports)} audited files")
+        sample = reports[0] if reports else {}
+        s_ok = "file" in sample and "status" in sample and "errors" in sample
+        check(task, "JSON validation reports match required schema (file, status, errors)", s_ok)
+        all_passed = all(r.get("status") == "Passed" for r in reports)
+        check(task, "All audited JSON files passed validation with zero errors", all_passed)
+
+
+def verify_task27():
+    task = "Task 27 - Find Duplicate Insurance Information"
+    dup_file = OUTPUT_DIR / "duplicate_report.json"
+    check(task, "duplicate_report.json was created", dup_file.exists())
+    if dup_file.exists():
+        dups = load_json(dup_file)
+        check(task, "Duplicate report contains identified shared/duplicate entries", len(dups) > 0, f"{len(dups)} duplicate items")
+        sample = dups[0] if dups else {}
+        s_ok = "duplicate_type" in sample and "value" in sample
+        check(task, "Duplicate records match required schema (duplicate_type, value)", s_ok)
+        types = set(d.get("duplicate_type") for d in dups)
+        check(task, "Duplicate report covers multiple duplicate types (e.g. Clause, Coverage, Recommendation)", len(types) >= 2, f"Types: {types}")
+
+
+def verify_task28():
+    task = "Task 28 - Create Search Test Dataset"
+    search_file = OUTPUT_DIR / "search_test_dataset.json"
+    check(task, "search_test_dataset.json was created", search_file.exists())
+    if search_file.exists():
+        queries = load_json(search_file)
+        check(task, "Search test dataset contains at least 30 realistic queries", len(queries) >= 30, f"{len(queries)} queries")
+        sample = queries[0] if queries else {}
+        s_ok = "query" in sample and "expected_documents" in sample and isinstance(sample.get("expected_documents"), list)
+        check(task, "Search queries match required schema (query, expected_documents)", s_ok)
+        all_have_matches = all(len(q.get("expected_documents", [])) > 0 for q in queries)
+        check(task, "Every search query has valid expected matching documents", all_have_matches)
+
+
+def verify_task29():
+    task = "Task 29 - Create AI Response Evaluation Dataset"
+    eval_file = OUTPUT_DIR / "ai_evaluation.json"
+    check(task, "ai_evaluation.json was created", eval_file.exists())
+    if eval_file.exists():
+        cases = load_json(eval_file)
+        check(task, "AI evaluation dataset contains test cases", len(cases) >= 10, f"{len(cases)} test cases")
+        sample = cases[0] if cases else {}
+        s_ok = "task" in sample and "expected_result" in sample
+        check(task, "AI evaluation cases match required schema (task, expected_result)", s_ok)
+        tasks = set(c.get("task") for c in cases)
+        req_tasks = {"Policy Summary", "Coverage Extraction", "Clause Explanation", "Policy Comparison", "Risk Identification"}
+        check(task, "AI evaluation covers all 5 required task types", req_tasks.issubset(tasks), f"Covered: {tasks}")
+
+
+def verify_task30():
+    task = "Task 30 - Create Rules Dataset"
+    rules_file = OUTPUT_DIR / "rules_dataset.json"
+    check(task, "rules_dataset.json was created", rules_file.exists())
+    if rules_file.exists():
+        rules = load_json(rules_file)
+        check(task, "Rules dataset contains business rules", len(rules) >= 10, f"{len(rules)} rules")
+        sample = rules[0] if rules else {}
+        s_ok = "rule" in sample and "action" in sample
+        check(task, "Business rules match required schema (rule, action)", s_ok)
+        has_cyber = any("cyber" in r.get("rule", "").lower() for r in rules)
+        check(task, "Rules dataset includes core underwriting rules (e.g. Cyber Insurance, Liability Limits)", has_cyber)
+
+
+def verify_task31():
+    task = "Task 31 - Create Insurance Knowledge Base"
+    kb_file = OUTPUT_DIR / "insurance_knowledge_base.json"
+    check(task, "insurance_knowledge_base.json was created", kb_file.exists())
+    if kb_file.exists():
+        kb = load_json(kb_file)
+        req_keys = ["insurance_terms", "common_clauses", "risks", "coverages", "recommendations"]
+        kb_ok = all(k in kb for k in req_keys)
+        check(task, "Knowledge base contains terms, common clauses, risks, coverages, recommendations", kb_ok)
+        terms_count = kb.get("insurance_terms", {}).get("total_terms", 0)
+        check(task, "Knowledge base consolidates comprehensive domain ontology", terms_count >= 80, f"{terms_count} terms")
+        raw_text = kb_file.read_text(encoding="utf-8")
+        check(task, "Insurance knowledge base has zero (cid:...) artifacts", "(cid:" not in raw_text)
+
+
+def verify_task32():
+    task = "Task 32 - Create AI Test Scenarios"
+    scen_file = OUTPUT_DIR / "ai_test_scenarios.json"
+    check(task, "ai_test_scenarios.json was created", scen_file.exists())
+    if scen_file.exists():
+        scenarios = load_json(scen_file)
+        check(task, "AI test scenarios dataset contains multiple scenarios", len(scenarios) >= 4, f"{len(scenarios)} scenarios")
+        sample = scenarios[0] if scenarios else {}
+        s_ok = "customer_uploads" in sample and "ai_expected_actions" in sample
+        check(task, "Test scenarios match required schema (customer_uploads, ai_expected_actions)", s_ok)
+
+
+def verify_task33():
+    task = "Task 33 - Generate Dataset Statistics"
+    stats_file = OUTPUT_DIR / "dataset_statistics.json"
+    check(task, "dataset_statistics.json was created", stats_file.exists())
+    if stats_file.exists():
+        stats = load_json(stats_file)
+        req_stats = ["total_documents", "total_policies", "total_coverages", "total_clauses_extracted", "total_questions", "total_risks", "total_recommendations", "average_pages_per_document"]
+        s_ok = all(k in stats for k in req_stats)
+        check(task, "Dataset statistics contains all required holistic metric dimensions", s_ok)
+        check(task, "Statistics report verified document count (7) and policy count (4)", stats.get("total_documents") == 7 and stats.get("total_policies") == 4)
+
+
+def verify_task34():
+    task = "Task 34 - Build Final Project Report"
+    report_file = OUTPUT_DIR / "project_report.md"
+    check(task, "project_report.md was created in output directory", report_file.exists())
+    if report_file.exists():
+        content = report_file.read_text(encoding="utf-8")
+        check(task, "Project report is comprehensive and substantive", len(content) > 2000, f"{len(content)} chars")
+        has_sections = all(sec in content for sec in ["Executive Summary", "Holistic Project Metrics", "Phase-by-Phase Technical Accomplishments", "Data Quality Summary", "Complete Master Deliverables Inventory"])
+        check(task, "Project report includes all required sections and data quality summaries", has_sections)
+
+
 def main():
     import scripts.create_dataset as task1
     import scripts.extract_sections as task2
@@ -550,6 +675,15 @@ def main():
     import scripts.generate_keywords as task16
     import scripts.build_phase3_datasets as task17_24
     import scripts.build_final_dataset as task25
+    import scripts.find_duplicates as task27
+    import scripts.create_search_tests as task28
+    import scripts.create_ai_evaluations as task29
+    import scripts.create_rules as task30
+    import scripts.build_knowledge_base as task31
+    import scripts.create_test_scenarios as task32
+    import scripts.statistics as task33
+    import scripts.build_report as task34
+    import scripts.validate_json as task26
 
     steps = [
         ("Task 1 (create_dataset.py)", task1.main),
@@ -566,6 +700,15 @@ def main():
         ("Task 16 (generate_keywords.py)", task16.main),
         ("Task 17-24 (build_phase3_datasets.py)", task17_24.main),
         ("Task 25 (build_final_dataset.py)", task25.main),
+        ("Task 27 (find_duplicates.py)", task27.main),
+        ("Task 28 (create_search_tests.py)", task28.main),
+        ("Task 29 (create_ai_evaluations.py)", task29.main),
+        ("Task 30 (create_rules.py)", task30.main),
+        ("Task 31 (build_knowledge_base.py)", task31.main),
+        ("Task 32 (create_test_scenarios.py)", task32.main),
+        ("Task 33 (statistics.py)", task33.main),
+        ("Task 34 (build_report.py)", task34.main),
+        ("Task 26 (validate_json.py)", task26.main),
     ]
 
     steps_ok = True
@@ -601,6 +744,15 @@ def main():
     verify_task23()
     verify_task24()
     verify_task25()
+    verify_task26()
+    verify_task27()
+    verify_task28()
+    verify_task29()
+    verify_task30()
+    verify_task31()
+    verify_task32()
+    verify_task33()
+    verify_task34()
 
     all_passed = print_report()
     sys.exit(0 if all_passed else 1)

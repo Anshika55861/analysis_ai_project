@@ -1,0 +1,1706 @@
+{
+    "title": "Enterprise Insurance Knowledge Base",
+    "description": "Unified insurance domain ontology, common contractual clauses, risk taxonomy, coverage mappings, and advisory rules.",
+    "version": "1.0.0",
+    "insurance_terms": {
+        "total_terms": 96,
+        "dictionary": {
+            "Premium": {
+                "description": "The amount paid by the policyholder to maintain insurance coverage.",
+                "keywords": [
+                    "premium",
+                    "payment",
+                    "insurance fee"
+                ],
+                "aliases": []
+            },
+            "Policy": {
+                "description": "treating the Policy as if the Insurer may reasonably require at no cost to it had not existed from the inception date (where the Insurer the failure to make a fair presentation of the risk c the Insured or Insured Person must at the Insurer's occurs before or at the inception of the Policy), the request provide a medical examination report in renewal date (where the failure occurs at renewal of respect of any Accidental Bodily Injury where the the Policy), or the variation date (where the failure Insured requires the Insurer to consider a claim occurs when the Policy is varied); under this Policy for which the Insurer will pay the cost of the medical examination fee 16 COMPLETE ACCIDENT AND HEALTH POLICY WORDING continued d the Insured must ensure that as soon as possible I f the “cooling off period” has expired, the Insured after the occurrence of any Accidental Bodily Injury may cancel the Policy during the Period of Insurance the Insured Person obtains and follows the advice by giving 14 days notice in writing to their insurance of a Qualified Medical Practitioner adviser or the Allianz office which issued the Policy",
+                "keywords": [
+                    "policy"
+                ],
+                "aliases": []
+            },
+            "Claim": {
+                "description": "A request made by the insured to receive compensation.",
+                "keywords": [
+                    "claim",
+                    "compensation",
+                    "settlement"
+                ],
+                "aliases": []
+            },
+            "Coverage": {
+                "description": "The protection provided by an insurance policy.",
+                "keywords": [
+                    "coverage",
+                    "protection",
+                    "benefits"
+                ],
+                "aliases": []
+            },
+            "Deductible": {
+                "description": "the first portion of the loss/damage which is borne by the covered person pursuant to the terms of the insurance contract",
+                "keywords": [
+                    "deductible"
+                ],
+                "aliases": []
+            },
+            "Insured": {
+                "description": "the person named as insured in the schedule of this insurance policy or the insurance application form and/or the insurance policy endorsement(s) (if any)",
+                "keywords": [
+                    "insured",
+                    "insurer",
+                    "company",
+                    "provider"
+                ],
+                "aliases": []
+            },
+            "Beneficiary": {
+                "description": "The person who receives the insurance benefits.",
+                "keywords": [
+                    "beneficiary",
+                    "nominee",
+                    "recipient"
+                ],
+                "aliases": []
+            },
+            "Liability": {
+                "description": "disability to the extent of being permanently unable to perform any duties in one's own occupation/career as usual, but able to perform other works/ jobs for wages",
+                "keywords": [
+                    "liability",
+                    "legal",
+                    "responsibility",
+                    "disability"
+                ],
+                "aliases": [
+                    "Disability"
+                ]
+            },
+            "Risk": {
+                "description": "The possibility of loss or damage covered by insurance.",
+                "keywords": [
+                    "risk",
+                    "uncertainty",
+                    "loss"
+                ],
+                "aliases": []
+            },
+            "Accident": {
+                "description": "any incident that suddenly occurs due to an external factor and gives rise to a result that is not intended or anticipated by a covered person",
+                "keywords": [
+                    "accident"
+                ],
+                "aliases": []
+            },
+            "Endorsement": {
+                "description": "An amendment or addition to an insurance policy.",
+                "keywords": [
+                    "endorsement",
+                    "amendment",
+                    "policy change"
+                ],
+                "aliases": []
+            },
+            "Exclusion": {
+                "description": "A condition or event that is not covered by the policy.",
+                "keywords": [
+                    "exclusion",
+                    "not covered",
+                    "limitation"
+                ],
+                "aliases": []
+            },
+            "Sum Insured": {
+                "description": "The maximum amount payable under the insurance policy.",
+                "keywords": [
+                    "sum insured",
+                    "coverage limit",
+                    "maximum amount"
+                ],
+                "aliases": []
+            },
+            "Renewal": {
+                "description": "Extension of an insurance policy after its expiry.",
+                "keywords": [
+                    "renewal",
+                    "extend",
+                    "continue"
+                ],
+                "aliases": []
+            },
+            "Underwriting": {
+                "description": "The process of evaluating the risk of insuring a person or property.",
+                "keywords": [
+                    "underwriting",
+                    "risk assessment",
+                    "evaluation"
+                ],
+                "aliases": []
+            },
+            "Underwriter": {
+                "description": "A professional who assesses insurance applications and determines coverage.",
+                "keywords": [
+                    "underwriter",
+                    "risk",
+                    "approval"
+                ],
+                "aliases": []
+            },
+            "Co-payment": {
+                "description": "the joint labilities between the company and the covered person for the medical treatment expenses payable based on the benefit amount after deduction of the deductible (if any)",
+                "keywords": [
+                    "co-payment",
+                    "copay",
+                    "shared payment",
+                    "copayment"
+                ],
+                "aliases": [
+                    "Copayment"
+                ]
+            },
+            "Waiting Period": {
+                "description": "The period during which certain benefits cannot be claimed after the policy begins.",
+                "keywords": [
+                    "waiting period",
+                    "delay",
+                    "eligibility"
+                ],
+                "aliases": []
+            },
+            "Grace Period": {
+                "description": "Additional time allowed after the premium due date to make payment without losing coverage.",
+                "keywords": [
+                    "grace period",
+                    "late payment",
+                    "premium due"
+                ],
+                "aliases": []
+            },
+            "Cashless Claim": {
+                "description": "A claim settled directly between the insurer and the network hospital or service provider.",
+                "keywords": [
+                    "cashless",
+                    "hospital",
+                    "direct settlement"
+                ],
+                "aliases": []
+            },
+            "Reimbursement Claim": {
+                "description": "A claim where the insured pays first and later requests reimbursement from the insurer.",
+                "keywords": [
+                    "reimbursement",
+                    "claim",
+                    "refund"
+                ],
+                "aliases": []
+            },
+            "No Claim Bonus": {
+                "description": "A reward offered to policyholders who do not make any claims during the policy period.",
+                "keywords": [
+                    "NCB",
+                    "bonus",
+                    "claim free"
+                ],
+                "aliases": []
+            },
+            "Third Party": {
+                "description": "A person or entity other than the insurer and the insured who may be affected by an incident.",
+                "keywords": [
+                    "third party",
+                    "liability",
+                    "other person"
+                ],
+                "aliases": []
+            },
+            "Business Interruption": {
+                "description": "Insurance that covers income loss due to disruption of business operations.",
+                "keywords": [
+                    "business interruption",
+                    "income loss",
+                    "operations"
+                ],
+                "aliases": []
+            },
+            "Cyber Insurance": {
+                "description": "Insurance that protects against cyber attacks, hacking, and data breaches.",
+                "keywords": [
+                    "cyber",
+                    "hacking",
+                    "data breach"
+                ],
+                "aliases": []
+            },
+            "Professional Indemnity": {
+                "description": "Insurance that protects professionals against claims arising from negligence or errors.",
+                "keywords": [
+                    "professional indemnity",
+                    "negligence",
+                    "professional liability"
+                ],
+                "aliases": []
+            },
+            "Public Liability": {
+                "description": "Insurance that covers legal liability for injury or property damage to third parties.",
+                "keywords": [
+                    "public liability",
+                    "legal liability",
+                    "third party"
+                ],
+                "aliases": []
+            },
+            "Fire Cover": {
+                "description": "Insurance coverage for damage caused by fire.",
+                "keywords": [
+                    "fire",
+                    "fire cover",
+                    "property damage"
+                ],
+                "aliases": []
+            },
+            "Flood Cover": {
+                "description": "Insurance coverage for losses caused by floods.",
+                "keywords": [
+                    "flood",
+                    "water damage",
+                    "natural disaster"
+                ],
+                "aliases": []
+            },
+            "Theft Cover": {
+                "description": "Insurance coverage for loss or damage caused by theft or burglary.",
+                "keywords": [
+                    "theft",
+                    "burglary",
+                    "stolen property"
+                ],
+                "aliases": []
+            },
+            "Medical Expenses": {
+                "description": "Costs incurred for medical treatment that may be covered under a health insurance policy.",
+                "keywords": [
+                    "medical",
+                    "hospital",
+                    "treatment"
+                ],
+                "aliases": []
+            },
+            "Hospitalization": {
+                "description": "Admission to a hospital for medical treatment covered under the policy.",
+                "keywords": [
+                    "hospitalization",
+                    "admission",
+                    "hospital"
+                ],
+                "aliases": []
+            },
+            "Pre-existing Disease": {
+                "description": "A medical condition that existed before the insurance policy was purchased.",
+                "keywords": [
+                    "pre-existing",
+                    "disease",
+                    "medical history"
+                ],
+                "aliases": []
+            },
+            "Critical Illness": {
+                "description": "A serious illness specified in the policy that qualifies for a lump-sum benefit.",
+                "keywords": [
+                    "critical illness",
+                    "disease",
+                    "health"
+                ],
+                "aliases": []
+            },
+            "Maturity Benefit": {
+                "description": "The amount paid to the policyholder when the policy reaches its maturity date.",
+                "keywords": [
+                    "maturity",
+                    "benefit",
+                    "policy end"
+                ],
+                "aliases": []
+            },
+            "Death Benefit": {
+                "description": "The amount paid to the beneficiary upon the death of the insured.",
+                "keywords": [
+                    "death benefit",
+                    "nominee",
+                    "life insurance"
+                ],
+                "aliases": []
+            },
+            "Surrender Value": {
+                "description": "The amount payable if a policyholder terminates the policy before maturity.",
+                "keywords": [
+                    "surrender",
+                    "policy cancellation",
+                    "cash value"
+                ],
+                "aliases": []
+            },
+            "Policyholder": {
+                "description": "The individual or organization that owns the insurance policy.",
+                "keywords": [
+                    "policyholder",
+                    "owner",
+                    "insured"
+                ],
+                "aliases": []
+            },
+            "Nominee": {
+                "description": "The person nominated to receive insurance benefits after the insured's death.",
+                "keywords": [
+                    "nominee",
+                    "beneficiary",
+                    "recipient"
+                ],
+                "aliases": []
+            },
+            "Rider": {
+                "description": "An optional add-on that provides additional benefits to an insurance policy.",
+                "keywords": [
+                    "rider",
+                    "add-on",
+                    "extra coverage"
+                ],
+                "aliases": []
+            },
+            "Loss Assessment": {
+                "description": "The process of evaluating the extent of damage or financial loss after an incident.",
+                "keywords": [
+                    "loss assessment",
+                    "damage",
+                    "inspection"
+                ],
+                "aliases": []
+            },
+            "Surveyor": {
+                "description": "A professional appointed to inspect and assess insurance claims.",
+                "keywords": [
+                    "surveyor",
+                    "inspector",
+                    "claims assessment"
+                ],
+                "aliases": []
+            },
+            "Settlement": {
+                "description": "The process of paying or resolving an approved insurance claim.",
+                "keywords": [
+                    "settlement",
+                    "claim payment",
+                    "compensation"
+                ],
+                "aliases": []
+            },
+            "Fraud": {
+                "description": "A dishonest act intended to obtain insurance benefits unlawfully.",
+                "keywords": [
+                    "fraud",
+                    "false claim",
+                    "illegal"
+                ],
+                "aliases": []
+            },
+            "Natural Disaster": {
+                "description": "A catastrophic event such as an earthquake, flood, or cyclone that may be covered by insurance.",
+                "keywords": [
+                    "natural disaster",
+                    "earthquake",
+                    "flood",
+                    "cyclone"
+                ],
+                "aliases": []
+            },
+            "Property Damage": {
+                "description": "Physical damage to insured property caused by a covered event.",
+                "keywords": [
+                    "property damage",
+                    "loss",
+                    "building"
+                ],
+                "aliases": []
+            },
+            "Personal Accident": {
+                "description": "Insurance coverage providing benefits for accidental injury, disability, or death.",
+                "keywords": [
+                    "personal accident",
+                    "injury",
+                    "accident"
+                ],
+                "aliases": []
+            },
+            "Commercial Insurance": {
+                "description": "Insurance designed to protect businesses against financial losses.",
+                "keywords": [
+                    "commercial",
+                    "business",
+                    "enterprise"
+                ],
+                "aliases": []
+            },
+            "Travel Insurance": {
+                "description": "Insurance that provides financial protection against travel-related risks such as medical emergencies, trip cancellations, or lost baggage.",
+                "keywords": [
+                    "travel",
+                    "trip",
+                    "medical emergency",
+                    "baggage"
+                ],
+                "aliases": []
+            },
+            "Insurance fraud": {
+                "description": "fraudulently claiming for benefits under an insurance policy or presenting false evidence in making claims, including intentionally causing an injury or sickness in order to claim for compensations",
+                "keywords": [
+                    "insurance fraud",
+                    "insurance",
+                    "fraud"
+                ],
+                "aliases": []
+            },
+            "Insurance policy": {
+                "description": "the insurance policy schedule, schedule of benefits, general terms and conditions, general exclusions, insuring agreements, insurance policy attachments, insurance application form, special specifications, representations, insurance policy endorsements, and summary page of this insurance policy, which form an integral part of the insurance contract",
+                "keywords": [
+                    "insurance policy",
+                    "insurance",
+                    "policy"
+                ],
+                "aliases": []
+            },
+            "Company": {
+                "description": "the entity issuing the insurance policy",
+                "keywords": [
+                    "company"
+                ],
+                "aliases": []
+            },
+            "Dependent(s)": {
+                "description": "the insured’s dependent(s) named in the insurance policy schedule attachment, namely: 1) the insured’s spouse; 2) the legal child(ren) of the insured or of the insured’s spouse, or juvenile who is under the insured’s legal custody whose age is from 2 weeks up to 20 years old and who has not yet married",
+                "keywords": [
+                    "dependent(s)",
+                    "dependent",
+                    "s"
+                ],
+                "aliases": []
+            },
+            "Covered person(s)": {
+                "description": "the insured and/or the dependent(s) of the insured who are named in this insurance policy schedule only",
+                "keywords": [
+                    "covered person(s)",
+                    "covered",
+                    "person",
+                    "s"
+                ],
+                "aliases": []
+            },
+            "Beneficiary(ies)": {
+                "description": "the person(s) named in this insurance policy to be the person(s) who is to receive the compensations",
+                "keywords": [
+                    "beneficiary(ies)",
+                    "beneficiary",
+                    "ies"
+                ],
+                "aliases": []
+            },
+            "Injury": {
+                "description": "any bodily injury which is directly caused by an accident and occurs independently from other causes",
+                "keywords": [
+                    "injury"
+                ],
+                "aliases": []
+            },
+            "Sickness": {
+                "description": "any symptom, abnormality, or disorder of the body resulting from a disease",
+                "keywords": [
+                    "sickness"
+                ],
+                "aliases": []
+            },
+            "Physician": {
+                "description": "a person who graduated with a Doctor of Medicine degree and has a license to practice medicine in accordance with the local law of the locality where his/her services are provided",
+                "keywords": [
+                    "physician"
+                ],
+                "aliases": []
+            },
+            "Dentist": {
+                "description": "a person who graduated with a Doctor of Dental Surgery degree and has a license to practice dentistry in accordance with the local law of the locality where his/her services are provided",
+                "keywords": [
+                    "dentist"
+                ],
+                "aliases": []
+            },
+            "Dentistry/dental": {
+                "description": "any actions/acts performed to a human being in relation to diagnosis, treatment, or prevention, of dental diseases, dental organ diseases, diseases of organs in oral cavity, diseases of jaws and facial bones in connection with jaws, including any surgical actions and any actions/acts in the treatment, restoration, and rehabilitation of organs in oral cavity, jaws, facial bones in connection with jaws, and dental acts/dentistry in oral cavity",
+                "keywords": [
+                    "dentistry/dental",
+                    "dentistry",
+                    "dental"
+                ],
+                "aliases": []
+            },
+            "Medical facility": {
+                "description": "any place arranged for practicing therapeutic arts or medical and public health professions in accordance with the applicable local law of the locality where the services are provided",
+                "keywords": [
+                    "medical facility",
+                    "medical",
+                    "facility"
+                ],
+                "aliases": []
+            },
+            "Hospital": {
+                "description": "any medical facility which provides medical services, where overnight-stay patients can be accommodated or treatments of diseases or injuries can be provided throughout 24 hours a day, and which is registered to operate as “hospital” in accordance with the local law of the locality where the services are provided",
+                "keywords": [
+                    "hospital"
+                ],
+                "aliases": []
+            },
+            "Clinic": {
+                "description": "any medical facility which provides medical services, where overnight-stay patients cannot be accommodated, and which is registered to operate as “clinic” in accordance with the local law of the locality where the services are provided",
+                "keywords": [
+                    "clinic"
+                ],
+                "aliases": []
+            },
+            "Inpatient": {
+                "description": "a person who, due to a medical necessity, needs to be hospitalized in a hospital or medical facility for medical treatments of an injury or sickness for not less than 6 consecutive hours, who must be registered as an inpatient, including the case where a patient is admitted as an inpatient and subsequently dies before the 6-hour period has lapsed",
+                "keywords": [
+                    "inpatient"
+                ],
+                "aliases": []
+            },
+            "Terrorism": {
+                "description": "any act of force or violence and/or intimidation by any person or group of persons, regardless of whether he/she/they act(s) alone or such action is taken on behalf of or in connection with any organization or government, with an aim for political, religious, indoctrination, or similar purposes, including to cause the government and/or the public or any part of the public to be in the state of panic or terror",
+                "keywords": [
+                    "terrorism"
+                ],
+                "aliases": []
+            },
+            "Policy year": {
+                "description": "a period of one year from the date on which the insurance policy comes into force or from the policy year anniversary date in the following years",
+                "keywords": [
+                    "policy year",
+                    "policy",
+                    "year"
+                ],
+                "aliases": []
+            },
+            "Premium in the": {
+                "description": "the premium in the renewal year in the event of renewal of policy year or renewal year in the event of reinstatement as approved by the Registrar",
+                "keywords": [
+                    "premium in the",
+                    "premium",
+                    "in",
+                    "the"
+                ],
+                "aliases": []
+            },
+            "This": {
+                "description": "facts, statements and information set out in this proposal that you must tell us about all facts and circumstances form, your risk presentation or in any other information which may be material to the risks covered by your Policy provided are complete and accurate",
+                "keywords": [
+                    "this"
+                ],
+                "aliases": []
+            },
+            "Specialist": {
+                "description": "a physician who obtains a certificate or diploma to be a specialist in a physician particular field from the Medical Council or an equivalent institute under the local law of the locality where his/her services are provided, and who is not a physician in charge of the patient but provides consultation, care, or treatments along with the physician in charge of the patient",
+                "keywords": [
+                    "specialist"
+                ],
+                "aliases": []
+            },
+            "Nurse": {
+                "description": "a person who is licensed to practice nursing in accordance with the local law of the locality where his/her services are provided",
+                "keywords": [
+                    "nurse"
+                ],
+                "aliases": []
+            },
+            "Outpatient": {
+                "description": "a patient who receives a medical treatment for an injury or sickness at the outpatient department or in the emergency room of a hospital or medical facility with no medical necessity to be hospitalized as Inpatient",
+                "keywords": [
+                    "outpatient"
+                ],
+                "aliases": []
+            },
+            "Medical": {
+                "description": "provision of medical and public health services for examination, diagnosis, treatment(s) treatment, mitigation, nursing, and rehabilitation, that are necessary for health and livelihood",
+                "keywords": [
+                    "medical"
+                ],
+                "aliases": []
+            },
+            "Per confinement": {
+                "description": "each hospitalization as Inpatient for medical treatment(s), or each major surgery treatment without the hospitalization as inpatient (day surgery), in a hospital or medical facility",
+                "keywords": [
+                    "per confinement",
+                    "per",
+                    "confinement"
+                ],
+                "aliases": []
+            },
+            "Maximum benefit": {
+                "description": "the maximum amount of benefit per policy year which can be categorized per policy year into 2 cases: (1) For inpatient cases, medical expenses will commence to be calculated from the first day of any hospitalization for treatments as inpatient in that policy year, regardless of whether such hospitalization ends in the same policy year or not",
+                "keywords": [
+                    "maximum benefit",
+                    "maximum",
+                    "benefit"
+                ],
+                "aliases": []
+            },
+            "Medical standards": {
+                "description": "the rules or guidelines for medical treatments of injuries or sicknesses according to academic principles that are in line with the local standards of the locality where the services are provided as follows: (1) relevant professional standards and regulations; (2) medical facility standards; (3) medication and medical device/equipment standards; (4) non-discrimination patient care principles",
+                "keywords": [
+                    "medical standards",
+                    "medical",
+                    "standards"
+                ],
+                "aliases": []
+            },
+            "Medical necessity": {
+                "description": "the necessity of medical services or other services of a hospital or medical facility for diagnosis and treatment of an injury or sickness, subject to the following conditions: (1) It must be consistent with the diagnosis and the treatment according to the condition of the covered person’s injury or sickness; (2) It must be in consistent with the medical standards; (3) It must not be for the sole convenience of a covered person or his/ her family, or of the medical treatment service provider",
+                "keywords": [
+                    "medical necessity",
+                    "medical",
+                    "necessity"
+                ],
+                "aliases": []
+            },
+            "General rate (of": {
+                "description": "a rate of medical service fee or medical expense of the hospital or medical service charge) facility where a covered person receives medical treatments that is not higher than the rate of other patients who receive medical treatments in that hospital or medical facility at the same time",
+                "keywords": [
+                    "general rate (of",
+                    "general",
+                    "rate",
+                    "of"
+                ],
+                "aliases": []
+            },
+            "Alternative": {
+                "description": "medical treatments of injuries or sicknesses by a local licensed health medicine practitioner of traditional Thai medicine, traditional Chinese medicine, or chiropractic, or other practices which are not conventional medicine",
+                "keywords": [
+                    "alternative"
+                ],
+                "aliases": []
+            },
+            "Major surgery": {
+                "description": "any surgical procedure in which a resection through a wall or cavity of body is performed with the use of general anesthesia or regional anesthesia being required",
+                "keywords": [
+                    "major surgery",
+                    "major",
+                    "surgery"
+                ],
+                "aliases": []
+            },
+            "Minor surgery": {
+                "description": "any surgical procedure in which only skin, subcutaneous layer, or epithelial layer is resected with the use of topical/local anesthesia",
+                "keywords": [
+                    "minor surgery",
+                    "minor",
+                    "surgery"
+                ],
+                "aliases": []
+            },
+            "Day surgery": {
+                "description": "a major surgery, surgical replacement procedure or use of special therapeutic tool that can replace major surgery, which does not require a patient to be hospitalized for treatments in a hospital or medical facility as an inpatient",
+                "keywords": [
+                    "day surgery",
+                    "day",
+                    "surgery"
+                ],
+                "aliases": []
+            },
+            "Any loss(es) or": {
+                "description": "any bodily injury(ies) of a covered person due to an accident resulting in damage(s) the covered person's death, dismemberment, loss of sight, disability, or injury(ies)",
+                "keywords": [
+                    "any loss(es) or",
+                    "any",
+                    "loss",
+                    "es",
+                    "or"
+                ],
+                "aliases": []
+            },
+            "Dismemberment": {
+                "description": "being cut off/amputated from the wrist or the ankle including the total loss of use of that organ/limb which, according to a clear medical indication, will never be functional again",
+                "keywords": [
+                    "dismemberment"
+                ],
+                "aliases": []
+            },
+            "Loss of sight": {
+                "description": "complete blindness which is permanently incurable",
+                "keywords": [
+                    "loss of sight",
+                    "loss",
+                    "of",
+                    "sight"
+                ],
+                "aliases": []
+            },
+            "Total permanent": {
+                "description": "disability to the extent of being permanently and completely unable to disability perform any duties in one’s own occupation/career as usual and in other occupations/careers, or being unable to perform 3 or more daily routines on one’s own self",
+                "keywords": [
+                    "total permanent",
+                    "total",
+                    "permanent"
+                ],
+                "aliases": []
+            },
+            "Permanent Partial": {
+                "description": "disability to the extent of being permanently unable to perform any duties Disability in one’s own occupation/career as usual, but able to perform other works/ jobs for wages",
+                "keywords": [
+                    "permanent partial",
+                    "permanent",
+                    "partial"
+                ],
+                "aliases": []
+            },
+            "Employees, Fraud": {
+                "description": "depository institution, investment firm, investment any dishonest, fraudulent or malicious acts punishable advisory, investment manager, investment fund, mutual under the criminal laws of the country where this fund, stockbroker, mortgage broker, credit institution, act was committed, whether committed alone or in asset manager, private equity or venture capital company, collusion with others, with the intention to cause a Loss insurance company, reinsurance company or real estate to the Insured and/or to obtain an improper financial investment trust",
+                "keywords": [
+                    "employees, fraud",
+                    "employees",
+                    "fraud"
+                ],
+                "aliases": []
+            },
+            "Pollutants (for the purpose of Cover E only)": {
+                "description": "the cost of repurchasing the Data or Computer Any substance, solid, liquid, gaseous, biological, Programmes from a Third Party, if less than the cost of radiological or thermal irritant, toxic or hazardous transcription or copying",
+                "keywords": [
+                    "pollutants (for the purpose of cover e only)",
+                    "pollutants",
+                    "for",
+                    "the",
+                    "purpose",
+                    "of",
+                    "cover",
+                    "e",
+                    "only"
+                ],
+                "aliases": []
+            },
+            "Self Report ascertainable through proper": {
+                "description": "by another person who The actual report to any governmental, regulatory or can obtain economic advantage from its judicial agency by any Insured Person or Company disclosure or use",
+                "keywords": [
+                    "self report ascertainable through proper",
+                    "self",
+                    "report",
+                    "ascertainable",
+                    "through",
+                    "proper"
+                ],
+                "aliases": []
+            },
+            "Funds Extension, theft also": {
+                "description": "the felonious taking War or removing of Funds, as a direct result of targeted War, any invasion, act of foreign enemy, hostile operations intrusion into or the unauthorised access of the Insured’s (whether war has been declared or not), civil war, rebellion, Computer System, with the intent to deprive the rightful revolution, insurrection, riot or civil commotion assuming owner of it",
+                "keywords": [
+                    "funds extension, theft also",
+                    "funds",
+                    "extension",
+                    "theft",
+                    "also"
+                ],
+                "aliases": []
+            },
+            "If 'Yes', describe by what": {
+                "description": "c Who approves transfers and is dual authorisation required? Yes No If 'Yes', for over what amount? d Are the details of such transactions entered by someone who is not permitted to authorise transfers? Yes No e How many persons are required to release an electronic funds transfer instruction? f Do the terminals used feature a lock-out mechanism that denies access after a certain number of failed access attempts and logs the incident on an audit or supervisory report? Yes No g Are all transactions audited? Yes No If 'Yes', by whom and how often? Allianz Insurance plc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority",
+                "keywords": [
+                    "if 'yes', describe by what",
+                    "if",
+                    "yes",
+                    "describe",
+                    "by",
+                    "what"
+                ],
+                "aliases": []
+            },
+            "In this regard, 'perform daily routines'": {
+                "description": "the abilities to perform 6 types of main daily tasks of normal people, which is the medical criteria for evaluating the patients who are unable to perform such tasks",
+                "keywords": [
+                    "in this regard, 'perform daily routines'",
+                    "in",
+                    "this",
+                    "regard",
+                    "perform",
+                    "daily",
+                    "routines"
+                ],
+                "aliases": []
+            },
+            "Kidnap Consultant": {
+                "description": "any person or entity appointed by the Company with the consent of the Insurer to advise and respond to a Kidnap Event",
+                "keywords": [
+                    "kidnap consultant",
+                    "kidnap",
+                    "consultant"
+                ],
+                "aliases": []
+            },
+            "Kidnap Response Costs": {
+                "description": "the reasonable fees, costs and expenses of the Kidnap Consultant incurred by the Company in response to any Kidnap Event anywhere in the world (excluding Colombia, Iraq, Nigeria, and the Philippines)",
+                "keywords": [
+                    "kidnap response costs",
+                    "kidnap",
+                    "response",
+                    "costs"
+                ],
+                "aliases": []
+            },
+            "Third Party, Reconstitution Costs": {
+                "description": "the cost of repurchasing the Data or Computer Programmes from a Third Party, if less than the cost of transcription or copying",
+                "keywords": [
+                    "third party, reconstitution costs",
+                    "third",
+                    "party",
+                    "reconstitution",
+                    "costs"
+                ],
+                "aliases": []
+            },
+            "Any": {
+                "description": "of transportation whether by land, sea or air Damage Physical loss of or damage to Goods Domestic Transits Any transit commencing and terminating within Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands Employee 1 any person under a contract of service or apprenticeship with the Insured 2 any of the following persons whilst working for the Insured in connection with the Business a any labour master or labour only subcontractor or person supplied by him b any self-employed person providing labour only c any trainee or person undergoing work experience d any voluntary helper e any person who is borrowed by or hired to the Insured Event Any one occurrence or series of occurrences arising from one originating cause Excess First part of each and every claim, for which the Insured is responsible, specified in the Schedule Exports Any Insured Transit commencing within and terminating outside Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands Geographical Limits Shipment of Goods to or from anywhere in the world to or from or within Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands as specified in the Schedule Goods The subject matter insured as described in the Schedule • which are owned by the Insured and/or • for which the Insured: a is responsible for and/or b have an insurable interest under the terms of sale and/or c have received instructions to insure prior to any Damage occurring Hi-Tech Equipment Laptops, tablets, MP3 players, games, satnav's, mobile phones, smartphones, e-readers, cameras and similar consumer electronic devices, microchips, microprocessors, memory chips, central processing units or other components of a similar nature when not contained within fully assembled units Imports Any Insured Transit commencing outside of and terminating within Great Britain, Northern Ireland, the Republic of Ireland, the Isle of Man or the Channel Islands Insured The insured named and shown in the Schedule Insured Transits Any transit commencing during the Period of Insurance excluding shipments where the Insurer would be prohibited from providing such cover under any sanctions or similar legislation, regulation or restrictions Insurer Allianz Insurance plc ISM Code The International Management Code for the Safe Operation of Ships and Pollution Prevention Complete Cargo Policy Wording 6 Vehicle Any motor vehicle, motor vehicle and attached trailer or detached trailer owned or operated by the Insured and/or any Employee War Risks Any: • war, civil war, revolution, rebellion, insurrection or civil strife arising therefrom • hostile act by or against a belligerent power • capture, seizure, arrest, restraint or detainment arising from the above • derelict mines, torpedoes, bombs or other derelict weapons of war ISPS Code The International Ship and Port Facility Security Code Limit of Liability The maximum amount the Insurer will pay to the Insured for any claim or series of claims arising from one Event Period of Insurance The period from the Effective Date to the Renewal Date or End Date as shown in the Schedule Policy The contract of insurance made up of the documents as described in the Introduction Postal Sendings Goods despatched by package or parcel by non-courier postal services Process Any process of production, manufacture, fabrication, assembly or dis- assembly Schedule Part of this Policy that details information forming part of this contract and that shows the operative Sections of this Policy Section/Sections Parts of this Policy that detail the insurance cover provided for each individual section of this Policy Storage Goods stored outside their ordinary course of transit Terrorism An act, including but not limited to the use of force or violence and/or the threat thereof, of any person or group(s) of persons whether acting alone or on behalf of or in connection with any organisation(s) or government(s), committed for political, religious, ideological or similar purposes including the intention to influence any government and/or put the public or any section of the public in fear Unattended Where neither the Insured nor any Employee have the Goods (or Conveyance on which the Goods are loaded) under constant observation and at the same time have a reasonable prospect of preventing unauthorised interference with the Goods and/or Conveyance 7 Complete Cargo Policy Wording ii treat the Policy as if it had included such additional terms (other than those requiring payment of premium) as the Insurer would have imposed had the Insured made a fair presentation",
+                "keywords": [
+                    "any"
+                ],
+                "aliases": []
+            }
+        },
+        "canonical_mappings": {
+            "Public Liability": [
+                "General Liability",
+                "Third Party Liability",
+                "Public and Products Liability",
+                "Commercial General Liability (CGL)"
+            ],
+            "Policyholder": [
+                "The Insured",
+                "Covered Person",
+                "The Proposer",
+                "Named Insured",
+                "Certificate Holder",
+                "First Named Insured"
+            ],
+            "Insurer": [
+                "Underwriter",
+                "Insurance Carrier",
+                "Insurance Company",
+                "The Company",
+                "Assurer",
+                "Risk Bearer"
+            ],
+            "Broker": [
+                "Insurance Intermediary",
+                "Insurance Adviser",
+                "Insurance Agent",
+                "Appointed Representative",
+                "Producer"
+            ],
+            "Premium": [
+                "Insurance Charge",
+                "Policy Consideration",
+                "Subscription Fee",
+                "Deposit Premium",
+                "Retained Premium",
+                "Adjustable Premium"
+            ],
+            "Deductible": [
+                "Excess",
+                "First Loss Retention",
+                "Self-Insured Retention (SIR)",
+                "Policy Excess",
+                "Voluntary Deductible",
+                "Compulsory Deductible"
+            ],
+            "Limit of Liability": [
+                "Sum Insured",
+                "Policy Limit",
+                "Maximum Amount Payable",
+                "Aggregate Limit",
+                "Capital Sum Insured",
+                "Sub-limit",
+                "Indemnity Limit"
+            ],
+            "Exclusions": [
+                "Exceptions",
+                "What Is Not Covered",
+                "Uninsured Risks",
+                "General Exceptions",
+                "Policy Carve-Outs",
+                "Specific Exclusions"
+            ],
+            "Coverage": [
+                "Insuring Agreement",
+                "Operative Clause",
+                "Scope of Cover",
+                "What Is Covered",
+                "Policy Benefits",
+                "Indemnity Scope",
+                "Cover Section"
+            ],
+            "Policy Period": [
+                "Period of Insurance",
+                "Policy Term",
+                "Term of Cover",
+                "Duration of Coverage",
+                "Effective Period",
+                "Inception to Expiry Date"
+            ],
+            "Personal Accident": [
+                "Accidental Death and Dismemberment (AD&D)",
+                "Personal Injury & Disablement",
+                "Capital Benefits",
+                "Bodily Injury by Accident"
+            ],
+            "Medical Expenses": [
+                "Hospitalization and Surgical Care",
+                "Inpatient Medical Benefit",
+                "Emergency Medical Treatment",
+                "Major Medical Expense",
+                "Clinical Treatment Benefit"
+            ],
+            "Directors and Officers Liability": [
+                "D&O Insurance",
+                "Management Liability",
+                "Executive Liability",
+                "Corporate Governance Indemnity",
+                "Officers Errors and Omissions"
+            ],
+            "Cargo Insurance": [
+                "Marine Cargo",
+                "Goods in Transit (GIT)",
+                "Freight Insurance",
+                "Sendings and Shipments Cover",
+                "Transit Risk Protection"
+            ],
+            "Fidelity Guarantee": [
+                "Employee Dishonesty",
+                "Commercial Crime",
+                "Theft by Employee",
+                "Employee Fraud Protection",
+                "Internal Financial Crime Cover"
+            ],
+            "Business Interruption": [
+                "Loss of Profits",
+                "Consequential Loss",
+                "Business Income Coverage",
+                "Extra Expense Insurance",
+                "Interruption and Delay Cover"
+            ],
+            "Professional Indemnity": [
+                "Errors and Omissions (E&O)",
+                "Professional Liability",
+                "Malpractice Insurance",
+                "Civil Liability Cover"
+            ],
+            "Free Look Period": [
+                "Cooling-Off Period",
+                "Trial Period",
+                "Cancellation Window",
+                "Review Period"
+            ],
+            "Claim Notice": [
+                "Notice of Loss",
+                "Claim Notification",
+                "First Notice of Loss (FNOL)",
+                "Report of Accident / Injury",
+                "Claim Incident Advice"
+            ],
+            "Subrogation": [
+                "Recovery of Loss",
+                "Rights of Subrogation",
+                "Third-Party Recourse",
+                "Insurer Recovery Rights"
+            ]
+        }
+    },
+    "common_clauses": {
+        "categories_covered": [
+            "Condition",
+            "Coverage",
+            "Exclusion",
+            "Extension",
+            "Definition",
+            "Limitation"
+        ],
+        "representative_clauses": {
+            "Condition": [
+                {
+                    "clause_id": "claim.pdf_clause_1",
+                    "clause_title": "claims under your Policy); and/or",
+                    "clause_text": "b \u0007treat your Policy as if it had included such additional\nterms as we would have imposed had you told us\nabout a material fact or circumstance. Payment of any\nclaim you make will be subject to the application of\nany such additional terms.\nFor these reasons it is important that you check all of the\nfacts, statements and information set out in this proposal\nform, your risk presentation or in any other information\nprovided are complete and accurate. You must also make\nreasonable enquiries to check with anyone you employ in\nyour business that the facts and statements set out in this\nproposal form, your risk presentation or in any other\ninformation provided are complete and accurate and that\nthere are no other material facts which you need to\ndisclose.\nIf any of the facts, statements and information set out in\nthis proposal form, your risk presentation or any\nadditional information provided are incomplete or\ninaccurate, you or your Insurance advisor must contact us\nimmediately. Failure to do so could invalidate your policy\nor lead to a claim not being paid or not being paid in full.",
+                    "document": "claim.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Insurance contract",
+                    "clause_text": "This insurance contract is entered into by the company in reliance upon the insured's statements/\ndeclarations in the insurance application form and the additional declarations (if any) signed by the insured\nas evidence of the agreement to insure under the insurance contract. Therefore, the company issues this\ninsurance policy.\nIn the case where the insured knowingly declares a false statement in any statement/declaration referred\nto in paragraph one, or knowingly conceals a fact without notifying such fact to the company, which if the\ncompany had been aware of such fact, the company may have been motivated to charge a higher insurance",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.1",
+                    "clause_title": "premium or refuse to enter into the insurance contract, this insurance contract is voidable pursuant to",
+                    "clause_text": "Premium payment on an annual basis:",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.1.1",
+                    "clause_title": "premium or refuse to enter into the insurance contract, this insurance contract is voidable pursuant to",
+                    "clause_text": "Annual premium payment will be due and payable by the insured immediately upon or\nbefore the commencement of coverage, and the coverage will commence to take effect\non the date specified in the insurance policy schedule.\nThis is an English translation of the Thai version of the insurance policy.\nIf there is any discrepancy, conflict, or inconsistency between the two documents,\nthe Thai version of the insurance policy shall prevail.\nPage 6 of",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.1.3",
+                    "clause_title": "premium or refuse to enter into the insurance contract, this insurance contract is voidable pursuant to",
+                    "clause_text": "If the insured fails to pay the premium in the renewal year within the prescribed period,\nit will be deemed that the insured does not wish to renew the insurance policy and the",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "8.1",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "to adjust the premium rate in accordance with Clause",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "9",
+                    "clause_title": "Premium adjustment of the general",
+                    "clause_text": "terms and conditions and as approved by the registrar; and",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "8.2",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "to amend the insurance conditions and the conditions of coverages of the renewal insurance\npolicy as necessary, whereby the company must notify the insured in the event of any change,\naddition, or extension of the coverage, the general terms and conditions, the exclusions, the\ninsuring agreements, the attachments/endorsements, or other material parts of the insurance\npolicy.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "8.3",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "The company reserves the right not to renew the insurance policy in any of the following events:",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "8.3.1",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "There is evidence that a covered person fails to make an accurate and true statement/\ndeclaration in the insurance application form or the renewal application form, the health\ndeclaration, and any other additional statements/declarations related to the making of the\nhealth insurance policy, which such statement/declaration is material such that it may\ncause the company to require a higher premium, or refuse to provide an insurance, or\nprovide a conditional insurance.\nThis is an English translation of the Thai version of the insurance policy.\nIf there is any discrepancy, conflict, or inconsistency between the two documents,\nthe Thai version of the insurance policy shall prevail.\nPage 8 of",
+                    "document": "policy1.pdf"
+                }
+            ],
+            "Coverage": [
+                {
+                    "clause_id": "claim2.pdf_clause_2",
+                    "clause_title": "benefits?",
+                    "clause_text": "If \"yes\", please give particulars",
+                    "document": "claim2.pdf"
+                },
+                {
+                    "clause_id": "2",
+                    "clause_title": "premium or refuse to enter into the insurance contract, this insurance contract is voidable pursuant to",
+                    "clause_text": "Non-contestability or objection against the validity of the insurance contract\nThe company will not contest or object to the validity of this insurance contract once this insurance\npolicy has been in effect while the covered person is alive for at least 2 years from the effective date\n(inception date) of this insurance policy, or the covered person has made the insurance policy with the\ncompany for at least 2 consecutive years, or upon the date on which the company approves for a benefit\nincrease under this Insurance Policy, whichever occurs later. In the event that the company approves for\na benefit increase, the company may contest or object to the validity of this insurance policy only with\nrespect to the increased benefits.\nIf any information which may entitle the company to void this insurance contract pursuant to paragraph\none has come to the attention of the company, but the company does not exercise its right to void the\ninsurance contract within 1 month from becoming aware of such information, the validity of the insurance\ncontract may not be nullified by the company.\nThe company will not rely on any fact other than those declared in the insurance application form to\ncontest or object against the validity of the insurance policy pursuant to paragraph one and paragraph two.\nIn this regard, the company will not contest or object against the validity of this insurance policy in\nthe event that a covered person sustains an injury due to an accident, in which case, the company will\npay the benefits under the insurance policy to the extent that the company has been notified of the claim\nfor compensation under this insurance policy. Once the company approves the payment of benefits with\nrespect to the occurrence of such accident, this insurance policy will cease to provide the coverage from\nthe following day of the date on which the right of claim for compensation under this insurance policy\nhas arisen, and the company will return the premium to the insured after a deduction of the premium\nwith respect to the insuring agreement(s) under which the benefit(s) for such injury has been paid, in the\namount proportionate to the covered period. For other benefits that no claim payment has been made, the\ncompany will return the full amount of premium.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.2",
+                    "clause_title": "coverage under this insurance policy will expire on the expiration date of the insurance",
+                    "clause_text": "Premium payment on a monthly installment basis:",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.2.1",
+                    "clause_title": "coverage under this insurance policy will expire on the expiration date of the insurance",
+                    "clause_text": "The first installment of premium payment will be due and payable by the insured\nimmediately upon or before the commencement of coverage, and the coverage will\ncommence to take effect on the date specified in the insurance policy schedule.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.2.2",
+                    "clause_title": "coverage under this insurance policy will expire on the expiration date of the insurance",
+                    "clause_text": "The subsequent installments of premium will be due and payable on the monthly anniversary\ndate of the previous month premium payment. The company will automatically deduct\nthe insurance premiums via the bank account or credit card as agreed by the insured.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.2.3",
+                    "clause_title": "coverage under this insurance policy will expire on the expiration date of the insurance",
+                    "clause_text": "In the event that the company is unable to deduct the insurance premiums of any month\nvia the bank account or credit card, the company will provide leniency by having\nthe outstanding balance accrued and carried forward to be collected together with\nthe insurance premium of the following month. The policy terms related to the non-\ncontestability period, pre-existing conditions, and waiting period (if any) will not be\nre-imposed by the company. If the company is still unable to collect such insurance",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.3",
+                    "clause_title": "premium thereafter, the coverage under this insurance policy will expire on the last day",
+                    "clause_text": "In the event that there is a cause for benefit claim in the grace period and the company has not\nyet received the insurance premium payment, the company will deduct the unpaid premium for\nthat policy year from the amount of benefit payable under this insurance policy and pay the\nremainder of the benefit to the covered person or the beneficiary(ies) (in case of death).",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "5",
+                    "clause_title": "Misstatement in relation to age or sex",
+                    "clause_text": "If the age or gender of a covered person is misstated resulting in the company receiving less insurance",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "52",
+                    "clause_title": "Pages",
+                    "clause_text": "If the company receives the insurance premium in excess of the specified rate, the company will return\nthe overpaid amount of premium to the insured.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "6.1",
+                    "clause_title": "premium than the specified rate, the benefits to be received/the sum insured to be covered under this",
+                    "clause_text": "The dependent(s) will be covered under this insurance policy only if the insured remains\ncovered under this insurance policy.",
+                    "document": "policy1.pdf"
+                }
+            ],
+            "Exclusion": [
+                {
+                    "clause_id": "policy1.pdf_clause_3",
+                    "clause_title": "exclusions, and the attachments/endorsements to this insurance policy, the company undertakes and",
+                    "clause_text": "agrees to the insured as follows:",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "2",
+                    "clause_title": "conditions, general exclusions, insuring agreements, insurance policy",
+                    "clause_text": "the legal child(ren) of the insured or of the insured's spouse, or juvenile\nwho is under the insured's legal custody whose age is from 2 weeks\nup to 20 years old and who has not yet married.\nThis is an English translation of the Thai version of the insurance policy.\nIf there is any discrepancy, conflict, or inconsistency between the two documents,\nthe Thai version of the insurance policy shall prevail.\nPage 3 of",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "52",
+                    "clause_title": "Pages",
+                    "clause_text": "Covered person(s) means\nthe insured and/or the dependent(s) of the insured who are named in this\ninsurance policy schedule only.\nBeneficiary(ies)\nmeans\nthe person(s) named in this insurance policy to be the person(s) who is to\nreceive the compensations. The beneficiary(ies) may change according to\nthe covered person's intention.\nAccident\nmeans\nany incident that suddenly occurs due to an external factor and gives rise\nto a result that is not intended or anticipated by a covered person.\nInjury\nmeans\nany bodily injury which is directly caused by an accident and occurs\nindependently from other causes.\nSickness\nmeans\nany symptom, abnormality, or disorder of the body resulting from a disease.\nPhysician\nmeans\na person who graduated with a Doctor of Medicine degree and has a license\nto practice medicine in accordance with the local law of the locality where\nhis/her services are provided.\nDentist\nmeans\na person who graduated with a Doctor of Dental Surgery degree and has a\nlicense to practice dentistry in accordance with the local law of the locality\nwhere his/her services are provided.\nDentistry/dental\nmeans\nany actions/acts performed to a human being in relation to diagnosis,\ntreatment, or prevention, of dental diseases, dental organ diseases, diseases\nof organs in oral cavity, diseases of jaws and facial bones in connection\nwith jaws, including any surgical actions and any actions/acts in the\ntreatment, restoration, and rehabilitation of organs in oral cavity, jaws, facial\nbones in connection with jaws, and dental acts/dentistry in oral cavity.\nMedical facility\nmeans\nany place arranged for practicing therapeutic arts or medical and public\nhealth professions in accordance with the applicable local law of the locality\nwhere the services are provided.\nHospital\nmeans\nany medical facility which provides medical services, where overnight-stay\npatients can be accommodated or treatments of diseases or injuries can be\nprovided throughout 24 hours a day, and which is registered to operate as\n\"hospital\" in accordance with the local law of the locality where the services\nare provided.\nClinic\nmeans\nany medical facility which provides medical services, where overnight-stay\npatients cannot be accommodated, and which is registered to operate as\n\"clinic\" in accordance with the local law of the locality where the services\nare provided.\nThis is an English translation of the Thai version of the insurance policy.\nIf there is any discrepancy, conflict, or inconsistency between the two documents,\nthe Thai version of the insurance policy shall prevail.\nPage 4 of",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "52",
+                    "clause_title": "Pages",
+                    "clause_text": "Inpatient\nmeans\na person who, due to a medical necessity, needs to be hospitalized in a\nhospital or medical facility for medical treatments of an injury or sickness\nfor not less than 6 consecutive hours, who must be registered as an inpatient,\nincluding the case where a patient is admitted as an inpatient and\nsubsequently dies before the 6-hour period has lapsed.\nTerrorism\nmeans\nany act of force or violence and/or intimidation by any person or group of\npersons, regardless of whether he/she/they act(s) alone or such action is\ntaken on behalf of or in connection with any organization or government,\nwith an aim for political, religious, indoctrination, or similar purposes,\nincluding to cause the government and/or the public or any part of the public\nto be in the state of panic or terror.\nPolicy year\nmeans\na period of one year from the date on which the insurance policy comes\ninto force or from the policy year anniversary date in the following years.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4.1.2",
+                    "clause_title": "premium or refuse to enter into the insurance contract, this insurance contract is voidable pursuant to",
+                    "clause_text": "The insured must make payment of the premium in the renewal year within 31 days\nfrom the expiration date of the insurance policy in the previous year as specified in the\ninsurance policy schedule. The policy terms related to the non-contestability period,\npre-existing conditions, and waiting period (if any) will not be re-imposed by the\ncompany.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "11.3",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "Upon the covered person's death due to a cause not covered under this insurance policy or\nthe covered person's incarceration in a prison or penitentiary, in which case, the company will\nreturn the premium to the beneficiary(ies) after a deduction of the premium pro rata to the period\nfor which this insurance policy has been in effect, unless the company has made payments of\nall items of benefits in the maximum amount per policy year (if any) as shown in the insurance\npolicy schedule or the schedule of benefits in full.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Section 3 General Exclusions",
+                    "clause_text": "injuries that occur as a result of the covered person's action:\n1)\nwhile under the influence of narcotics or addictive substances/drugs to the extent of being\nunable to control one's mind/to maintain consciousness; or\n2)\nwhile under the influence of alcohol with an alcohol level in the body at the time of the test\nreaching 150 milligram percent or above; or\n3)\nwhile under the influence of alcohol to the extent of being unable to control one's mind/to\nmaintain consciousness in the event of no test/measurement or in the event that the level\nof alcohol cannot be measured;",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "2",
+                    "clause_title": "Section 3 General Exclusions",
+                    "clause_text": "injuries that occur while the covered person is committing a felony/serious crime or while the\ncovered person is under arrest or is escaping the arrest;",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "3",
+                    "clause_title": "Section 3 General Exclusions",
+                    "clause_text": "injuries that occur while the covered person is in any kind of car or boat race, horse race, any\nkind of ski race including jet ski, skating, boxing parachuting (except for parachuting for life\nsaving), paramotor or glider ride or race, or while boarding or alighting from or traveling in a\nballoon, bungee jumping, diving with oxygen tank and breathing apparatus/equipment under\nwater (scuba diving);",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4",
+                    "clause_title": "Section 3 General Exclusions",
+                    "clause_text": "war, invasion, malicious act of foreign enemies, or warlike malicious act, whether or not a war\nis declared, civil war, uprising, rebellion, riot, strike, civil commotion, revolution, coup d'état,\ndeclaration of martial law, or any event which will result in declaration or maintaining of martial\nlaw;",
+                    "document": "policy1.pdf"
+                }
+            ],
+            "Extension": [
+                {
+                    "clause_id": "3",
+                    "clause_title": "premium or refuse to enter into the insurance contract, this insurance contract is voidable pursuant to",
+                    "clause_text": "Validity of the insurance contract and amendment of the insurance contract wording\nThis insurance policy including the insuring agreements and the attachments/endorsements constitute\nan insurance contract. Any amendment of any provision/wording in the insurance contract will be valid only\nwith the company's consent and if it is recorded in this insurance policy or in an attachment/endorsement.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4",
+                    "clause_title": "premium for the past policy year. In such event, the company will return the premium within 180",
+                    "clause_text": "Endorsement for Extended Coverage of Medical Practitioner Fees for Consultant Specialist Physician",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "5",
+                    "clause_title": "premium for the past policy year. In such event, the company will return the premium within 180",
+                    "clause_text": "Endorsement for Extended Coverage of Special Nursing Services at Home",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "policy, the company reserves the rights:",
+                    "clause_text": "policy, the company reserves the rights:\n8.1 to adjust the premium rate in accordance with Clause 9 Premium adjustment of the general\nterms and conditions and as approved by the registrar; and\n8.2 to amend the insurance conditions and the conditions of coverages of the renewal insurance\npolicy as necessary, whereby the company must notify the insured in the event of any change,\naddition, or extension of the coverage, the general terms and conditions, the exclusions, the\ninsuring agreements, the attachments/endorsements, or other material parts of the insurance\npolicy.\n8.3 The company reserves the right not to renew the insurance policy in any of the following events:\n8.3.1 There is evidence that a covered person fails to make an accurate and true statement/\ndeclaration in the insurance application form or the renewal application form, the health\ndeclaration, and any other additional statements/declarations related to the making of the\nhealth insurance policy, which such statement/declaration is material such that it may\ncause the company to require a higher premium, or refuse to provide an insurance, or\nprovide a conditional insurance.\nThis is an English translation of the Thai version of the insurance policy.\nIf there is any discrepancy, conflict, or inconsistency between the two documents,\nthe Thai version of the insurance policy shall prevail.\nPage 8 of 52 Pages\n8.3.2 A covered person claims for any benefit with respect to a medical treatment of an injury\nor sickness without any medical necessity.\n8.3.3 A covered person claims for compensation for his/her hospitalization for a medical\ntreatment at a hospital or medical facility from multiple insurers in the total amount that\nexceeds his/her actual income.\nIn the event of no renewal for any reason specified above, the company must send a prior written notice\nto the covered person(s) by registered post or other means agreed by the insured at least 30 days before this\ninsurance policy expires as specified in the insurance policy schedule and/or the endorsement(s) (if any).\n9 Premium adjustment\nThe company may adjust the premium on the anniversary date of the policy year due to any of the\nfollowing factors:\n9.1 age and occupation of each individual;\n9.2 inflation of medical costs, or the overall claims experience of the relevant product portfolio,\nwhereby the company will send a written notice to the covered person(s) by registered post or\nother means agreed by the insured at least 30 days in advance.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "4",
+                    "clause_title": "\u0007The Insurer will pay this extension only once during the",
+                    "clause_text": "\u0007The Insurer will pay this extension only once during the\nlifetime of the policy if the Insured Person is diagnosed\nwith osteoporosis prior to or as a result of the\nAccidental Bodily Injury that results in a claim under\nthis policy.\nFuneral Expenses and Urgent Estate Expenses\n\u0007If within the Operative Time an Insured Person sustains\nAccidental Bodily Injury resulting in payment of the Death\nBenefit of that Insured Person, the Insurer will in addition\npay to their legal representatives\na \u0007the reasonable costs incurred with the Insurer's prior\nwritten consent for the funeral expenses of that Insured\nPerson.\n\u0007The maximum amount payable for such costs for any one\nInsured Person is £10,000.\nb \u0007reasonable expenses necessarily incurred as a direct\nconsequence of the Death of the Insured Person which\nrequire immediate payment by the executor to the\nestate of the Insured Person whilst the administration\nof the estate is being arranged.",
+                    "document": "policy2.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "The Insured or Insured Persons may also choose",
+                    "clause_text": "The Insured or Insured Persons may also choose\nto consider the following services which are totally\nindependent of and are not part of this policy:\nForeign, Commonwealth & Development Office (FCDO)\nTravel Advice\nThe FCDO periodically issue guidelines about locations\naround the world and whether it is advisable to travel to,\nor within, such locations.\nIt is strongly recommended that the Insured consults the\ntravel advice section of the FCDO website (gov.uk/foreign-\ntravel-advice) before allowing an Insured Person to travel.\nNote: Advice from the FCDO will be relevant to the cover\nprovided by Item 7 - Political Evacuation.\nGlobal Health Insurance Card (GHIC)\nA GHIC entitles a person to reduced-cost, sometimes free,\nmedical treatment that becomes necessary while they are\nin a European Union (EU).\nSubject to restrictions, people who are ordinarily resident\nin the UK are entitled to a GHIC. There will be a transition\nperiod between the old EHIC and new GHIC card.\nA person can apply for a GHIC:\na by phone on 0300 330 1350\nb on-line at nhs.uk/ghic\nIn addition to the above the Policy also provides\nThe Allianz Travel Oracle website & mobile App\nDownload and registration details are in the Policy\nintroduction.\n31\nCOMPLETE ACCIDENT AND HEALTH POLICY WORDING",
+                    "document": "policy2.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Delayed Departure",
+                    "clause_text": "Delayed Departure\nIf within the Operative Time an Insured Person is delayed\nbeyond the published departure time of the:\na Aircraft\nb Sea vessel\nc Train\nin which they are booked to travel during the Period of\nInsurance and Operative Time the Insurer will pay the\nInsured (in the case of a Business Trip) or the Insured\nPerson (if otherwise)\n£50 after the first four (4) hours delay\n£50 for each subsequent full hour of delay\nprovided that the:\ni\n\u0007Insured Person checks in at the airport or port or\nother departure point designated by the relevant\ntravel provider not later than the latest check in time\nindicated by the travel provider\nii \u0007The Insured or Insured Person obtains written\nconfirmation from the travel provider of the extent of\nand reason for any delay.\nThe maximum amount payable is £750 in respect of any\none Insured Person.\nPiste closure\nIf within the Operative Time an Insured Person is unable\nto ski or snow board at their pre-booked resort, because\nthe ski-lifts and ski-schools that you are due to use are\nclosed as a result of adverse weather conditions the\nInsurer will pay up to £50 per day for the cost of extra\ntransport or lift passes to let you ski or snow board at\nanother resort.\nThe maximum amount payable for any one Insured\nPerson is £200.\nCOMPLETE ACCIDENT AND HEALTH POLICY WORDING\n36",
+                    "document": "policy2.pdf"
+                },
+                {
+                    "clause_id": "2",
+                    "clause_title": "\u0007If an entity becomes a Subsidiary during the Period",
+                    "clause_text": "\u0007If an entity becomes a Subsidiary during the Period\nof Insurance, such entity shall be covered under this\nSection as such with effect from the date on which it\nbecame a Subsidiary unless such entity has:",
+                    "document": "policy3.pdf"
+                },
+                {
+                    "clause_id": "3",
+                    "clause_title": "a \u0007total assets that exceed 25% of the total assets of",
+                    "clause_text": "a \u0007total assets that exceed 25% of the total assets of\nthe Policyholder at the inception of the Period of\nInsurance",
+                    "document": "policy3.pdf"
+                },
+                {
+                    "clause_id": "4",
+                    "clause_title": "b \u0007any of its Securities listed on any exchange.",
+                    "clause_text": "b \u0007any of its Securities listed on any exchange.",
+                    "document": "policy3.pdf"
+                }
+            ],
+            "Definition": [
+                {
+                    "clause_id": "8.3.3",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "A covered person claims for compensation for his/her hospitalization for a medical\ntreatment at a hospital or medical facility from multiple insurers in the total amount that\nexceeds his/her actual income.\nIn the event of no renewal for any reason specified above, the company must send a prior written notice\nto the covered person(s) by registered post or other means agreed by the insured at least 30 days before this\ninsurance policy expires as specified in the insurance policy schedule and/or the endorsement(s) (if any).",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "9.2",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "inflation of medical costs, or the overall claims experience of the relevant product portfolio,\nwhereby the company will send a written notice to the covered person(s) by registered post or\nother means agreed by the insured at least 30 days in advance.\nIn this regard, the adjusted premium must be at the rate that has already been approved by the registrar.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "8",
+                    "clause_title": "Renewal at the",
+                    "clause_text": "anniversary of policy year on an anniversary date of policy year, in which case, the company\nmust send a prior written notice to the covered person(s) by registered post or other means agreed\nby the insured at least 30 days before the expiration date of this insurance policy specified in\nthe insurance policy schedule or the endorsement(s) (if any).",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "11.7.2",
+                    "clause_title": "premium are continuously made. However, in the event that the company agrees to renew the insurance",
+                    "clause_text": "the dependent's lack of a qualification pursuant to the relevant definition.",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "policy3.pdf_clause_330",
+                    "clause_title": "Definitions and the Policy Conditions, all of which",
+                    "clause_text": "apply to all Sections of the Policy\n• \u0007the Sections of cover provided, including the Section",
+                    "document": "policy3.pdf"
+                },
+                {
+                    "clause_id": "10",
+                    "clause_title": "Plurals, Headings and Titles",
+                    "clause_text": "\u0007The descriptions in the headings and titles of this Policy\nare solely for reference and convenience and do not lend\nany meaning to this contract. Words and expressions\nin the singular shall include the plural and vice versa.\nWords that are not specifically defined in this Policy have\nthe meaning normally attributed to them.",
+                    "document": "policy3.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "I/we declare that:",
+                    "clause_text": "I/we declare that:\n1 I/We have read this proposal and understand that I/we\nare under a duty to make a fair presentation of the risk\nand that failure to do so could result in my/our policy\nbeing invalidated and/or a claim not being paid or not\nbeing paid in full.\n2 the facts, statements and information contained within\nthis proposal, whether provided by me/us or by others\non my/our behalf, are true and complete.\n3 the facts, statements and information which are not\ncontained within this proposal but which have been\nprovided to Allianz separately by me/us or by others on\nmy/our behalf are true and complete.\n4 I/We have declared all material facts and\ncircumstances which may affect the risk being accepted\nby Allianz under this policy even if Allianz has not asked\nme/us any questions about such facts.\n5 I /We have made all reasonable enquiries of any\nemployed by me/us to ensure that all facts, statements\nand information provided to Allianz are accurate and\ncorrect.\n6 I/We agree to accept Allianz's standard form of policy\nfor this/these class/classes of insurance. A specimen\ncopy of the policy is available on request.\n7 I/We understand that Allianz Insurance plc and/or\nAllianz Legal Protection reserve the right to decline any\nproposal.\n8 I/We have read the Privacy Notice Summary and\nconsent to data being used for the purposes specified.\nSIGN\n11\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\nPlease find below a summary of our Privacy Notice.\nThe full notice can be found on the Allianz UK website:\nallianz.co.uk/privacy-notice.html.\nIf you would like a printed copy of our Privacy Notice,\nplease contact the Data Rights team using the details\nbelow.\nAllianz Insurance plc is the data controller of any personal\ninformation given to us about you or other people named\non the policy, quote or claim. It is your responsibility to let\nany named person know about who we are and how this\ninformation will be processed.\nWhen we refer to \"we\", \"us\" and our in this notice it means\nAllianz Insurance plc, Allianz Engineering Inspection\nServices Limited, Pet Plan Limited and Vet Envoy Limited\nwho are all part of the Allianz UK Group which includes\ninsurance companies, insurance brokers and other\ncompanies owned by the Allianz UK Group.\nPlease see link for a detailed list of these companies here:\nallianz.co.uk/about-allianz/our-organisation.html#azuk\nAnyone whose personal information we hold has the\nright to object to us using it.",
+                    "document": "claim.pdf"
+                },
+                {
+                    "clause_id": "4",
+                    "clause_title": "iv Other? If 'Yes', please specify below",
+                    "clause_text": "iv Other? If 'Yes', please specify below\nd Does the system impose limits on the amounts/values of instructions?\nYes\nNo\nIf 'Yes', please describe\ne Within your organisation are there written procedures regarding the control and\nusage of the system?\nYes\nNo\nf\nAre cash management system transaction statements received from the Service Bank verified\nby the end of the next business day following receipt?\nYes\nNo\nIf 'No', when are they verified?\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\n4 With regard to funds transfer (whether through a Cash Management System or not) please\nprovide the following:\na In respect of funds transfer applications do you input instructions in:\ni\nFixed/pre-format?\nYes\nNo\nIf 'Yes', describe procedures for setting up and amending authorities\nii\nFree-format?\nYes\nNo\nb Do the bank acknowledge transfers?\nYes\nNo\nIf 'Yes', describe by what means\nc Who approves transfers\nand is dual authorisation required?\nYes\nNo\nIf 'Yes', for over what amount?\nd Are the details of such transactions entered by someone who is not permitted to authorise\ntransfers?\nYes\nNo\ne How many persons are required to release an electronic funds transfer instruction?\nf\nDo the terminals used feature a lock-out mechanism that denies access after a certain\nnumber of failed access attempts and logs the incident on an audit or supervisory report?\nYes\nNo\ng Are all transactions audited?\nYes\nNo\nIf 'Yes', by whom and how often?\nAllianz Insurance plc is authorised by the Prudential Regulation Authority and regulated by the Financial\nConduct Authority and Prudential Regulation Authority. Financial Services Register No. 121849.\nRegistered in England number 84638Registered Office: 57 Ladymead, Guildford, Surrey GU1 1DB.\nACOM160_11 08.25\nALLIANZ.CO.UK",
+                    "document": "claim.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Unless specified otherwise in this insurance policy, terms a",
+                    "clause_text": "Unless specified otherwise in this insurance policy, terms and expressions used wherever herein have\nthe same meanings as ascribed to them below:\nInsurance fraud\nmeans\nfraudulently claiming for benefits under an insurance policy or presenting\nfalse evidence in making claims, including intentionally causing an injury\nor sickness in order to claim for compensations.\nInsurance policy\nmeans\nthe insurance policy schedule, schedule of benefits, general terms and",
+                    "document": "policy1.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "renewal year",
+                    "clause_text": "means\nthe premium in the renewal year in the event of renewal of policy year or\nin the event of reinstatement as approved by the Registrar.\nSection 2 General Terms and Conditions\n1 Insurance contract\nThis insurance contract is entered into by the company in reliance upon the insured's statements/\ndeclarations in the insurance application form and the additional declarations (if any) signed by the insured\nas evidence of the agreement to insure under the insurance contract. Therefore, the company issues this\ninsurance policy.\nIn the case where the insured knowingly declares a false statement in any statement/declaration referred\nto in paragraph one, or knowingly conceals a fact without notifying such fact to the company, which if the\ncompany had been aware of such fact, the company may have been motivated to charge a higher insurance",
+                    "document": "policy1.pdf"
+                }
+            ],
+            "Limitation": [
+                {
+                    "clause_id": "13",
+                    "clause_title": "Benefit Limits",
+                    "clause_text": "a \u0007If the Insured Person is included in more than one\nCategory, Section or Clause of this Policy the\nInsurer will only pay the larger Benefit or Extension\nrespect of the same Loss.\nb \u0007Dental Expenses shall be limited to £250 unless\nrecommended safety equipment for protection\nagainst Dental Injury was being worn by the\nInsured Person whilst participating in any sport\nor activity for which the wearing of such safety\nequipment is reasonably required.\nc \u0007The Insurer will not pay more than the Maximum\nBenefit for Benefits 1 to 6 or any other Sum Insured\nas shown in the Schedule for any one Insured\nPerson.\nd \u0007The Maximum Benefit payable in respect of Death\nof an Insured Person under 16 years of age or\nunder 18 years of age and in full time education\nshall not exceed £25,000 or the Benefit stated in the\nSchedule whichever is the lower.\ne \u0007i\n\u0007If payment is made to the Insured the maximum\nWeekly Benefit payable for\n• \u0007Temporary Total Disablement will not\nexceed 100%\n• \u0007Temporary Partial Disablement will not\nexceed 50%\nof the Insured Person's normal Weekly Wage.\nii \u0007If the Insured requests payment to be made\nto the Insured Person the maximum Weekly\nBenefit payable for\n• \u0007Temporary Total Disablement will not\nexceed 75%\n• \u0007Temporary Partial Disablement will not\nexceed 30%\nof the Insured Person's normal Weekly Wage.\n\u0007It is the duty of the Insured to inform the Insurer if any\nclaim payment exceeds these limits. The Insurer shall\nbe entitled to seek recovery of any overpayment or\nadjust future payment of any Personal Accident benefit\nor extensions until these limits are not exceeded.\nf\n\u0007Payment by the Insurer to the Insured of any Weekly\nBenefit does not prejudice the Insured's entitlement\nto any other Benefit but payment of Weekly Benefits\nwill cease if the Insurer pays any of the Capital Sum",
+                    "document": "policy2.pdf"
+                },
+                {
+                    "clause_id": "6",
+                    "clause_title": "Currency",
+                    "clause_text": "\u0007In respect of a claim which occurs outside of the United\nKingdom, then the local currency value of any claim\nor applicable Limit of Indemnity, sum insured, limit or\nExcess, shall be converted to British Pounds Sterling\n(£) at the rate of exchange prevailing at the time of\nthe settlement of the amount of the claim or, if interim\npayments are made, at the date of such payment.\nThe rate of exchange shall be as published in the\nFinancial Times at 9.00am British standard time on the\nappropriate date or its first publication thereafter.\nCOMPLETE DIRECTORS AND OFFICERS POLICY WORDING\n8",
+                    "document": "policy3.pdf"
+                },
+                {
+                    "clause_id": "4",
+                    "clause_title": "Excess",
+                    "clause_text": "\u0007An Excess shall apply with respect to each and every\nClaim other than for Non-indemnifiable Loss.\n\u0007In the event that the Policyholder and/or the relevant\nSubsidiary does not indemnify an Insured Person, the\nInsurer shall advance the Loss covered by the provisions\nof this Section to such Insured Person. However, any\napplicable Excess shall then become immediately\npayable by the Policyholder and/or the Subsidiary to\nthe Insurer.\nCOMPLETE DIRECTORS AND OFFICERS POLICY WORDING\n32",
+                    "document": "policy3.pdf"
+                },
+                {
+                    "clause_id": "15",
+                    "clause_title": "Excess",
+                    "clause_text": "Any Excess\n15\nComplete Cargo Policy Wording",
+                    "document": "policy4.pdf"
+                },
+                {
+                    "clause_id": "2",
+                    "clause_title": "Insurance proposal form",
+                    "clause_text": "2\nDo you have a documented policy on Security within your organisation?\nYes\nNo\na Does it comply with BS7799 or ISO 27001:2005?\nYes\nNo\nb Does it include computer security?\nYes\nNo\nc \u0007Has a director or senior member of staff been given responsibility to enforce\nand review this?\nYes\nNo\nd Are all staff made aware of it?\nYes\nNo\ne \u0007Are all employees made aware of the person to whom they should report the discovery of a\npossible loss or activities which may lead to a loss?\nYes\nNo\nf\n\u0007Please enclose a copy with this proposal form - enclosed\nYes\nNo\n3\nDo any employees to be insured reside or work outside Great Britain, Northern Ireland,\nthe Channel Islands and the Isle of Man?\nYes\nNo\nIf 'Yes', please provide full details\n4\nAre all employees to be covered who have responsibility for stock control, wage or accounting\nfunctions required to take 14 consecutive days holiday per annum?\nYes\nNo\n3\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\nGeneral (continued)\n5\na Do professional auditors audit your accounts at least once every 12 months?\nYes\nNo\nb Do they audit all locations?\nYes\nNo\nc Name and address of your auditors\nYes\nNo\nd Do you have an internal audit team?\n(If 'Yes', you now need to complete Appendix 1 - Internal Audit)\nYes\nNo\n6\nDo you always obtain satisfactory written references direct from former employers covering\nthe three years immediately preceding the engagement of any employees responsible for\nmoney, goods, accounts, computer operations or computer programming?\nYes\nNo\n7\nWithin the last 10 years have you or any director or partner traded under a different name?\nYes\nNo\nIf 'Yes', please provide full details\n8\nIs there any additional information or detail which may assist us in assessing the nature of the\ninsurance risk being proposed, and which may influence our decision to accept this insurance,\nor in setting the terms and premium?\nYes\nNo\nExamples of such information are:\na any special or unusual facts relating to your insurance risk\nYes\nNo\nb any particular concerns which led to you seeking insurance cover\nYes\nNo\nc \u0007anything that would generally be understood to provide a fair description of your insurance\nrisk, taking account of the nature of your business and the activity undertaken at your\npremises or elsewhere\nYes\nNo\nIf 'Yes', please provide full details\nImportant Notes:\nWhere the employer is unable to comply with the reference requirements for any employee Allianz Insurance plc must be\nadvised.\nReferences are to be retained for the duration of an employee's service with the employer plus two years thereafter. These\nmay be requested by Allianz Insurance plc in the event of a claim.\n4\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\nCover Options (see prospectus for details)\nPlease complete:\nSection A for a Blanket Policy Covers all employees\nor\nSection B for a Specified Names or Positions Policy. Covers specified employees or specified positions within the\ncompany.\nA Blanket Policy\nState amount of Guarantee required:\na Any one loss\n£\nb In aggregate during any one period of insurance\n£\nB Specified Policy (A limit any one loss will apply to all employees selected for cover)\nPlease complete i or ii\ni\nSpecified Employees\nName of Employee\nPosition of Employee\nLength of Service\nLimit any one loss\n£\nii Category of Employee\nName of Employee\nPosition of Employee\nLength of Service\nLimit any one loss\n£\nPlease state aggregate required during any one period of insurance if different from\nthe any one loss limit noted in either i or ii above\n£\nFor A or B\nIs a voluntary excess required?\nYes\nNo\nIf Yes, please state amount £\n5\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\nImportant Note:\nThe terms of this insurance require that the System of Check in this proposal and any other precautions declared or\nrequired by us must remain fully operative during the currency of the policy.\n1\nHave you appointed a competent person to exercise control over Accounts and cash\nYes\nNo\nPlease confirm what qualifications they have and how long they have been in control of those areas?\n2\na Are employees receiving monies required to bank daily?\nYes\nNo\nb Are employees required to account for monies received at least:",
+                    "document": "claim.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Privacy Notice Summary",
+                    "clause_text": "12\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\nAppendix 1 - Internal Audit\nWhere there is an internal audit department:\na How many people are employed in the internal audit department?\nb How often are full internal audits made?\nc\nAre surprise audits regularly conducted?\nYes\nNo\nd Are all premises audited?\nYes\nNo\ne\nWhat is the maximum length of time between audits for an area or location of the business?\nf\nIs there an \"audit and control\" procedures manual?\nYes\nNo\ng Are internal controls reviewed by external auditors?\nYes\nNo\nIf 'Yes', are any recommendations brought to the attention of management and complied with?\nYes\nNo\nAppendix 2 - Funds Transfer\nPlease answer the following (but only if directed to by instructions within the main proposal form):\n1\nEstimated annual value of funds transferred:\n£\nMaximum amount £\nHow many fund transfers take place on average per month?\n2\na \u0007Are computers used to handle fund transfers?\nYes\nNo\nb \u0007If no, what methods are used?\nIf 'Yes', to a please attach a copy of the procedures followed - attached\nYes\nNo\n3\nDo you use a Cash Management System?\nYes\nNo\nIf 'Yes', please answer the following questions\na Name of Service Bank and system\n13\nFIDELITY GUARANTEE INSURANCE PROPOSAL FORM\n3\nDo you use a Cash Management System? (continued)\nb \u0007Do you comply with all terms and conditions contained in the agreement with\nthe Service Bank?\nYes\nNo\nc Is the system used for:",
+                    "document": "claim.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Kong Limite d",
+                    "clause_text": "Kong Limite d\n5/ F, AXA Sout hside, 38 Wong Chuk Hang Ro\nRoad,\nWong Chuk Hang, Hong Kong\n安盛金融保險（香港）有限公司\nPage\n1/4\nAXA China Region Insurance Company (Hong Kong) Limited/AXA General Insurance Hong Kong Limited (\"AXA\"/\"The Company\")\n安盛金融保險（香港）有限公司／安盛保險有限公司（\"AXA安盛\"/\"本公司\"）\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\n38\n5\n4.",
+                    "document": "claim1.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "AXA China Region Insurance Company (Hong Kong) Limited/AXA G",
+                    "clause_text": "AXA China Region Insurance Company (Hong Kong) Limited/AXA General Insurance Hong Kong Limited (referred to hereinafter as the \"Company\") recognises its\nresponsibilities in relation to the collection, holding, processing, use and/or transfer of personal data under the Personal Data (Privacy) Ordinance (Cap. 486) (\"PDPO\").\nPersonal data will be collected only for lawful and relevant purposes and all practicable steps will be taken to ensure that personal data held by the Company is accurate.\nThe Company will take all practicable steps to ensure security of the personal data and to avoid unauthorised or accidental access, erasure or other use.\nPlease note that if you do not provide us with your personal data, we may not be able to provide the information, products or services you need or process your request.\nPurpose: From time to time it is necessary for the Company to collect your personal data (including credit information and claims history) which may be used, stored,\nprocessed, transferred, disclosed or shared by us for purposes (\"Purposes\"), including:\n1. offering, providing and marketing to you the products/services of the Company, other companies of the AXA Group (\"our affiliates\") or our business partners, and\nadministering, maintaining, managing and operating such products/services; 2. processing and evaluating any applications or requests made by you for\nproducts/services offered by the Company and our affiliates; 3. providing subsequent services to you, including but not limited to administering the policies issued; 4.\nany purposes in connection with any claims made by or against or otherwise involving you in respect of any products/services provided by the Company and/or our\naffiliates, including investigation of claims; 5. detecting and preventing fraud (whether or not relating to the products/services provided by the Company and/or our\naffiliates); 6. evaluating your financial needs; 7. designing products/services for customers; 8. conducting market research for statistical or other purposes; 9. matching\nany data held which relates to you from time to time for any of the purposes listed herein; 10. making disclosure as required by any applicable law, rules, regulations,\ncodes of practice or guidelines or to assist in law enforcement purposes, investigations by police or other government or regulatory authorities in Hong Kong or\nelsewhere; 11. conducting identity and/or credit checks and/or debt collection; 12. complying with the laws of any applicable jurisdiction; 13. carrying out other services\nin connection with the operation of the Company's business; and 14. other purposes directly relating to any of the above.\nTransfer of personal data: Personal data will be kept confidential but, subject to the provisions of any applicable law, may be provided to:\n1. any of our affiliates, any person associated with the Company, any reinsurance company, claims investigation company, your broker, industry association or federation,\nfund management company or financial institution in Hong Kong or elsewhere and in this regard you consent to the transfer of your data outside of Hong Kong; 2. any\nperson (including private investigators) in connection with any claims made by or against or otherwise involving you in respect of any products/services provided by the\nCompany and/or our affiliates; 3. any agent, contractor or third party who provides administrative, technology or other services to the Company and/or our affiliates in\nHong Kong or elsewhere and who has a duty of confidentiality to the same; 4. credit reference agencies or, in the event of default, debt collection agencies; 5. any actual\nor proposed assignee, transferee, participant or sub-participant of our rights or business; 6. any government department or other appropriate governmental or\nregulatory authority in Hong Kong or elsewhere; and 7. the following persons who may collect and use the data only as reasonably necessary to carry out any of the\npurposes described in paragraphs nos. 2, 3, 4 and 5 of the Purposes specified above: insurance adjusters, agents and brokers, employers, health care professionals,\nhospitals, accountants, financial advisors, solicitors, organisations that consolidate claims and underwriting information for the insurance industry, fraud prevention\norganisations, other insurance companies (whether directly or through fraud prevention organisation or other persons named in this paragraph), the police and\ndatabases or registers (and their operators) used by the insurance industry to analyse and check data provided against existing data.\nTransfer of your personal data will only be made for one or more of the Purposes specified above.\nAccess and correction of personal data: Under the PDPO, you have the right to ascertain whether the Company holds your personal data, to obtain a copy of the data, and\nto correct any data that is inaccurate. You may also request the Company to inform you of the type of personal data held by it.\nRequests for access and correction or for information regarding policies and practices and kinds of data held by the Company should be addressed in writing to:\nData Privacy Officer\nAXA General Insurance Hong Kong Limited\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\nA reasonable fee may be charged to offset the Company's administrative and actual costs incurred in complying with your data access requests.\n(\n)\n\"\n\"\n1.\n(\"\n\")\n2.\n3.\n4.\n5.\n(\n)\n6.\n7.\n8.\n9.\n10.\n11.\n12.\n13.\n14.\n1.\n2.\n(\n)\n3.\n4.\n5.\n6.\n7.\n2, 3, 4\n5\n38\n5\nPage\n3/4\nAXA China Region Insurance Company (Hong Kong) Limited/AXA General Insurance Hong Kong Limited (\"AXA\"/\"The Company\")\n安盛金融保險（香港）有限公司／安盛保險有限公司（\"AXA安盛\"/\"本公司\"）\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\n38\n5\n安盛金融保險（香港）有限公司／安盛保險有限公司（下稱\"本公司\"）明白其就《個人資料（私隱）條例》（香港法例第486章）（\"條例\"）收集、持有、處理、使用和／\n或轉移個人資料所負有的責任。本公司僅將為合法和相關的目的收集個人資料，並將採取一切切實可行的步驟，確保本公司所持個人資料的準確性。本公司將採取一\n切切實可行的步驟，確保個人資料的安全性，及避免發生未經授權或者因意外而擅自取得、刪除或另行使用個人資料的情況。\n8.",
+                    "document": "claim1.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "Kong Limite d",
+                    "clause_text": "Kong Limite d\n5/ F, AXA Sout hside, 38 Wong Chuk Hang Road,\nRo\nWong Chuk Hang, Hong Kong\n安盛金融保險（香港）有限公司\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\n38\n5\nAXA China Region Insurance Company (Hong Kong) Limited/AXA General Insurance Hong Kong Limited (\"AXA\"/\"The Company\")\n安盛金融保險（香港）有限公司／安盛保險有限公司（\"AXA安盛\"/\"本公司\"）\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\n38\n5\nPage\n2/6\n3.",
+                    "document": "claim2.pdf"
+                },
+                {
+                    "clause_id": "1",
+                    "clause_title": "AXA China Region Insurance Company (Hong Kong) Limited/AXA G",
+                    "clause_text": "AXA China Region Insurance Company (Hong Kong) Limited/AXA General Insurance Hong Kong Limited (referred to hereinafter as the \"Company\") recognises its\nresponsibilities in relation to the collection, holding, processing, use and/or transfer of personal data under the Personal Data (Privacy) Ordinance (Cap. 486) (\"PDPO\").\nPersonal data will be collected only for lawful and relevant purposes and all practicable steps will be taken to ensure that personal data held by the Company is accurate.\nThe Company will take all practicable steps to ensure security of the personal data and to avoid unauthorised or accidental access, erasure or other use.\nPlease note that if you do not provide us with your personal data, we may not be able to provide the information, products or services you need or process your request.\nPurpose: From time to time it is necessary for the Company to collect your personal data (including credit information and claims history) which may be used, stored,\nprocessed, transferred, disclosed or shared by us for purposes (\"Purposes\"), including:\n1. offering, providing and marketing to you the products/services of the Company, other companies of the AXA Group (\"our affiliates\") or our business partners, and\nadministering, maintaining, managing and operating such products/services; 2. processing and evaluating any applications or requests made by you for\nproducts/services offered by the Company and our affiliates; 3. providing subsequent services to you, including but not limited to administering the policies issued; 4.\nany purposes in connection with any claims made by or against or otherwise involving you in respect of any products/services provided by the Company and/or our\naffiliates, including investigation of claims; 5. detecting and preventing fraud (whether or not relating to the products/services provided by the Company and/or our\naffiliates); 6. evaluating your financial needs; 7. designing products/services for customers; 8. conducting market research for statistical or other purposes; 9. matching\nany data held which relates to you from time to time for any of the purposes listed herein; 10. making disclosure as required by any applicable law, rules, regulations,\ncodes of practice or guidelines or to assist in law enforcement purposes, investigations by police or other government or regulatory authorities in Hong Kong or\nelsewhere; 11. conducting identity and/or credit checks and/or debt collection; 12. complying with the laws of any applicable jurisdiction; 13. carrying out other services\nin connection with the operation of the Company's business; and 14. other purposes directly relating to any of the above.\nTransfer of personal data: Personal data will be kept confidential but, subject to the provisions of any applicable law, may be provided to:\n1. any of our affiliates, any person associated with the Company, any reinsurance company, claims investigation company, your broker, industry association or federation,\nfund management company or financial institution in Hong Kong or elsewhere and in this regard you consent to the transfer of your data outside of Hong Kong; 2. any\nperson (including private investigators) in connection with any claims made by or against or otherwise involving you in respect of any products/services provided by the\nCompany and/or our affiliates; 3. any agent, contractor or third party who provides administrative, technology or other services to the Company and/or our affiliates in\nHong Kong or elsewhere and who has a duty of confidentiality to the same; 4. credit reference agencies or, in the event of default, debt collection agencies; 5. any actual\nor proposed assignee, transferee, participant or sub-participant of our rights or business; 6. any government department or other appropriate governmental or\nregulatory authority in Hong Kong or elsewhere; and 7. the following persons who may collect and use the data only as reasonably necessary to carry out any of the\npurposes described in paragraphs nos. 2, 3, 4 and 5 of the Purposes specified above: insurance adjusters, agents and brokers, employers, health care professionals,\nhospitals, accountants, financial advisors, solicitors, organisations that consolidate claims and underwriting information for the insurance industry, fraud prevention\norganisations, other insurance companies (whether directly or through fraud prevention organisation or other persons named in this paragraph), the police and\ndatabases or registers (and their operators) used by the insurance industry to analyse and check data provided against existing data.\nTransfer of your personal data will only be made for one or more of the Purposes specified above.\nAccess and correction of personal data: Under the PDPO, you have the right to ascertain whether the Company holds your personal data, to obtain a copy of the data, and\nto correct any data that is inaccurate. You may also request the Company to inform you of the type of personal data held by it.\nRequests for access and correction or for information regarding policies and practices and kinds of data held by the Company should be addressed in writing to:\nData Privacy Officer\nAXA General Insurance Hong Kong Limited\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\nA reasonable fee may be charged to offset the Company's administrative and actual costs incurred in complying with your data access requests.\n(\n)\n\"\n\"\n1.\n(\"\n\")\n2.\n3.\n4.\n5.\n(\n)\n6.\n7.\n8.\n9.\n10.\n11.\n12.\n13.\n14.\n1.\n2.\n(\n)\n3.\n4.\n5.\n6.\n7.\n2, 3, 4\n5\n38\n5\n5/F, AXA Southside, 38 Wong Chuk Hang Road, Wong Chuk Hang, Hong Kong\n38\n5\nAXA China Region Insurance Company (Hong Kong) Limited/AXA General Insurance Hong Kong Limited (\"AXA\"/\"The Company\")\n安盛金融保險（香港）有限公司／安盛保險有限公司（\"AXA安盛\"/\"本公司\"）\n安盛金融保險（香港）有限公司／安盛保險有限公司（下稱\"本公司\"）明白其就《個人資料（私隱）條例》（香港法例第486章）（\"條例\"）收集、持有、處理、使用和／\n或轉移個人資料所負有的責任。本公司僅將為合法和相關的目的收集個人資料，並將採取一切切實可行的步驟，確保本公司所持個人資料的準確性。本公司將採取一\n切切實可行的步驟，確保個人資料的安全性，及避免發生未經授權或者因意外而擅自取得、刪除或另行使用個人資料的情況。\nPage\n4/6\n(852) 2523 3061\nwww.axa.com.hk (Claims Section)",
+                    "document": "claim2.pdf"
+                }
+            ]
+        }
+    },
+    "risks": {
+        "total_risks": 10,
+        "peril_catalog": [
+            {
+                "risk": "Cyber Attack",
+                "category": "Technology & Information Security",
+                "description": "Unauthorized network access, ransomware extortion, data breach, and system interruption.",
+                "related_coverages": [
+                    "Cyber Insurance",
+                    "Crime Cover"
+                ]
+            },
+            {
+                "risk": "Fire & Explosion",
+                "category": "Property Peril",
+                "description": "Direct physical loss or destruction caused by fire, explosion, or lightning.",
+                "related_coverages": [
+                    "Property Damage",
+                    "Commercial Property",
+                    "Business Interruption"
+                ]
+            },
+            {
+                "risk": "Theft & Dishonesty",
+                "category": "Crime & Property",
+                "description": "Burglary, violent entry theft, employee dishonesty, and fraudulent fund transfer.",
+                "related_coverages": [
+                    "Property Damage",
+                    "Crime Cover",
+                    "Money Cover"
+                ]
+            },
+            {
+                "risk": "Flood & Water Damage",
+                "category": "Natural Peril",
+                "description": "Inundation of dry land from overflowing natural watercourses or escaping water.",
+                "related_coverages": [
+                    "Property Damage",
+                    "Business Interruption"
+                ]
+            },
+            {
+                "risk": "Equipment Breakdown",
+                "category": "Engineering & Operational",
+                "description": "Sudden mechanical breakdown, electrical arcing, or pressure vessel explosion.",
+                "related_coverages": [
+                    "Machinery Breakdown",
+                    "Property Damage",
+                    "Business Interruption"
+                ]
+            },
+            {
+                "risk": "Storm & Tempest",
+                "category": "Natural Peril",
+                "description": "Physical damage caused by gale, typhoon, cyclone, tempest, or hail.",
+                "related_coverages": [
+                    "Property Damage",
+                    "Commercial Property"
+                ]
+            },
+            {
+                "risk": "Accidental Bodily Injury",
+                "category": "Casualty & Personal Peril",
+                "description": "Accidental bodily injury resulting in death, permanent disablement, or medical expense.",
+                "related_coverages": [
+                    "Personal Accident",
+                    "Public Liability",
+                    "Medical Expenses & Inpatient Care"
+                ]
+            },
+            {
+                "risk": "Medical Illness & Disease",
+                "category": "Healthcare Peril",
+                "description": "Acute or chronic sickness requiring inpatient hospitalisation, surgical treatment, or medical care.",
+                "related_coverages": [
+                    "Medical Expenses & Inpatient Care"
+                ]
+            },
+            {
+                "risk": "Executive Misconduct & Regulatory Action",
+                "category": "Governance & Management Liability",
+                "description": "Official investigations, statutory fines, breach of fiduciary duty, and claims against directors.",
+                "related_coverages": [
+                    "Directors and Officers Liability",
+                    "Management Liability",
+                    "Statutory Liability"
+                ]
+            },
+            {
+                "risk": "Cargo Transit Loss",
+                "category": "Maritime & Logistics",
+                "description": "Physical loss or damage to goods during sea, air, road, or rail transit from collision, overturning, or stranding.",
+                "related_coverages": [
+                    "Cargo & Goods in Transit"
+                ]
+            }
+        ]
+    },
+    "coverages": {
+        "total_mappings": 35,
+        "coverage_lookup": {
+            "Public Liability Insurance": "Public Liability",
+            "General Liability": "Public Liability",
+            "Liability Cover": "Public Liability",
+            "Third Party Liability": "Public Liability",
+            "Broadform Liability": "Public Liability",
+            "Property Damage Cover": "Property Damage",
+            "Commercial Property Cover": "Property Damage",
+            "Material Damage": "Property Damage",
+            "Building and Contents Cover": "Property Damage",
+            "Loss of Profits": "Business Interruption",
+            "Consequential Loss": "Business Interruption",
+            "Business Income Interruption": "Business Interruption",
+            "Directors and Officers Liability": "Management Liability",
+            "D&O Cover": "Management Liability",
+            "Company Reimbursement": "Management Liability",
+            "Corporate Liability": "Management Liability",
+            "Employment Practices Cover": "Employment Practices Liability",
+            "EPL Insurance": "Employment Practices Liability",
+            "Statutory Fines Cover": "Statutory Liability",
+            "Official Investigations Cover": "Statutory Liability",
+            "Commercial Crime Cover": "Crime Cover",
+            "Fidelity Guarantee": "Crime Cover",
+            "Cyber Risk Policy": "Cyber Insurance",
+            "Cyber Liability & Data Breach": "Cyber Insurance",
+            "Professional Liability": "Professional Indemnity",
+            "Errors and Omissions": "Professional Indemnity",
+            "Glass Breakage Cover": "Glass Cover",
+            "Machinery Breakdown": "Machinery Breakdown",
+            "Money and Transit Cover": "Money Cover",
+            "Marine Cargo": "Cargo & Goods in Transit",
+            "Transit Cover": "Cargo & Goods in Transit",
+            "Personal Accident Cover": "Personal Accident",
+            "Accidental Death & Dismemberment": "Personal Accident",
+            "Inpatient Medical": "Medical Expenses & Inpatient Care",
+            "Hospitalisation Cover": "Medical Expenses & Inpatient Care"
+        }
+    },
+    "recommendations": {
+        "policy_recommendations": [
+            {
+                "document": "policy1.pdf",
+                "policy_type": "Special Personal Health and Accident Insurance",
+                "total_recommendations": 4,
+                "recommendations": [
+                    "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+                    "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+                    "Review deductible/excess thresholds in THB to balance out-of-pocket loss exposure with annual premium savings.",
+                    "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
+                ]
+            },
+            {
+                "document": "policy2.pdf",
+                "policy_type": "Group Accident and Health Insurance",
+                "total_recommendations": 4,
+                "recommendations": [
+                    "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+                    "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+                    "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+                    "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
+                ]
+            },
+            {
+                "document": "policy3.pdf",
+                "policy_type": "Directors and Officers Management Liability",
+                "total_recommendations": 6,
+                "recommendations": [
+                    "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+                    "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+                    "Maintain continuity of retroactive dates across policy renewals to avoid uncovered past executive decisions.",
+                    "Review Corporate Legal Liability and investigation costs sub-limits against latest regulatory enforcement trends.",
+                    "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+                    "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
+                ]
+            },
+            {
+                "document": "policy4.pdf",
+                "policy_type": "Marine Cargo and Transit Insurance",
+                "total_recommendations": 7,
+                "recommendations": [
+                    "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+                    "Consider adding Business Interruption cover to protect operating revenue during physical recovery periods.",
+                    "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+                    "Ensure transit warehouse storage limits adequately cover maximum seasonal inventory accumulations.",
+                    "Verify institute cargo clauses (A, B, or C) align with specific maritime and intermodal transit routes.",
+                    "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+                    "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
+                ]
+            }
+        ],
+        "underwriting_rules": [
+            {
+                "rule": "Missing Cyber Insurance",
+                "action": "Recommend Cyber Insurance",
+                "condition": "cyber_insurance == false and policy_type in ['commercial', 'corporate']",
+                "category": "Coverage Gap",
+                "severity": "High"
+            },
+            {
+                "rule": "Missing Business Interruption Cover",
+                "action": "Recommend adding Business Interruption extension with 24-month indemnity period",
+                "condition": "business_interruption == false and property_damage == true",
+                "category": "Coverage Gap",
+                "severity": "High"
+            },
+            {
+                "rule": "Missing Directors & Officers Liability",
+                "action": "Recommend Management Liability policy for corporate governance protection",
+                "condition": "d_and_o == false and entity_type in ['limited_company', 'plc', 'partnership']",
+                "category": "Coverage Gap",
+                "severity": "Medium"
+            },
+            {
+                "rule": "Missing Terrorism Endorsement",
+                "action": "Recommend Pool Re / commercial terrorism extension for urban commercial locations",
+                "condition": "terrorism_cover == false and location_type == 'metropolitan'",
+                "category": "Coverage Gap",
+                "severity": "Medium"
+            },
+            {
+                "rule": "Missing Accidental Disablement Rider",
+                "action": "Recommend personal accident permanent disablement scale add-on",
+                "condition": "accidental_disablement == false and policy_type == 'personal_accident'",
+                "category": "Coverage Gap",
+                "severity": "Medium"
+            },
+            {
+                "rule": "Public Liability limit is below $10M",
+                "action": "Flag for review and recommend limit increase to $10,000,000",
+                "condition": "public_liability_limit < 10000000",
+                "category": "Limit Adequacy",
+                "severity": "High"
+            },
+            {
+                "rule": "Employers Liability statutory minimum check",
+                "action": "Ensure statutory minimum of £10M / £5M is maintained and certified",
+                "condition": "employers_liability_limit < 10000000 and jurisdiction == 'UK'",
+                "category": "Compliance",
+                "severity": "High"
+            },
+            {
+                "rule": "Low Property Replacement Sum Insured",
+                "action": "Flag underinsurance risk; require professional valuation report",
+                "condition": "property_sum_insured < estimated_rebuild_cost",
+                "category": "Limit Adequacy",
+                "severity": "High"
+            },
+            {
+                "rule": "Low Personal Medical Aggregate Limit",
+                "action": "Recommend upgrading to comprehensive tier for chronic emergency cover",
+                "condition": "medical_aggregate_limit < 500000 and currency == 'THB'",
+                "category": "Limit Adequacy",
+                "severity": "Medium"
+            },
+            {
+                "rule": "Policy expires within 30 days",
+                "action": "Renewal reminder and request updated exposure declarations",
+                "condition": "days_to_expiry <= 30 and days_to_expiry > 0",
+                "category": "Renewal",
+                "severity": "High"
+            },
+            {
+                "rule": "Policy expired",
+                "action": "Flag immediate lapse in coverage and issue urgent reinstatement notice",
+                "condition": "days_to_expiry <= 0",
+                "category": "Renewal",
+                "severity": "Critical"
+            },
+            {
+                "rule": "Retroactive Date Continuity Check",
+                "action": "Verify inception date continuity to preserve claims-made coverage history",
+                "condition": "policy_type in ['d_and_o', 'epl'] and renewal == true",
+                "category": "Compliance",
+                "severity": "High"
+            },
+            {
+                "rule": "Excessive Commercial Property Deductible",
+                "action": "Flag high deductible; recommend voluntary excess buy-down rider",
+                "condition": "property_deductible > 0.05 * total_sum_insured",
+                "category": "Deductible",
+                "severity": "Medium"
+            },
+            {
+                "rule": "Nil Excess on High-Frequency Risks",
+                "action": "Suggest standard £250 excess to reduce policy premium",
+                "condition": "policy_excess == 0 and peril in ['water_escape', 'glass_breakage']",
+                "category": "Deductible",
+                "severity": "Low"
+            },
+            {
+                "rule": "High Flood Exposure Zone",
+                "action": "Require specialized flood risk survey and confirm flood defense maintenance",
+                "condition": "flood_zone in [2, 3] and flood_cover == true",
+                "category": "Risk Exposure",
+                "severity": "High"
+            },
+            {
+                "rule": "International Cargo Conveyance",
+                "action": "Ensure Institute Cargo Clauses (A) all-risks with war and strikes clauses applied",
+                "condition": "transit_type == 'international' and cargo_policy == true",
+                "category": "Coverage",
+                "severity": "High"
+            }
+        ]
+    }
+}

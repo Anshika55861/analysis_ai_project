@@ -1,0 +1,157 @@
+[
+    {
+        "file": "ai_evaluation.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "ai_prompts.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "ai_test_scenarios.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "classified_clauses.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "clauses.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "coverage_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "coverage_gaps.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "coverage_lookup.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "dataset_statistics.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "document_chunks.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "document_tags.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "duplicate_report.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "entities.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "evaluation_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "final_ai_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "insurance_dictionary.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "insurance_knowledge_base.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "policy_checklists.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "policy_comparison.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "policy_differences.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "policy_metadata.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "policy_summaries.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "qa_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "recommendations.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "risk_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "rules_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "search_keywords.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "search_test_dataset.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "sections.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "term_mapping.json",
+        "status": "Passed",
+        "errors": []
+    },
+    {
+        "file": "validation_report.json",
+        "status": "Passed",
+        "errors": []
+    }
+]

@@ -1,0 +1,347 @@
+[
+    {
+        "duplicate_type": "Clause",
+        "value": "Conditions that apply.",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "How long we keep personal information",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Rights of parties",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Fraud",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Law applicable and jurisdiction",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Conditions that apply.",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Conditions that apply.",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Law applicable and jurisdiction",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Law applicable and jurisdiction",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Policy conditions",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Reasonable precautions",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Sanctions",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Section exclusions",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Definitions, extensions, conditions and exclusions",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Subrogation",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Policy conditions",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Claims conditions",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Cover",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Policy conditions",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Exclusions",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Conditions",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Policy exclusions",
+        "documents": [
+            "policy2.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Assignment",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Premium.",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Excess",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Additional benefits",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Other insurance / other insurances",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "\u0007cancellation / cancellation",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Payment of premium / premium payment",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "\u0007transferring personal information outside the uk / transferring personal information outside the uk",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Coverage",
+        "value": "Medical Expenses & Inpatient Care",
+        "documents": [
+            "policy1.pdf",
+            "policy2.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Coverage",
+        "value": "Personal Accident",
+        "documents": [
+            "policy1.pdf",
+            "policy2.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Recommendation",
+        "value": "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Recommendation",
+        "value": "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Recommendation",
+        "value": "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover.",
+        "documents": [
+            "policy1.pdf",
+            "policy2.pdf",
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 4
+    },
+    {
+        "duplicate_type": "Recommendation",
+        "value": "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+        "documents": [
+            "policy1.pdf",
+            "policy2.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Recommendation",
+        "value": "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+        "documents": [
+            "policy2.pdf",
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 3
+    },
+    {
+        "duplicate_type": "Recommendation",
+        "value": "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+        "documents": [
+            "policy1.pdf",
+            "policy2.pdf"
+        ],
+        "occurrences": 2
+    }
+]

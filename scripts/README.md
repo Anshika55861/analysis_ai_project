@@ -116,9 +116,58 @@ This folder contains the complete suite of modular Python scripts for **Phase 1*
 
 ---
 
+### Phase 4 Scripts:
+
+#### 1. `validate_json.py` (Task 26)
+- **Purpose**: Validates all JSON files in `output/` for format correctness, schema completeness, data types, and absence of corrupted `(cid:...)` tokens.
+- **Output**: `output/json_validation_report.json`
+- **Run**: `python scripts/validate_json.py`
+
+#### 2. `find_duplicates.py` (Task 27)
+- **Purpose**: Detects duplicate and shared data across documents (clauses, policy numbers, coverages, recommendations).
+- **Output**: `output/duplicate_report.json`
+- **Run**: `python scripts/find_duplicates.py`
+
+#### 3. `create_search_tests.py` (Task 28)
+- **Purpose**: Generates 36 realistic search queries with expected document matches for testing search engines.
+- **Output**: `output/search_test_dataset.json`
+- **Run**: `python scripts/create_search_tests.py`
+
+#### 4. `create_ai_evaluations.py` (Task 29)
+- **Purpose**: Ground-truth AI evaluation test cases across 5 tasks (Summary, Coverage, Clause Explanation, Comparison, Risk).
+- **Output**: `output/ai_evaluation.json`
+- **Run**: `python scripts/create_ai_evaluations.py`
+
+#### 5. `create_rules.py` (Task 30)
+- **Purpose**: Creates 16 business decision rules for underwriting, coverage gaps, limit adequacy, and renewals.
+- **Output**: `output/rules_dataset.json`
+- **Run**: `python scripts/create_rules.py`
+
+#### 6. `build_knowledge_base.py` (Task 31)
+- **Purpose**: Consolidates insurance terms, common clauses, risks, coverages, and recommendations into one central repository.
+- **Output**: `output/insurance_knowledge_base.json`
+- **Run**: `python scripts/build_knowledge_base.py`
+
+#### 7. `create_test_scenarios.py` (Task 32)
+- **Purpose**: Formulates 5 end-to-end business scenarios for testing the future AI system.
+- **Output**: `output/ai_test_scenarios.json`
+- **Run**: `python scripts/create_test_scenarios.py`
+
+#### 8. `statistics.py` (Task 33)
+- **Purpose**: Generates holistic project-wide dataset metrics (documents, pages, clauses, coverages, questions, risks).
+- **Output**: `output/dataset_statistics.json`
+- **Run**: `python scripts/statistics.py`
+
+#### 9. `build_report.py` (Task 34)
+- **Purpose**: Generates the final executive summary project report in Markdown.
+- **Output**: `output/project_report.md`
+- **Run**: `python scripts/build_report.py`
+
+---
+
 ## 🧪 Master Verification Script
 
-Run all Phase 1, Phase 2, and Phase 3 tasks end-to-end with validation checks:
+Run all Phase 1, Phase 2, Phase 3, and Phase 4 tasks end-to-end with 123 automated verification checks (100% pass rate):
 
 ```bash
 python scripts/verify_tasks.py
