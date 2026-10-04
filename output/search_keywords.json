@@ -2,9 +2,8 @@
     {
         "document": "claim.pdf",
         "folder": "claim",
-        "total_keywords": 6,
+        "total_keywords": 5,
         "keywords": [
-            "Claim Form",
             "Theft",
             "Excess",
             "Premium",
@@ -69,7 +68,7 @@
     {
         "document": "policy2.pdf",
         "folder": "policy",
-        "total_keywords": 21,
+        "total_keywords": 20,
         "keywords": [
             "Cyber",
             "Theft",
@@ -90,8 +89,7 @@
             "Bodily Injury",
             "Allianz",
             "Policyholder",
-            "Insured Person",
-            "Commercial Policy"
+            "Insured Person"
         ]
     },
     {

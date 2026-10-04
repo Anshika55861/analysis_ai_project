@@ -85,14 +85,6 @@ def generate_search_keywords() -> List[Dict]:
         
         keywords = extract_keywords_from_text(raw_text)
         
-        # Ensure at least standard baseline keywords if sparse
-        if "claim" in file_name.lower():
-            if "Claim Form" not in keywords:
-                keywords.insert(0, "Claim Form")
-        else:
-            if "Commercial" not in keywords and "Management Liability" not in keywords:
-                keywords.append("Commercial Policy")
-                
         search_keywords_dataset.append({
             "document": file_name,
             "folder": doc.get("folder", ""),

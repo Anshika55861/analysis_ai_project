@@ -3,10 +3,10 @@
         "document": "claim.pdf",
         "folder": "claim",
         "tags": [
+            "Allianz",
             "Claim Form",
             "Claims Operations",
-            "Incident Reporting",
-            "Public Liability"
+            "Fidelity Guarantee"
         ]
     },
     {
@@ -15,9 +15,8 @@
         "tags": [
             "Claim Form",
             "Claims Operations",
-            "Incident Reporting",
-            "Property Damage",
-            "Public Liability"
+            "Health Claim",
+            "Property Claim"
         ]
     },
     {
@@ -26,8 +25,7 @@
         "tags": [
             "Claim Form",
             "Claims Operations",
-            "Incident Reporting",
-            "Public Liability"
+            "Health Claim"
         ]
     },
     {
@@ -35,7 +33,10 @@
         "folder": "policy",
         "tags": [
             "Allianz",
-            "Commercial"
+            "Health Insurance",
+            "Personal Accident",
+            "Personal Lines",
+            "Policy Wording"
         ]
     },
     {
@@ -43,10 +44,10 @@
         "folder": "policy",
         "tags": [
             "Allianz",
-            "Commercial",
-            "Corporate Governance",
-            "Directors and Officers",
-            "Management Liability"
+            "Health Insurance",
+            "Personal Accident",
+            "Personal Lines",
+            "Policy Wording"
         ]
     },
     {
@@ -54,10 +55,10 @@
         "folder": "policy",
         "tags": [
             "Allianz",
-            "Commercial",
             "Corporate Governance",
             "Directors and Officers",
-            "Management Liability"
+            "Management Liability",
+            "Policy Wording"
         ]
     },
     {
@@ -65,10 +66,10 @@
         "folder": "policy",
         "tags": [
             "Allianz",
-            "Commercial",
-            "Corporate Governance",
-            "Directors and Officers",
-            "Management Liability"
+            "Logistics",
+            "Marine Cargo",
+            "Policy Wording",
+            "Transit Insurance"
         ]
     }
 ]

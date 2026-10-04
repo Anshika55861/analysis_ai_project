@@ -1,37 +1,50 @@
 {
-    "Commercial Policy": [
+    "Personal Accident and Health Policy": [
         "Policy Number",
-        "Policy Period",
-        "Insured Business Name and Trading Address",
-        "Public Liability Limit",
-        "Property Damage Replacement Value",
-        "Business Interruption Indemnity Period",
-        "Major Exclusions (War, Terrorism, Nuclear)",
-        "Excess / Deductible Amounts",
-        "Premium and Government Levies",
-        "Claim Notification Timeframe"
+        "Insured Person(s) and Eligible Dependents",
+        "Policy Period and Effective Date",
+        "Medical Inpatient Annual Maximum Limit",
+        "Personal Accident Capital Sum Insured",
+        "Room and Board Daily Allowance Limit",
+        "Pre-existing Conditions Exclusions",
+        "Hospital Network and Direct Billing Service",
+        "Premium Payment Mode and Tax Invoice",
+        "Claim Notification Procedure"
     ],
     "Management Liability Policy": [
         "Policy Number",
+        "Insured Company and Subsidiaries",
         "Policy Period",
-        "Insured Company & Subsidiaries",
         "Directors and Officers Liability Limit",
-        "Corporate Liability Cover",
-        "Employment Practices Liability Limit",
-        "Statutory Liability & Fines Provision",
-        "Crime & Employee Dishonesty Cover",
-        "Advancement of Defence Costs",
-        "Retroactive Date & Territorial Limits"
+        "Company Reimbursement Provision",
+        "Advancement of Defense Costs Terms",
+        "Employment Practices Liability (EPL) Cover",
+        "Corporate Legal Liability Sub-limit",
+        "Retroactive Date and Territorial Limits",
+        "Major Exclusions (Fraud, Deliberate Acts, Prior Pending Litigation)",
+        "Notification of Circumstances and Claim Timeframe"
     ],
-    "Property and Casualty Policy": [
+    "Marine Cargo and Transit Policy": [
         "Policy Number",
-        "Policyholder Identity",
-        "Sum Insured / Material Damage Limits",
-        "Public & Products Liability Coverage",
-        "Specific Perils (Fire, Storm, Flood, Earthquake)",
-        "Burglary and Theft Coverage",
-        "Subrogation and Waiver Rights",
-        "Cancellation and Notice Terms"
+        "Shipper and Consignee Information",
+        "Policy Period / Open Cover Period",
+        "Conveyance Method (Vessel, Aircraft, Road, Rail)",
+        "Sum Insured per Conveyance / Location",
+        "Institute Cargo Clauses (A, B, or C)",
+        "War and Strikes Risk Extensions",
+        "Transit Deductible / Excess",
+        "Survey and Claim Agent Notification"
+    ],
+    "Commercial Property and Casualty Policy": [
+        "Policy Number",
+        "Policyholder and Business Trading Address",
+        "Material Damage / Buildings and Contents Sum Insured",
+        "Business Interruption Indemnity Period",
+        "Public and Products Liability Limit of Indemnity",
+        "Specified Perils (Fire, Storm, Flood, Earthquake, Theft)",
+        "Deductible / Excess Amounts",
+        "Premium and Applicable Taxes / Levies",
+        "Waiver of Subrogation Provisions"
     ],
     "Claim Review Checklist": [
         "Claimant Identity and Policy Number",
@@ -39,8 +52,8 @@
         "Location and Nature of Incident",
         "Estimated Damage / Loss Claimed",
         "Third-Party Involvement Details",
-        "Police / Emergency Services Report Reference",
-        "Supporting Invoices / Proof of Ownership",
-        "Declaration and Signature Verification"
+        "Police / Medical / Survey Report Reference",
+        "Supporting Invoices and Proof of Loss",
+        "Declaration and Claimant Signature Verification"
     ]
 }

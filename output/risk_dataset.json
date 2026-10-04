@@ -1,79 +1,138 @@
-[
-    {
-        "risk": "Cyber Attack",
-        "category": "Technology & Cyber",
-        "description": "Ransomware extortion, system downtime, unauthorized data breaches, and notification liabilities.",
-        "related_coverages": [
-            "Cyber Insurance",
-            "Crime Cover"
-        ]
-    },
-    {
-        "risk": "Fire",
-        "category": "Property Peril",
-        "description": "Direct physical loss or destruction caused by fire, explosion, or lightning.",
-        "related_coverages": [
-            "Property Damage",
-            "Commercial Property",
-            "Business Interruption"
-        ]
-    },
-    {
-        "risk": "Theft",
-        "category": "Crime & Property",
-        "description": "Burglary, violent entry theft, employee dishonesty, and fraudulent transfer of funds.",
-        "related_coverages": [
-            "Property Damage",
-            "Crime Cover",
-            "Money Cover"
-        ]
-    },
-    {
-        "risk": "Flood",
-        "category": "Natural Hazard",
-        "description": "Inundation of dry land from overflowing waterways, dams, or excessive rainwater.",
-        "related_coverages": [
-            "Property Damage",
-            "Business Interruption"
-        ]
-    },
-    {
-        "risk": "Equipment Breakdown",
-        "category": "Operational Machinery",
-        "description": "Sudden mechanical breakdown, electrical arcing, or explosion of pressure vessels.",
-        "related_coverages": [
-            "Machinery Breakdown",
-            "Property Damage",
-            "Business Interruption"
-        ]
-    },
-    {
-        "risk": "Storm Damage",
-        "category": "Natural Hazard",
-        "description": "Structural damage and water ingress caused by violent storms, windstorms, and hail.",
-        "related_coverages": [
-            "Property Damage",
-            "Commercial Property"
-        ]
-    },
-    {
-        "risk": "Third-Party Bodily Injury",
-        "category": "Casualty Liability",
-        "description": "Accidental injury or death to visitors, customers, or third parties on commercial premises.",
-        "related_coverages": [
-            "Public Liability",
-            "Products Liability",
-            "General Liability"
-        ]
-    },
-    {
-        "risk": "Management Misconduct & Regulatory Actions",
-        "category": "Governance & Legal",
-        "description": "Official investigations, statutory fines, and breach of duty allegations against company executives.",
-        "related_coverages": [
-            "Management Liability",
-            "Directors and Officers",
-            "Statutory Liability"
+{
+    "master_risks": [
+        {
+            "risk": "Cyber Attack",
+            "category": "Technology & Information Security",
+            "description": "Unauthorized network access, ransomware extortion, data breach, and system interruption.",
+            "related_coverages": [
+                "Cyber Insurance",
+                "Crime Cover"
+            ]
+        },
+        {
+            "risk": "Fire & Explosion",
+            "category": "Property Peril",
+            "description": "Direct physical loss or destruction caused by fire, explosion, or lightning.",
+            "related_coverages": [
+                "Property Damage",
+                "Commercial Property",
+                "Business Interruption"
+            ]
+        },
+        {
+            "risk": "Theft & Dishonesty",
+            "category": "Crime & Property",
+            "description": "Burglary, violent entry theft, employee dishonesty, and fraudulent fund transfer.",
+            "related_coverages": [
+                "Property Damage",
+                "Crime Cover",
+                "Money Cover"
+            ]
+        },
+        {
+            "risk": "Flood & Water Damage",
+            "category": "Natural Peril",
+            "description": "Inundation of dry land from overflowing natural watercourses or escaping water.",
+            "related_coverages": [
+                "Property Damage",
+                "Business Interruption"
+            ]
+        },
+        {
+            "risk": "Equipment Breakdown",
+            "category": "Engineering & Operational",
+            "description": "Sudden mechanical breakdown, electrical arcing, or pressure vessel explosion.",
+            "related_coverages": [
+                "Machinery Breakdown",
+                "Property Damage",
+                "Business Interruption"
+            ]
+        },
+        {
+            "risk": "Storm & Tempest",
+            "category": "Natural Peril",
+            "description": "Physical damage caused by gale, typhoon, cyclone, tempest, or hail.",
+            "related_coverages": [
+                "Property Damage",
+                "Commercial Property"
+            ]
+        },
+        {
+            "risk": "Accidental Bodily Injury",
+            "category": "Casualty & Personal Peril",
+            "description": "Accidental bodily injury resulting in death, permanent disablement, or medical expense.",
+            "related_coverages": [
+                "Personal Accident",
+                "Public Liability",
+                "Medical Expenses & Inpatient Care"
+            ]
+        },
+        {
+            "risk": "Medical Illness & Disease",
+            "category": "Healthcare Peril",
+            "description": "Acute or chronic sickness requiring inpatient hospitalisation, surgical treatment, or medical care.",
+            "related_coverages": [
+                "Medical Expenses & Inpatient Care"
+            ]
+        },
+        {
+            "risk": "Executive Misconduct & Regulatory Action",
+            "category": "Governance & Management Liability",
+            "description": "Official investigations, statutory fines, breach of fiduciary duty, and claims against directors.",
+            "related_coverages": [
+                "Directors and Officers Liability",
+                "Management Liability",
+                "Statutory Liability"
+            ]
+        },
+        {
+            "risk": "Cargo Transit Loss",
+            "category": "Maritime & Logistics",
+            "description": "Physical loss or damage to goods during sea, air, road, or rail transit from collision, overturning, or stranding.",
+            "related_coverages": [
+                "Cargo & Goods in Transit"
+            ]
+        }
+    ],
+    "document_risks": {
+        "claim.pdf": [
+            "Theft & Dishonesty"
+        ],
+        "claim1.pdf": [
+            "Executive Misconduct & Regulatory Action"
+        ],
+        "claim2.pdf": [
+            "Medical Illness & Disease",
+            "Executive Misconduct & Regulatory Action"
+        ],
+        "policy1.pdf": [
+            "Fire & Explosion",
+            "Accidental Bodily Injury",
+            "Medical Illness & Disease"
+        ],
+        "policy2.pdf": [
+            "Cyber Attack",
+            "Fire & Explosion",
+            "Theft & Dishonesty",
+            "Accidental Bodily Injury",
+            "Medical Illness & Disease",
+            "Executive Misconduct & Regulatory Action",
+            "Cargo Transit Loss"
+        ],
+        "policy3.pdf": [
+            "Cyber Attack",
+            "Fire & Explosion",
+            "Theft & Dishonesty",
+            "Flood & Water Damage",
+            "Storm & Tempest",
+            "Accidental Bodily Injury",
+            "Executive Misconduct & Regulatory Action"
+        ],
+        "policy4.pdf": [
+            "Cyber Attack",
+            "Fire & Explosion",
+            "Theft & Dishonesty",
+            "Cargo Transit Loss"
         ]
     }
-]
+}

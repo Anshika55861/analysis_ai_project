@@ -4,29 +4,34 @@
         "document_b": "policy2.pdf",
         "differences": [
             {
-                "field": "Policy Structure",
-                "policy_a": "Commercial Combined Property & Casualty",
-                "policy_b": "Management Liability Corporate Package"
+                "field": "Policy Type",
+                "policy_a": "Special Personal Health and Accident Insurance",
+                "policy_b": "Group Accident and Health Insurance"
             },
             {
-                "field": "Public Liability",
-                "policy_a": "Included (£5,000,000 indemnity)",
-                "policy_b": "Not Included"
+                "field": "Insurer Entity",
+                "policy_a": "Allianz Ayudhya General Insurance Public Company Limited",
+                "policy_b": "Allianz Insurance plc"
             },
             {
-                "field": "Directors and Officers Liability",
-                "policy_a": "Not Included",
-                "policy_b": "Included (Sections 1–6)"
+                "field": "Operating Currency",
+                "policy_a": "THB",
+                "policy_b": "GBP"
             },
             {
-                "field": "Employment Practices Liability",
-                "policy_a": "Not Included",
-                "policy_b": "Included (Section 3)"
+                "field": "Premium Basis",
+                "policy_a": "Variable according to plan level (THB 15,000 - 45,000)",
+                "policy_b": "As stated in Policy Schedule"
             },
             {
-                "field": "Business Interruption",
-                "policy_a": "Included (12-month indemnity period)",
-                "policy_b": "Not Included"
+                "field": "Coverage: Medical Expenses & Inpatient Care",
+                "policy_a": "Included (THB 5,000,000 per year)",
+                "policy_b": "Included (£2,000,000 per Insured Person)"
+            },
+            {
+                "field": "Coverage: Personal Accident",
+                "policy_a": "Included (THB 1,000,000)",
+                "policy_b": "Included (£25,000)"
             }
         ]
     },
@@ -35,24 +40,24 @@
         "document_b": "policy3.pdf",
         "differences": [
             {
-                "field": "Insurer Entity",
-                "policy_a": "Allianz Insurance plc (UK)",
-                "policy_b": "Allianz Insurance plc (UK)"
+                "field": "Policy Type",
+                "policy_a": "Group Accident and Health Insurance",
+                "policy_b": "Directors and Officers Management Liability"
             },
             {
-                "field": "Crime Cover & Fidelity",
-                "policy_a": "Included (Section 5)",
-                "policy_b": "Included (Section 5)"
+                "field": "Coverage: Directors and Officers Liability",
+                "policy_a": "Not Included",
+                "policy_b": "Included (£5,000,000 aggregate limit)"
             },
             {
-                "field": "Statutory Liability Extensions",
-                "policy_a": "Standard UK Health & Safety at Work limit",
-                "policy_b": "Extended Regulatory Investigations wording"
+                "field": "Coverage: Medical Expenses & Inpatient Care",
+                "policy_a": "Included (£2,000,000 per Insured Person)",
+                "policy_b": "Not Included"
             },
             {
-                "field": "Territorial Scope",
-                "policy_a": "Worldwide excluding USA/Canada",
-                "policy_b": "Worldwide excluding USA/Canada"
+                "field": "Coverage: Personal Accident",
+                "policy_a": "Included (£25,000)",
+                "policy_b": "Not Included"
             }
         ]
     },
@@ -61,19 +66,19 @@
         "document_b": "policy4.pdf",
         "differences": [
             {
-                "field": "Jurisdiction & Market",
-                "policy_a": "United Kingdom / European Union (Allianz UK)",
-                "policy_b": "Thailand / Southeast Asia (Allianz Ayudhya)"
+                "field": "Policy Type",
+                "policy_a": "Directors and Officers Management Liability",
+                "policy_b": "Marine Cargo and Transit Insurance"
             },
             {
-                "field": "Primary Language & Currency",
-                "policy_a": "English (GBP £)",
-                "policy_b": "English & Thai translations (THB ฿)"
+                "field": "Coverage: Cargo & Goods in Transit",
+                "policy_a": "Not Included",
+                "policy_b": "Included (£1,000,000 any one conveyance)"
             },
             {
-                "field": "Dispute Resolution",
-                "policy_a": "High Court of Justice (England & Wales)",
-                "policy_b": "Office of Insurance Commission (OIC Thailand)"
+                "field": "Coverage: Directors and Officers Liability",
+                "policy_a": "Included (£5,000,000 aggregate limit)",
+                "policy_b": "Not Included"
             }
         ]
     }

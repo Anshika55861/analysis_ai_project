@@ -4,13 +4,12 @@
         "document_type": "Claim Form",
         "metadata": {},
         "tags": [
+            "Allianz",
             "Claim Form",
             "Claims Operations",
-            "Incident Reporting",
-            "Public Liability"
+            "Fidelity Guarantee"
         ],
         "keywords": [
-            "Claim Form",
             "Theft",
             "Excess",
             "Premium",
@@ -41,7 +40,7 @@
         "coverage_gaps": [],
         "recommendations": [],
         "associated_risks": [
-            "Third-Party Bodily Injury"
+            "Theft & Dishonesty"
         ],
         "total_sections": 5,
         "total_clauses": 0,
@@ -56,9 +55,8 @@
         "tags": [
             "Claim Form",
             "Claims Operations",
-            "Incident Reporting",
-            "Property Damage",
-            "Public Liability"
+            "Health Claim",
+            "Property Claim"
         ],
         "keywords": [
             "Commercial",
@@ -77,12 +75,7 @@
         "coverage_gaps": [],
         "recommendations": [],
         "associated_risks": [
-            "Fire",
-            "Theft",
-            "Flood",
-            "Equipment Breakdown",
-            "Storm Damage",
-            "Third-Party Bodily Injury"
+            "Executive Misconduct & Regulatory Action"
         ],
         "total_sections": 15,
         "total_clauses": 0,
@@ -97,8 +90,7 @@
         "tags": [
             "Claim Form",
             "Claims Operations",
-            "Incident Reporting",
-            "Public Liability"
+            "Health Claim"
         ],
         "keywords": [
             "Commercial",
@@ -116,7 +108,8 @@
         "coverage_gaps": [],
         "recommendations": [],
         "associated_risks": [
-            "Third-Party Bodily Injury"
+            "Medical Illness & Disease",
+            "Executive Misconduct & Regulatory Action"
         ],
         "total_sections": 20,
         "total_clauses": 0,
@@ -135,13 +128,16 @@
             "broker": "Appointed Insurance Broker / Adviser",
             "policy_type": "Special Personal Health and Accident Insurance",
             "start_date": "01 Jan 2026",
-            "expiry_date": "01 Jan 2027",
+            "expiry_date": "31 Dec 2026",
             "premium": "Variable according to plan level (THB 15,000 - 45,000)",
             "currency": "THB"
         },
         "tags": [
             "Allianz",
-            "Commercial"
+            "Health Insurance",
+            "Personal Accident",
+            "Personal Lines",
+            "Policy Wording"
         ],
         "keywords": [
             "Excess",
@@ -234,21 +230,27 @@
             }
         ],
         "coverage_gaps": [
-            "Cyber Insurance",
             "Directors and Officers Liability",
-            "Employment Practices Liability",
+            "Cargo & Goods in Transit",
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
+            "Cyber Insurance",
             "Crime Cover",
-            "Flood Cover"
+            "Professional Indemnity",
+            "Flood",
+            "Theft"
         ],
         "recommendations": [
-            "Consider adding standalone Cyber Insurance to protect against ransomware and third-party data breach liabilities.",
-            "Review Business Interruption indemnity period to ensure coverage extends to at least 24 months for complete supply chain restoration.",
-            "Consider increasing Public Liability limits from £5,000,000 to £10,000,000 based on retail footfall growth.",
-            "Evaluate Flood Cover extension if premises are located in high-risk catchment zones."
+            "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+            "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+            "Review deductible/excess thresholds in THB to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ],
         "associated_risks": [
-            "Fire",
-            "Theft"
+            "Fire & Explosion",
+            "Accidental Bodily Injury",
+            "Medical Illness & Disease"
         ],
         "total_sections": 18,
         "total_clauses": 0,
@@ -261,22 +263,22 @@
         "document_type": "Policy Wording",
         "metadata": {
             "document": "policy2.pdf",
-            "policy_number": "ALZ-POLICY2",
+            "policy_number": "ALZ-GAA-POLICY2",
             "policy_holder": "Individual Insured & Designated Family Members",
             "insurer": "Allianz Insurance plc",
             "broker": "Appointed Insurance Broker / Adviser",
             "policy_type": "Group Accident and Health Insurance",
-            "start_date": "01 Apr 2026",
-            "expiry_date": "01 Apr 2027",
+            "start_date": "01 Jan 2026",
+            "expiry_date": "31 Dec 2026",
             "premium": "As stated in Policy Schedule",
             "currency": "GBP"
         },
         "tags": [
             "Allianz",
-            "Commercial",
-            "Corporate Governance",
-            "Directors and Officers",
-            "Management Liability"
+            "Health Insurance",
+            "Personal Accident",
+            "Personal Lines",
+            "Policy Wording"
         ],
         "keywords": [
             "Cyber",
@@ -298,8 +300,7 @@
             "Bodily Injury",
             "Allianz",
             "Policyholder",
-            "Insured Person",
-            "Commercial Policy"
+            "Insured Person"
         ],
         "summary": {
             "policy_type": "Complete Accident and Health Policy",
@@ -376,23 +377,31 @@
             }
         ],
         "coverage_gaps": [
+            "Directors and Officers Liability",
+            "Cargo & Goods in Transit",
             "Public Liability",
             "Property Damage",
             "Business Interruption",
             "Cyber Insurance",
-            "Flood Cover",
+            "Crime Cover",
+            "Professional Indemnity",
+            "Flood",
             "Theft"
         ],
         "recommendations": [
-            "Consider adding Commercial Property and Public Liability policies as this policy strictly covers executive liability.",
-            "Verify Corporate Legal Liability sub-limits against recent regulatory investigation costs.",
-            "Review Employment Practices Liability (EPL) deductible options for wrongful termination claims.",
-            "Ensure Cyber Extortion and Social Engineering endorsements are integrated into the Crime section."
+            "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+            "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+            "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ],
         "associated_risks": [
-            "Fire",
-            "Theft",
-            "Management Misconduct & Regulatory Actions"
+            "Cyber Attack",
+            "Fire & Explosion",
+            "Theft & Dishonesty",
+            "Accidental Bodily Injury",
+            "Medical Illness & Disease",
+            "Executive Misconduct & Regulatory Action",
+            "Cargo Transit Loss"
         ],
         "total_sections": 71,
         "total_clauses": 0,
@@ -405,22 +414,22 @@
         "document_type": "Policy Wording",
         "metadata": {
             "document": "policy3.pdf",
-            "policy_number": "from",
+            "policy_number": "ALZ-DAO-POLICY3",
             "policy_holder": "Directors, Officers, and Company named in Schedule",
             "insurer": "Allianz Insurance plc",
             "broker": "Appointed Insurance Broker / Adviser",
             "policy_type": "Directors and Officers Management Liability",
-            "start_date": "01 Jul 2026",
-            "expiry_date": "01 Jul 2027",
+            "start_date": "01 Jan 2026",
+            "expiry_date": "31 Dec 2026",
             "premium": "As stated in Policy Schedule",
             "currency": "GBP"
         },
         "tags": [
             "Allianz",
-            "Commercial",
             "Corporate Governance",
             "Directors and Officers",
-            "Management Liability"
+            "Management Liability",
+            "Policy Wording"
         ],
         "keywords": [
             "Property Damage",
@@ -518,22 +527,34 @@
             }
         ],
         "coverage_gaps": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care",
+            "Cargo & Goods in Transit",
             "Public Liability",
             "Property Damage",
             "Business Interruption",
             "Cyber Insurance",
-            "Flood Cover",
+            "Crime Cover",
+            "Professional Indemnity",
+            "Flood",
             "Theft"
         ],
         "recommendations": [
-            "Maintain continuity of Retroactive Dates across all renewal schedules to prevent uncovered prior acts.",
-            "Consider increasing Company Reimbursement limit for directors facing multi-jurisdictional litigation.",
-            "Review Statutory Fines coverage sub-limit following latest environmental and workplace safety regulations."
+            "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+            "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+            "Maintain continuity of retroactive dates across policy renewals to avoid uncovered past executive decisions.",
+            "Review Corporate Legal Liability and investigation costs sub-limits against latest regulatory enforcement trends.",
+            "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ],
         "associated_risks": [
-            "Fire",
-            "Theft",
-            "Management Misconduct & Regulatory Actions"
+            "Cyber Attack",
+            "Fire & Explosion",
+            "Theft & Dishonesty",
+            "Flood & Water Damage",
+            "Storm & Tempest",
+            "Accidental Bodily Injury",
+            "Executive Misconduct & Regulatory Action"
         ],
         "total_sections": 66,
         "total_clauses": 0,
@@ -546,22 +567,22 @@
         "document_type": "Policy Wording",
         "metadata": {
             "document": "policy4.pdf",
-            "policy_number": "ALZ-POLICY4",
+            "policy_number": "ALZ-MCA-POLICY4",
             "policy_holder": "Cargo Owner / Shipper named in Schedule",
             "insurer": "Allianz Insurance plc",
             "broker": "Appointed Insurance Broker / Adviser",
             "policy_type": "Marine Cargo and Transit Insurance",
-            "start_date": "01 Oct 2026",
-            "expiry_date": "01 Oct 2027",
+            "start_date": "01 Jan 2026",
+            "expiry_date": "31 Dec 2026",
             "premium": "As stated in Policy Schedule",
             "currency": "GBP"
         },
         "tags": [
             "Allianz",
-            "Commercial",
-            "Corporate Governance",
-            "Directors and Officers",
-            "Management Liability"
+            "Logistics",
+            "Marine Cargo",
+            "Policy Wording",
+            "Transit Insurance"
         ],
         "keywords": [
             "Cyber",
@@ -659,20 +680,32 @@
             }
         ],
         "coverage_gaps": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care",
+            "Directors and Officers Liability",
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
             "Cyber Insurance",
-            "Environmental Liability",
+            "Crime Cover",
             "Professional Indemnity",
-            "Supply Chain Interruption"
+            "Flood",
+            "Theft"
         ],
         "recommendations": [
-            "Ensure local currency exchange fluctuations (THB / GBP / USD) are accounted for in cross-border asset schedules.",
-            "Review Territorial Limits if overseas subsidiary operations expand outside the ASEAN region.",
-            "Consider adding supply chain contingency cover for manufacturing equipment downtime."
+            "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+            "Consider adding Business Interruption cover to protect operating revenue during physical recovery periods.",
+            "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+            "Ensure transit warehouse storage limits adequately cover maximum seasonal inventory accumulations.",
+            "Verify institute cargo clauses (A, B, or C) align with specific maritime and intermodal transit routes.",
+            "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ],
         "associated_risks": [
-            "Fire",
-            "Theft",
-            "Management Misconduct & Regulatory Actions"
+            "Cyber Attack",
+            "Fire & Explosion",
+            "Theft & Dishonesty",
+            "Cargo Transit Loss"
         ],
         "total_sections": 51,
         "total_clauses": 0,

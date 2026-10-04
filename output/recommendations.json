@@ -1,40 +1,51 @@
 [
     {
         "document": "policy1.pdf",
-        "policy_type": "Commercial Property & Casualty",
+        "policy_type": "Special Personal Health and Accident Insurance",
+        "total_recommendations": 4,
         "recommendations": [
-            "Consider adding standalone Cyber Insurance to protect against ransomware and third-party data breach liabilities.",
-            "Review Business Interruption indemnity period to ensure coverage extends to at least 24 months for complete supply chain restoration.",
-            "Consider increasing Public Liability limits from £5,000,000 to £10,000,000 based on retail footfall growth.",
-            "Evaluate Flood Cover extension if premises are located in high-risk catchment zones."
+            "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+            "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+            "Review deductible/excess thresholds in THB to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ]
     },
     {
         "document": "policy2.pdf",
-        "policy_type": "Management Liability",
+        "policy_type": "Group Accident and Health Insurance",
+        "total_recommendations": 4,
         "recommendations": [
-            "Consider adding Commercial Property and Public Liability policies as this policy strictly covers executive liability.",
-            "Verify Corporate Legal Liability sub-limits against recent regulatory investigation costs.",
-            "Review Employment Practices Liability (EPL) deductible options for wrongful termination claims.",
-            "Ensure Cyber Extortion and Social Engineering endorsements are integrated into the Crime section."
+            "Review annual medical aggregate limits against projected hospitalisation and surgical cost trends.",
+            "Verify Accidental Death & Permanent Disablement capital sums insured align with household income protection needs.",
+            "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ]
     },
     {
         "document": "policy3.pdf",
-        "policy_type": "Management Liability (Corporate)",
+        "policy_type": "Directors and Officers Management Liability",
+        "total_recommendations": 6,
         "recommendations": [
-            "Maintain continuity of Retroactive Dates across all renewal schedules to prevent uncovered prior acts.",
-            "Consider increasing Company Reimbursement limit for directors facing multi-jurisdictional litigation.",
-            "Review Statutory Fines coverage sub-limit following latest environmental and workplace safety regulations."
+            "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+            "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+            "Maintain continuity of retroactive dates across policy renewals to avoid uncovered past executive decisions.",
+            "Review Corporate Legal Liability and investigation costs sub-limits against latest regulatory enforcement trends.",
+            "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ]
     },
     {
         "document": "policy4.pdf",
-        "policy_type": "Regional Commercial Comprehensive",
+        "policy_type": "Marine Cargo and Transit Insurance",
+        "total_recommendations": 7,
         "recommendations": [
-            "Ensure local currency exchange fluctuations (THB / GBP / USD) are accounted for in cross-border asset schedules.",
-            "Review Territorial Limits if overseas subsidiary operations expand outside the ASEAN region.",
-            "Consider adding supply chain contingency cover for manufacturing equipment downtime."
+            "Consider reviewing standalone Cyber Insurance coverage to protect corporate digital assets and data breach liabilities.",
+            "Consider adding Business Interruption cover to protect operating revenue during physical recovery periods.",
+            "Consider evaluating third-party Public Liability insurance to cover bodily injury and property damage exposures.",
+            "Ensure transit warehouse storage limits adequately cover maximum seasonal inventory accumulations.",
+            "Verify institute cargo clauses (A, B, or C) align with specific maritime and intermodal transit routes.",
+            "Review deductible/excess thresholds in GBP to balance out-of-pocket loss exposure with annual premium savings.",
+            "Ensure policy renewal review is initiated before 31 Dec 2026 to prevent any lapse in contractual cover."
         ]
     }
 ]

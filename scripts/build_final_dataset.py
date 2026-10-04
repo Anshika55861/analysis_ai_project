@@ -107,13 +107,14 @@ def build_final_ai_dataset() -> List[Dict[str, Any]]:
         doc_recs = recs_by_doc.get(doc_name, [])
         doc_qa = qa_by_doc.get(doc_name, [])
         
-        # Relevant risks associated with this document type
-        relevant_risks = []
-        doc_tags_set = set(t.lower() for t in doc_tags)
-        for r in risks_data:
-            covs = [c.lower() for c in r.get("related_coverages", [])]
-            if any(c in doc_tags_set for c in covs) or ("commercial" in doc_tags_set and r["risk"] in ["Fire", "Theft", "Public Liability"]):
-                relevant_risks.append(r["risk"])
+        # Relevant risks dynamically detected for this document
+        if isinstance(risks_data, dict):
+            relevant_risks = risks_data.get("document_risks", {}).get(doc_name, [])
+        elif isinstance(risks_data, list):
+            doc_tags_set = set(t.lower() for t in doc_tags)
+            relevant_risks = [r["risk"] for r in risks_data if any(c.lower() in doc_tags_set for c in r.get("related_coverages", []))]
+        else:
+            relevant_risks = []
 
         entry = {
             "document": doc_name,

@@ -81,6 +81,26 @@ def extract_metadata_from_pdf(pdf_path: Path) -> tuple[dict, list]:
         policy_type = "Property Insurance"
 
     # 3. Dynamic Policy Number / Form Code Extraction
+    INVALID_PNUM_WORDS = {
+        "from", "to", "and", "your", "wording", "number", "reference", "code", "part",
+        "schedule", "this", "that", "policy", "form", "shall", "with", "will", "apply",
+        "have", "about", "between", "during", "which", "is", "are"
+    }
+
+    def is_valid_pnum(val: str) -> bool:
+        if not val:
+            return False
+        clean = val.strip().lower()
+        if clean in INVALID_PNUM_WORDS or len(clean) < 3 or len(clean) > 35:
+            return False
+        # If it's pure letters and lowercase/common word, reject
+        if clean.isalpha() and clean == val:
+            return False
+        # Must have digits, hyphen/underscore, or be all-caps code
+        if any(c.isdigit() for c in val) or ("-" in val) or ("_" in val) or (val.isupper() and len(val) >= 4):
+            return True
+        return False
+
     policy_number = None
     pnum_patterns = [
         r"\b(BeyondCare-PW-EN-\d+)\b",
@@ -91,12 +111,16 @@ def extract_metadata_from_pdf(pdf_path: Path) -> tuple[dict, list]:
     for pat in pnum_patterns:
         m = re.search(pat, first_pages_text, re.IGNORECASE)
         if m:
-            policy_number = m.group(1) if m.groups() else m.group(0)
-            policy_number = policy_number.strip()
-            break
+            cand = m.group(1) if m.groups() else m.group(0)
+            cand = cand.strip()
+            if is_valid_pnum(cand):
+                policy_number = cand
+                break
+
     if not policy_number:
         prefix = "ALZ" if "Allianz" in insurer else "POL"
-        policy_number = f"{prefix}-{pdf_path.stem.upper()}"
+        type_abbr = "".join([w[0] for w in policy_type.split()[:3]]).upper()
+        policy_number = f"{prefix}-{type_abbr}-{pdf_path.stem.upper()}"
 
     # 4. Dynamic Currency Detection
     if "THB" in full_text or "Baht" in full_text or "฿" in full_text:
@@ -124,15 +148,16 @@ def extract_metadata_from_pdf(pdf_path: Path) -> tuple[dict, list]:
     else:
         policy_holder = "Policyholder named in Schedule"
 
-    # 6. Dates & Period
-    start_date = "01 Jan 2026"
-    expiry_date = "01 Jan 2027"
-    if "policy2" in filename:
-        start_date, expiry_date = "01 Apr 2026", "01 Apr 2027"
-    elif "policy3" in filename:
-        start_date, expiry_date = "01 Jul 2026", "01 Jul 2027"
-    elif "policy4" in filename:
-        start_date, expiry_date = "01 Oct 2026", "01 Oct 2027"
+    # 6. Dynamic Dates & Period (Extracted from text or standard annual policy period)
+    found_dates = re.findall(r"\b(\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4})\b", full_text, re.IGNORECASE)
+    if len(found_dates) >= 2:
+        start_date, expiry_date = found_dates[0], found_dates[1]
+    elif len(found_dates) == 1:
+        start_date = found_dates[0]
+        expiry_date = "12 Months from Inception"
+    else:
+        start_date = "01 Jan 2026"
+        expiry_date = "31 Dec 2026"
 
     # 7. Premium Basis
     if currency == "THB":

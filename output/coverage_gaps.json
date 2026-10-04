@@ -1,47 +1,86 @@
 [
     {
         "document": "policy1.pdf",
-        "included_count": 2,
+        "included_coverages": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care"
+        ],
+        "total_included": 2,
         "missing_coverages": [
-            "Cyber Insurance",
             "Directors and Officers Liability",
-            "Employment Practices Liability",
+            "Cargo & Goods in Transit",
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
+            "Cyber Insurance",
             "Crime Cover",
-            "Flood Cover"
-        ]
+            "Professional Indemnity",
+            "Flood",
+            "Theft"
+        ],
+        "total_gaps": 10
     },
     {
         "document": "policy2.pdf",
-        "included_count": 2,
+        "included_coverages": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care"
+        ],
+        "total_included": 2,
         "missing_coverages": [
+            "Directors and Officers Liability",
+            "Cargo & Goods in Transit",
             "Public Liability",
             "Property Damage",
             "Business Interruption",
             "Cyber Insurance",
-            "Flood Cover",
+            "Crime Cover",
+            "Professional Indemnity",
+            "Flood",
             "Theft"
-        ]
+        ],
+        "total_gaps": 10
     },
     {
         "document": "policy3.pdf",
-        "included_count": 1,
+        "included_coverages": [
+            "Directors and Officers Liability"
+        ],
+        "total_included": 1,
         "missing_coverages": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care",
+            "Cargo & Goods in Transit",
             "Public Liability",
             "Property Damage",
             "Business Interruption",
             "Cyber Insurance",
-            "Flood Cover",
+            "Crime Cover",
+            "Professional Indemnity",
+            "Flood",
             "Theft"
-        ]
+        ],
+        "total_gaps": 11
     },
     {
         "document": "policy4.pdf",
-        "included_count": 1,
+        "included_coverages": [
+            "Cargo & Goods in Transit"
+        ],
+        "total_included": 1,
         "missing_coverages": [
+            "Personal Accident",
+            "Medical Expenses & Inpatient Care",
+            "Directors and Officers Liability",
+            "Public Liability",
+            "Property Damage",
+            "Business Interruption",
             "Cyber Insurance",
-            "Environmental Liability",
+            "Crime Cover",
             "Professional Indemnity",
-            "Supply Chain Interruption"
-        ]
+            "Flood",
+            "Theft"
+        ],
+        "total_gaps": 11
     }
 ]

@@ -56,21 +56,26 @@ def validate_document_data(doc_meta: dict, coverage_map: dict, clause_map: dict,
         else:
             passed.append(f"Document file verified present ({file_size // 1024} KB)")
 
-    # 2. Policy Number Check
+    # 2. Policy Number Check (Format and Content Validation)
+    SUSPICIOUS_PNUM_WORDS = {"from", "to", "and", "your", "wording", "number", "reference", "code", "part", "schedule", "this", "that", "the"}
     p_num = doc_meta.get("policy_number", "").strip()
     if not p_num:
         errors.append("Missing Policy Number")
     elif "(cid:" in p_num:
         errors.append("Corrupted Policy Number containing (cid:...) token")
+    elif p_num.lower() in SUSPICIOUS_PNUM_WORDS or len(p_num) < 3:
+        errors.append(f"Suspicious/Invalid extracted policy number: '{p_num}'")
     else:
         passed.append(f"Policy Number validated: {p_num}")
 
-    # 3. Insurer Name Check
+    # 3. Insurer Name Check (Format and Content Validation)
     insurer = doc_meta.get("insurer", "").strip()
     if not insurer or insurer.lower() == "unknown insurer":
         errors.append("Missing Insurer Name")
     elif "(cid:" in insurer:
         errors.append("Corrupted Insurer Name containing (cid:...) token")
+    elif len(insurer) < 5 or not any(k in insurer.lower() for k in ["insurance", "allianz", "assurance", "underwriting", "limited", "plc"]):
+        errors.append(f"Suspicious Insurer Name: '{insurer}'")
     else:
         passed.append(f"Insurer validated: {insurer}")
 

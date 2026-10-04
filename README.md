@@ -149,35 +149,36 @@ Phase 2 transforms raw text into structured schema entities, categorized clause 
 
 ### **Phase 3: AI Search, Gap Analysis, Risk Modeling & Recommendations**
 
-Phase 3 builds the analytical layer that powers semantic search, automated underwriting advisory, risk management, and Bedrock prompt orchestration.
+Phase 3 builds the analytical layer that powers semantic search, automated underwriting advisory, risk management, and Bedrock prompt orchestration—implemented with zero document-specific hardcoding and dynamic data-driven algorithms.
 
 #### 1. Search Keywords Dataset (`scripts/generate_keywords.py` ➔ `output/search_keywords.json`)
-- **Methodology**: Dynamically extracts high-relevance domain search keywords (*Public Liability, Property Damage, Business Interruption, Cyber, Fire, Theft, Flood, Retail, Commercial, D&O, Claim Notification*) for each document to support sparse/BM25 and OpenSearch keyword indexing.
+- **Methodology**: Dynamically extracts high-relevance domain search keywords (*Public Liability, Property Damage, Business Interruption, Cyber, Fire, Theft, Flood, Retail, Commercial, D&O, Claim Notification*) for each document by matching a master taxonomy with regex word boundaries against extracted clean text. Purely content-grounded with no artificial keyword additions.
 - **Dataset Delivered**: Document-level keyword datasets for all policies and claim forms.
 
 #### 2. Coverage Synonym Lookup (`scripts/build_phase3_datasets.py` ➔ `output/coverage_lookup.json`)
-- **Methodology**: Establishes a standardized lookup table linking 29 commercial coverage variations to canonical terms (e.g., *"General Liability" -> "Public Liability"*, *"Loss of Profits" -> "Business Interruption"*, *"D&O Cover" -> "Management Liability"*, *"Fidelity Guarantee" -> "Crime Cover"*).
-- **Dataset Delivered**: 29 standardized coverage synonym mappings.
+- **Methodology**: Establishes a comprehensive standardized lookup table linking 35 coverage variations across commercial, management liability, personal health, and cargo lines to canonical terms (e.g., *"General Liability" -> "Public Liability"*, *"Loss of Profits" -> "Business Interruption"*, *"D&O Cover" -> "Management Liability"*, *"Medical Expenses" -> "Personal Accident"*).
+- **Dataset Delivered**: 35 standardized coverage synonym mappings.
 
 #### 3. Broker Policy Review Checklists (`scripts/build_phase3_datasets.py` ➔ `output/policy_checklists.json`)
 - **Methodology**: Formulates comprehensive broker review checklists categorized by policy line:
-  - *Commercial Policy Checklist*: Policy number, period, trading address, Public Liability limit, Property replacement value, Business Interruption period, deductibles, premium.
+  - *Personal Accident & Health Checklist*: Policy number, period, insured person, accidental death/disablement limits, medical expenses aggregate, emergency assistance, exclusions (pre-existing conditions, extreme sports).
   - *Management Liability Checklist*: D&O limit, Corporate Liability, EPL limit, Statutory Liability, Crime cover, defense cost advancement, retroactive date.
-  - *Property & Casualty Checklist*: Sum insured, public/products liability, specific perils, subrogation rights, cancellation terms.
+  - *Marine & Transit Cargo Checklist*: Transit limits, conveyances, open cover limits, Institute Cargo Clauses (A/B/C), war/strikes perils, claims procedures.
+  - *Commercial Package Policy Checklist*: Trading address, Public Liability limit, Property replacement value, Business Interruption period, deductibles, premium.
   - *Claim Review Checklist*: Incident date/time, damage estimate, third-party involvement, police report references, supporting documentation.
-- **Dataset Delivered**: 4 comprehensive broker review checklists.
+- **Dataset Delivered**: 5 comprehensive broker review checklists across distinct insurance domains.
 
 #### 4. Pairwise Policy Structural Differences (`scripts/build_phase3_datasets.py` ➔ `output/policy_differences.json`)
-- **Methodology**: Computes pairwise structural differences between policy wordings, highlighting variances in insurer entity, coverage sections, sub-limits, territorial scopes, and dispute resolution venues.
-- **Dataset Delivered**: Multi-pair structural difference datasets.
+- **Methodology (Zero Hardcoding)**: Dynamically derives pairwise differences between policy documents by comparing actual extracted metadata (insurer, policy type, currency, premium), coverage inclusions/exclusions, liability limits, and deductibles directly from structured JSON data.
+- **Dataset Delivered**: Dynamic pairwise structural difference profiles.
 
 #### 5. Coverage Gap Analysis Engine (`scripts/build_phase3_datasets.py` ➔ `output/coverage_gaps.json`)
-- **Methodology**: Evaluates each active policy profile against comprehensive commercial risk benchmarks to identify missing protections (e.g., lack of standalone Cyber Insurance, missing Flood cover, or absence of D&O extensions).
+- **Methodology (Dynamic Set Difference)**: Evaluates each active policy dynamically via Python set/list comparison against reference standards appropriate for its policy line. Accurately identifies unincluded protections (e.g., lack of Personal Accident disablement extension, missing Cyber cover, or unincluded Flood cover) without document-name hardcoding.
 - **Dataset Delivered**: Coverage gap audit records for all active policies.
 
 #### 6. Broker Advisory Recommendations (`scripts/build_phase3_datasets.py` ➔ `output/recommendations.json`)
-- **Methodology**: Synthesizes coverage gaps and policy profiles to generate tailored, actionable advisory recommendations (e.g., extending Business Interruption indemnity periods to 24 months, increasing Public Liability limits, or adding Cyber Extortion endorsements).
-- **Dataset Delivered**: Advisory recommendation profiles per policy.
+- **Methodology (Content-Grounded Rule Engine)**: Synthesizes dynamic coverage gaps and policy profile attributes to generate tailored, actionable advisory recommendations. Ensures strict alignment with policy types—preventing contradictions (e.g., Personal Health policies never receive commercial property/retail recommendations).
+- **Dataset Delivered**: Contradiction-free advisory recommendation profiles per policy.
 
 #### 7. AI Prompt Engineering Dataset (`scripts/build_phase3_datasets.py` ➔ `output/ai_prompts.json`)
 - **Methodology**: Formulates 8 standardized prompt templates for Bedrock LLM task orchestration:
@@ -192,15 +193,15 @@ Phase 3 builds the analytical layer that powers semantic search, automated under
 - **Dataset Delivered**: 8 reusable Bedrock prompt templates.
 
 #### 8. Insurance Risk Taxonomy & Peril Mapping (`scripts/build_phase3_datasets.py` ➔ `output/risk_dataset.json`)
-- **Methodology**: Catalogs major commercial risks (*Cyber Attack, Fire, Theft, Flood, Equipment Breakdown, Storm Damage, Third-Party Bodily Injury, Management Misconduct*) with category classifications, peril descriptions, and related required coverages.
-- **Dataset Delivered**: 8 structured risk-to-coverage mappings.
+- **Methodology**: Master risk list covering 10 major perils (*Cyber Attack, Fire & Explosion, Theft & Burglary, Flood & Water Inundation, Accidental Bodily Injury, Equipment Breakdown, Storm Damage, Public Bodily Injury & Property Damage, Management Misconduct, Cargo Loss & Transit Damage*). Dynamically detects applicable perils for each document based on regex keyword scanning of extracted text.
+- **Dataset Delivered**: 10 structured risk-to-coverage mappings with dynamic document detection.
 
 #### 9. Multi-Label Document Tagging (`scripts/build_phase3_datasets.py` ➔ `output/document_tags.json`)
-- **Methodology**: Dynamically assigns multi-label classification tags (*Commercial, Retail, Management Liability, Claim Form, Casualty, Allianz*) to every document for faceted search filtering.
-- **Dataset Delivered**: Tagging profiles for all 7 documents.
+- **Methodology (Grounded Content Detection)**: Dynamically assigns multi-label classification tags based on actual document content, policy type, insurer entity, and document category. Prevents false positive tags (e.g. no retail or commercial tags on personal health or marine cargo policies).
+- **Dataset Delivered**: Clean, content-grounded tagging profiles for all 7 documents.
 
 #### 10. Master Unified AI Dataset (`scripts/build_final_dataset.py` ➔ `output/final_ai_dataset.json`)
-- **Methodology**: Integrates outputs from all three phases into a single master JSON dataset. Each document profile aggregates metadata, tags, search keywords, executive summary, coverages, coverage gaps, broker recommendations, associated perils, section counts, clause counts, sample clauses, and verified Q&A pairs.
+- **Methodology**: Integrates outputs from all three phases into a single master JSON dataset. Each document profile aggregates validated metadata, tags, search keywords, executive summary, coverages, coverage gaps, broker recommendations, associated perils, section counts, clause counts, sample clauses, and verified Q&A pairs with zero `(cid:...)` artifacts.
 - **Dataset Delivered**: Master AI platform dataset ready for OpenSearch and Amazon Bedrock ingestion.
 
 ---
@@ -214,7 +215,7 @@ Phase 3 builds the analytical layer that powers semantic search, automated under
 | 3 | `insurance_dictionary.json` | Phase 1 | 96 terms | Domain terms, definitions, and search keywords |
 | 4 | `clauses.json` | Phase 1 | 472 clauses | Extracted policy clauses with fuzzy similarity clusters |
 | 5 | `qa_dataset.json` | Phase 1 | 89 QA pairs | Clean, verified insurance Q&A training pairs |
-| 6 | `policy_metadata.json` | Phase 2 | 4 policies | Insurer, policyholder, dates, currency, premium |
+| 6 | `policy_metadata.json` | Phase 2 | 4 policies | Insurer, policyholder, dates, currency, premium (validated) |
 | 7 | `coverage_dataset.json` | Phase 2 | 4 policies | Peril inclusion/exclusion matrix and indemnity limits |
 | 8 | `policy_comparison.json` | Phase 2 | 16 fields | Side-by-side comparative policy analysis |
 | 9 | `classified_clauses.json` | Phase 2 | 1,127 clauses | 6-category classified clause library |
@@ -223,16 +224,16 @@ Phase 3 builds the analytical layer that powers semantic search, automated under
 | 12 | `evaluation_dataset.json` | Phase 2 | 16 questions | Ground-truth AI evaluation benchmark |
 | 13 | `policy_summaries.json` | Phase 2 | 5 summaries | Executive policy summaries |
 | 14 | `term_mapping.json` | Phase 2 | 20 concepts | Canonical ontology & synonym mappings |
-| 15 | `validation_report.json` | Phase 2 | 4 audit reports | Quality audit report (100% pass score) |
-| 16 | `search_keywords.json` | Phase 3 | 7 documents | High-relevance search keywords per document |
-| 17 | `coverage_lookup.json` | Phase 3 | 29 mappings | Canonical coverage synonym lookup table |
-| 18 | `policy_checklists.json` | Phase 3 | 4 checklists | Broker policy review checklists by business line |
-| 19 | `policy_differences.json` | Phase 3 | 3 comparisons | Pairwise policy structural differences |
-| 20 | `coverage_gaps.json` | Phase 3 | 4 policies | Missing coverage gap analysis |
-| 21 | `recommendations.json` | Phase 3 | 4 policies | Actionable broker advisory recommendations |
+| 15 | `validation_report.json` | Phase 2 | 4 audit reports | Quality audit report (100% pass score, value validation) |
+| 16 | `search_keywords.json` | Phase 3 | 7 documents | Clean, grounded search keywords per document |
+| 17 | `coverage_lookup.json` | Phase 3 | 35 mappings | Standardized coverage synonym lookup table |
+| 18 | `policy_checklists.json` | Phase 3 | 5 checklists | Broker policy review checklists across all lines |
+| 19 | `policy_differences.json` | Phase 3 | 3 comparisons | Dynamically computed pairwise policy differences |
+| 20 | `coverage_gaps.json` | Phase 3 | 4 policies | Dynamically calculated coverage gaps (set difference) |
+| 21 | `recommendations.json` | Phase 3 | 4 policies | Contradiction-free broker advisory recommendations |
 | 22 | `ai_prompts.json` | Phase 3 | 8 templates | Bedrock / LLM task prompt templates |
-| 23 | `risk_dataset.json` | Phase 3 | 8 risks | Insurance peril taxonomy mapped to covers |
-| 24 | `document_tags.json` | Phase 3 | 7 documents | Multi-label document classification tags |
+| 23 | `risk_dataset.json` | Phase 3 | 10 risks | Peril taxonomy with dynamic document risk detection |
+| 24 | `document_tags.json` | Phase 3 | 7 documents | Content-grounded multi-label document classification tags |
 | 25 | `final_ai_dataset.json` | Phase 3 | 7 master profiles | Unified, aggregated master AI dataset |
 
 ---
@@ -246,7 +247,7 @@ The pipeline includes an automated test harness [`scripts/verify_tasks.py`](file
 python scripts/verify_tasks.py
 ```
 
-### **Verification Results (83/83 Checks Passed - 100% Pass Rate)**
+### **Verification Results (90/90 Checks Passed - 100% Pass Rate)**
 ```text
 ===========================================================================
 DOCUMENT ANALYSIS AI - COMPREHENSIVE VERIFICATION REPORT
@@ -256,7 +257,7 @@ Task 2  - Section Extraction                           --> 3/3 checks passed
 Task 3  - Insurance Dictionary (96 terms)              --> 3/3 checks passed
 Task 4  - Clause Analysis (472 clauses)                --> 3/3 checks passed
 Task 5  - Q&A Dataset (89 verified QA pairs)           --> 4/4 checks passed
-Task 6  - Extract Policy Information (4 policies)      --> 4/4 checks passed
+Task 6  - Extract Policy Information (validated values)--> 5/5 checks passed
 Task 7  - Create Coverage Dataset                      --> 3/3 checks passed
 Task 8  - Compare Two Insurance Policies (16 fields)   --> 3/3 checks passed
 Task 9  - Classify Insurance Clauses (1,127 clauses)   --> 4/4 checks passed
@@ -267,17 +268,17 @@ Task 13 - Create Policy Summary (5 summaries)          --> 3/3 checks passed
 Task 14 - Standardise Insurance Terms (20 mappings)    --> 3/3 checks passed
 Task 15 - Validate Insurance Documents (100% score)    --> 3/3 checks passed
 Task 16 - Create Search Keywords Dataset (7 docs)      --> 4/4 checks passed
-Task 17 - Build Coverage Lookup Dataset (29 mappings)  --> 3/3 checks passed
-Task 18 - Build Policy Checklist Dataset (4 checklists)--> 3/3 checks passed
-Task 19 - Create Policy Difference Dataset (3 pairs)   --> 3/3 checks passed
-Task 20 - Create Coverage Gap Dataset (4 policies)     --> 3/3 checks passed
-Task 21 - Create Broker Recommendations (4 policies)   --> 3/3 checks passed
+Task 17 - Build Coverage Lookup Dataset (35 mappings)  --> 3/3 checks passed
+Task 18 - Build Policy Checklist Dataset (5 checklists)--> 3/3 checks passed
+Task 19 - Create Policy Difference Dataset (dynamic)   --> 4/4 checks passed
+Task 20 - Create Coverage Gap Dataset (dynamic sets)   --> 4/4 checks passed
+Task 21 - Create Broker Recommendations (tailored)     --> 4/4 checks passed
 Task 22 - Create AI Prompt Dataset (8 prompt templates)--> 3/3 checks passed
-Task 23 - Create Insurance Risk Dataset (8 perils)     --> 3/3 checks passed
-Task 24 - Create Document Tags (7 documents)           --> 3/3 checks passed
-Task 25 - Generate Final AI Dataset (7 master profiles)--> 4/4 checks passed
+Task 23 - Create Insurance Risk Dataset (10 risks)     --> 4/4 checks passed
+Task 24 - Create Document Tags (content grounded)      --> 4/4 checks passed
+Task 25 - Generate Final AI Dataset (7 master profiles)--> 5/5 checks passed
 ===========================================================================
-OVERALL: 83/83 checks passed (100% Pass Rate)
+OVERALL: 90/90 checks passed (100% Pass Rate)
 ===========================================================================
 ```
 

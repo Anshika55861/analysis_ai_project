@@ -27,5 +27,11 @@
     "Errors and Omissions": "Professional Indemnity",
     "Glass Breakage Cover": "Glass Cover",
     "Machinery Breakdown": "Machinery Breakdown",
-    "Money and Transit Cover": "Money Cover"
+    "Money and Transit Cover": "Money Cover",
+    "Marine Cargo": "Cargo & Goods in Transit",
+    "Transit Cover": "Cargo & Goods in Transit",
+    "Personal Accident Cover": "Personal Accident",
+    "Accidental Death & Dismemberment": "Personal Accident",
+    "Inpatient Medical": "Medical Expenses & Inpatient Care",
+    "Hospitalisation Cover": "Medical Expenses & Inpatient Care"
 }
