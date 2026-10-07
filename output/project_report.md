@@ -1,7 +1,7 @@
 # 🛡️ Document Analysis AI – Final Project Execution Report
 
 **Enterprise Insurance Document Processing, Semantic Modeling, and AI Pipeline Preparation**  
-*Project Status: Completed (Phases 1, 2, 3, and 4) | Date: 2026-10-04 16:37:35*
+*Project Status: Completed (Phases 1, 2, 3, and 4) | Date: 2026-10-07 20:06:10*
 
 ---
 
@@ -25,12 +25,12 @@ By executing **34 dedicated engineering tasks** across four progressive phases u
 | **Total Datasets Created** | **33 datasets** | Structured JSON & CSV files in `output/` |
 | **Number of Documents Analyzed** | **7 documents** | 4 multi-line policies + 3 claim & proposal forms |
 | **Total Document Pages Processed** | **210 pages** | Average 30.0 pages per document |
-| **Clauses Extracted** | **472 clauses** | Isolating conditions, warranties, and operative clauses |
-| **Clauses Classified** | **1127 clauses** | Categorized into 6 core insurance classes |
+| **Clauses Extracted** | **477 clauses** | Isolating conditions, warranties, and operative clauses |
+| **Clauses Classified** | **1136 clauses** | Categorized into 6 core insurance classes |
 | **Policies Compared** | **4 policies** | Multi-pair side-by-side 16-point comparative analysis |
 | **Total AI Test & Benchmark Questions** | **157 questions** | 89 Q&A pairs + 32 evaluation cases + 36 search queries |
 | **Total Named Entities Identified** | **171 entities** | Limits, dates, insurers, policyholders, regulators |
-| **Semantic Text Chunks (RAG-Ready)** | **777 chunks** | Heading-aware 500-1000 char chunks with overlap |
+| **Semantic Text Chunks (RAG-Ready)** | **778 chunks** | Heading-aware 500-1000 char chunks with overlap |
 | **Insurance Risks & Perils Modeled** | **10 perils** | Mapped to mitigating coverages and exclusions |
 | **Broker Recommendations & Rules** | **37 rules/recs** | Tailored underwriting actions and decision logic |
 

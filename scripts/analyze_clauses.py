@@ -2,8 +2,8 @@
 Task 4 - Clause Analysis
 
 Detects actual policy clauses with clean title extraction, unwraps multi-column
-merged lines, and compares clauses across documents using RapidFuzz fuzzy title
-and content matching.
+merged lines, performs exact duplicate clause detection with normalization,
+and compares clauses across documents using RapidFuzz fuzzy title and content matching.
 """
 
 import sys
@@ -25,6 +25,7 @@ from config.clauses import (
 )
 from utils.logger import setup_logger
 from utils.section_extractor import extract_sections
+from utils.pdf_reader import clean_extracted_text
 from utils.json_utils import save_json
 from scripts.extract_sections import load_documents
 
@@ -123,11 +124,12 @@ def split_into_subclauses(text: str, parent_section_title: str) -> list[tuple[st
 def build_clause_entries(document: dict, sections: list[dict]) -> list[dict]:
     """
     Turn a document's extracted sections into individual clause entries.
+    All text fields are cleaned of non-printable artifacts and (cid:...) tokens.
     """
     entries = []
 
     for section in sections:
-        section_name = section["section"]
+        section_name = clean_extracted_text(section["section"])
         # Match against clause-bearing headings (substring or exact match)
         is_clause_bearing = any(
             cb.lower() in section_name.lower() or section_name.lower() in cb.lower()
@@ -137,33 +139,98 @@ def build_clause_entries(document: dict, sections: list[dict]) -> list[dict]:
         if not is_clause_bearing:
             continue
 
-        subclauses = split_into_subclauses(section["text"], section_name)
+        sec_text = clean_extracted_text(section["text"])
+        subclauses = split_into_subclauses(sec_text, section_name)
 
         if subclauses:
             for clause_number, clause_title, clause_content in subclauses:
-                if len(clause_content) < 15:
+                clean_title = clean_extracted_text(clause_title)
+                clean_content = clean_extracted_text(clause_content)
+                if len(clean_content) < 15:
                     continue
 
                 entries.append({
-                    "Clause Title": clause_title,
+                    "Clause Title": clean_title,
                     "Clause Number": clause_number,
-                    "Clause Content": clause_content,
+                    "Clause Content": clean_content,
                     "Page Number": section["page"],
                     "Document Name": document["file_name"],
                     "Parent Section": section_name,
                 })
         else:
-            if len(section["text"]) >= 20:
+            if len(sec_text) >= 20:
                 entries.append({
                     "Clause Title": section_name,
                     "Clause Number": "",
-                    "Clause Content": section["text"],
+                    "Clause Content": sec_text,
                     "Page Number": section["page"],
                     "Document Name": document["file_name"],
                     "Parent Section": section_name,
                 })
 
     return entries
+
+
+def normalize_clause_text(text: str) -> str:
+    """
+    Normalize text: convert to lowercase and collapse extra whitespaces.
+    """
+    text = clean_extracted_text(text or "")
+    text = text.lower()
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def detect_exact_duplicates(all_entries: list[dict]) -> tuple[dict, list[dict]]:
+    """
+    Detect exact duplicate clauses across all extracted entries.
+    Normalizes clause content (lowercase, remove extra spaces) and compares exact values.
+    Returns:
+        statistics: dict with total_clauses, unique_clauses, exact_duplicates_count
+        exact_duplicates: list of duplicate clusters with occurrences across documents
+    """
+    groups = {}
+    for entry in all_entries:
+        norm_content = normalize_clause_text(entry.get("Clause Content", ""))
+        if not norm_content:
+            continue
+        groups.setdefault(norm_content, []).append(entry)
+
+    exact_duplicates_list = []
+    total_duplicate_copies = 0
+
+    for norm_content, entries in groups.items():
+        if len(entries) > 1:
+            copies = len(entries) - 1
+            total_duplicate_copies += copies
+            exact_duplicates_list.append({
+                "clause_title": entries[0]["Clause Title"],
+                "sample_content": entries[0]["Clause Content"][:250],
+                "occurrences_count": len(entries),
+                "occurrences": [
+                    {
+                        "document": e["Document Name"],
+                        "clause_title": e["Clause Title"],
+                        "clause_number": e["Clause Number"],
+                        "page": e["Page Number"],
+                    }
+                    for e in entries
+                ],
+            })
+
+    # Sort duplicate clusters by occurrences descending
+    exact_duplicates_list.sort(key=lambda d: d["occurrences_count"], reverse=True)
+
+    total_clauses = len(all_entries)
+    unique_clauses = total_clauses - total_duplicate_copies
+
+    stats = {
+        "total_clauses": total_clauses,
+        "unique_clauses": unique_clauses,
+        "exact_duplicates_count": total_duplicate_copies,
+    }
+
+    return stats, exact_duplicates_list
 
 
 def find_similar_clauses(all_entries: list[dict]) -> list[dict]:
@@ -229,10 +296,16 @@ def main():
             f"{document['file_name']} -> {len(entries)} clauses extracted."
         )
 
+    # 1. Detect exact duplicates with normalization (lowercase, whitespace collapse)
+    stats, exact_duplicates = detect_exact_duplicates(all_entries)
+
+    # 2. Find cross-document fuzzy similar clauses with RapidFuzz
     similar_pairs = find_similar_clauses(all_entries)
 
     output = {
+        "statistics": stats,
         "clauses": all_entries,
+        "exact_duplicates": exact_duplicates,
         "similar_clauses": similar_pairs,
     }
 
@@ -244,9 +317,11 @@ def main():
 
     print("\nClause Analysis Summary")
     print("-" * 60)
-    print(f"Documents processed  : {len(documents)}")
-    print(f"Total clauses found  : {len(all_entries)}")
-    print(f"Similar clause pairs : {len(similar_pairs)}")
+    print(f"Documents processed        : {len(documents)}")
+    print(f"Total clauses found        : {stats['total_clauses']}")
+    print(f"Unique clauses             : {stats['unique_clauses']}")
+    print(f"Exact duplicate clauses    : {stats['exact_duplicates_count']}")
+    print(f"Similar clause pairs       : {len(similar_pairs)}")
 
     # Show pairs where Title A != Title B to demonstrate fuzzy title matching
     diff_title_pairs = [p for p in similar_pairs if p["Clause Title A"].lower() != p["Clause Title B"].lower()]
@@ -256,7 +331,7 @@ def main():
         print("\nSample differently-worded matching clause pairs:")
         for pair in diff_title_pairs[:8]:
             print(
-                f"  '{pair['Clause Title A']}' ({pair['Document A']}) <-> "
+                f"  - '{pair['Clause Title A']}' ({pair['Document A']}) <-> "
                 f"'{pair['Clause Title B']}' ({pair['Document B']}) | "
                 f"Title Sim: {pair['Title Similarity']}% | Content Sim: {pair['Similarity']}"
             )

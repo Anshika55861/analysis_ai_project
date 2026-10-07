@@ -97,7 +97,7 @@ def print_summary(results):
         for section in sections[:10]:
             method = section.get("detection_method", "keyword")
             print(
-                f"   • [{method:7s}] {section['section'][:45]} "
+                f"   - [{method:7s}] {section['section'][:45]} "
                 f"(Page {section['page']})"
             )
         if len(sections) > 10:

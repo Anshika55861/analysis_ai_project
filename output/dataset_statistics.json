@@ -9,8 +9,8 @@
     "total_coverages": 12,
     "total_coverage_evaluations": 48,
     "coverage_synonyms_mapped": 35,
-    "total_clauses_extracted": 472,
-    "total_clauses_classified": 1127,
+    "total_clauses_extracted": 477,
+    "total_clauses_classified": 1136,
     "total_questions": 157,
     "verified_qa_pairs": 89,
     "ai_evaluation_questions": 32,
@@ -19,7 +19,7 @@
     "total_recommendations": 37,
     "document_recommendations": 21,
     "business_rules": 16,
-    "total_semantic_chunks": 777,
+    "total_semantic_chunks": 778,
     "total_named_entities": 171,
-    "total_insurance_dictionary_terms": 96
+    "total_insurance_dictionary_terms": 90
 }

@@ -37,6 +37,15 @@
     },
     {
         "duplicate_type": "Clause",
+        "value": "Transferring personal information outside the uk",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
         "value": "Law applicable and jurisdiction",
         "documents": [
             "policy2.pdf",
@@ -163,19 +172,19 @@
     },
     {
         "duplicate_type": "Clause",
-        "value": "Policy conditions",
+        "value": "Exclusions",
         "documents": [
-            "policy3.pdf",
-            "policy4.pdf"
+            "policy2.pdf",
+            "policy3.pdf"
         ],
         "occurrences": 2
     },
     {
         "duplicate_type": "Clause",
-        "value": "Exclusions",
+        "value": "Policy conditions",
         "documents": [
-            "policy2.pdf",
-            "policy3.pdf"
+            "policy3.pdf",
+            "policy4.pdf"
         ],
         "occurrences": 2
     },
@@ -203,6 +212,15 @@
         "documents": [
             "policy2.pdf",
             "policy3.pdf"
+        ],
+        "occurrences": 2
+    },
+    {
+        "duplicate_type": "Clause",
+        "value": "Cancellation",
+        "documents": [
+            "policy3.pdf",
+            "policy4.pdf"
         ],
         "occurrences": 2
     },
@@ -244,7 +262,7 @@
     },
     {
         "duplicate_type": "Clause",
-        "value": "\u0007cancellation / cancellation",
+        "value": "Cancellation / cancellation.",
         "documents": [
             "policy3.pdf",
             "policy4.pdf"
@@ -257,15 +275,6 @@
         "documents": [
             "policy2.pdf",
             "policy3.pdf"
-        ],
-        "occurrences": 2
-    },
-    {
-        "duplicate_type": "Clause",
-        "value": "\u0007transferring personal information outside the uk / transferring personal information outside the uk",
-        "documents": [
-            "policy3.pdf",
-            "policy4.pdf"
         ],
         "occurrences": 2
     },

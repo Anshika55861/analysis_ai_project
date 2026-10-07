@@ -15,26 +15,32 @@ logger = setup_logger()
 def clean_extracted_text(text: str) -> str:
     """
     Cleans raw extracted PDF text:
-    - Removes all (cid:NNN) corrupted font artifacts
+    - Removes all (cid:NNN) corrupted font artifacts and variations
     - Strips unprintable control characters and zero-width spaces
     - Normalizes unicode quotation marks, dashes, and hyphens
+    - Replaces non-ascii bullets with standard hyphens
     - Fixes excessive spacing while preserving genuine paragraph breaks
     """
     if not text:
         return ""
 
-    # 1. Remove (cid:NNN) tokens
-    text = re.sub(r"\(cid:\d+\)", "", text)
+    # 1. Remove all (cid:NNN) tokens and stray cid:NNN strings
+    text = re.sub(r"\(cid:\s*\d+\)", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bcid:\s*\d+\b", "", text, flags=re.IGNORECASE)
 
-    # 2. Strip null bytes, replacement characters, and invisible whitespace
-    text = text.replace("\x00", "").replace("\u200b", "").replace("\ufffd", "")
+    # 2. Strip unprintable control characters except newline (\n) and tab (\t)
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", text)
 
-    # 3. Normalize quotes and dashes
+    # 3. Strip null bytes, replacement characters, and invisible whitespace
+    text = text.replace("\x00", "").replace("\u200b", "").replace("\ufeff", "").replace("\ufffd", "")
+
+    # 4. Normalize quotes, dashes, and bullets for consistent encoding
     text = text.replace("\u2018", "'").replace("\u2019", "'")
     text = text.replace("\u201c", '"').replace("\u201d", '"')
     text = text.replace("\u2013", "-").replace("\u2014", "-")
+    text = text.replace("\u2022", "-").replace("\u25a1", "-").replace("\u25aa", "-").replace("\u25cb", "-")
 
-    # 4. Clean line by line
+    # 5. Clean line by line
     clean_lines = []
     for raw_line in text.splitlines():
         line = re.sub(r"[ \t]+", " ", raw_line).strip()
@@ -45,6 +51,7 @@ def clean_extracted_text(text: str) -> str:
             clean_lines.append("")
 
     return "\n".join(clean_lines).strip()
+
 
 
 def read_pdf(pdf_path: str | Path) -> dict:
